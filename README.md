@@ -2,17 +2,17 @@
   Code Less Travaled web site
 </h1>
 
-Kick off your project with this hello-world boilerplate. This starter ships with the main Gatsby configuration files you might need to get up and running blazing fast with the blazing fast app generator for React.
-
-_Have another more specific idea? You may want to check out our vibrant collection of [official and community-created starters](https://www.gatsbyjs.com/docs/gatsby-starters/)._
+This is the source code for the website that's at https://codelesstraveled.com
+It's a Gatsby site, pretty straightforward stuff.
 
 ## 🚀 Quick start
 
 1.  **Install the necessary software**
 
-    Node version: 20.9.0
-    NPM version: 10.1.0
-    Gatsby version: 5.12.3
+    Node version: 16.16.0
+    NPM version: 8.11.0
+    Gatsby-cli version: 4.25.0
+    Gatsby version: 4.3.0
 
 1.  **Start developing.**
 
