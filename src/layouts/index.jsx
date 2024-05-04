@@ -8,6 +8,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import { GlobalStyle } from "@assets/css/main-style";
 import ScrollToTop from "@ui/scroll-to-top";
 import Transition from "@components/transition";
+import ComingSoon from "./coming-soon";
 
 const Layout = ({ children, location }) => {
     return (
@@ -15,7 +16,8 @@ const Layout = ({ children, location }) => {
             <Transition location={location}>
                 <div className="wrapper">
                     <GlobalStyle />
-                    {children}
+                    {/* {children} */}
+                    <ComingSoon />
                     <ScrollToTop />
                 </div>
             </Transition>
