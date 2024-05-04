@@ -5,6 +5,15 @@ const onCreateNode = require("./src/gatsby-utils/onCreateNode");
 const createResolvers = require("./src/gatsby-utils/createResolvers");
 const createPages = require("./src/gatsby-utils/createPages");
 
+exports.onCreateBabelConfig = ({ actions }) => {
+    actions.setBabelPlugin({
+      name: '@babel/plugin-transform-react-jsx',
+      options: {
+        runtime: 'automatic',
+      },
+    });
+};
+
 exports.onCreateWebpackConfig = ({ actions }) => {
     actions.setWebpackConfig({
         resolve: {
