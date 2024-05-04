@@ -7,5 +7,4 @@
     - Install yarn on your local development machine
     - Use Node version 18
     - Use Gatsby version 5
-
-1.
+    - Remember to run `yarn`, `yarn build` and then `yarn start` to begin developing locally.
