@@ -1,0 +1,310 @@
+{
+    "title": "software-innovation",
+    "pageType": "frontpage",
+    "content": [
+        {
+            "id": "infotechno-hero-content",
+            "section": "hero-section",
+            "images": [
+                {
+                    "src": "../images/hero/soft-01.webp"
+                }
+            ],
+            "headings": [
+                {
+                    "level": "h6",
+                    "content": "FIND YOUR SOLUTION"
+                },
+                {
+                    "level": "h1",
+                    "content": "Best choice for your <span> Startup.</span>"
+                }
+            ],
+            "texts": [
+                {
+                    "content": "The full set of services around development and maintenance of complex business-critical applications."
+                }
+            ],
+            "buttons": [
+                {
+                    "id": 1,
+                    "path": "/",
+                    "content": "Learn more"
+                }
+            ]
+        },
+        {
+            "id": "software-innovation-blog",
+            "section": "blog-section",
+            "section_title": {
+                "title": "Latest news are <span>on top all times</span>",
+                "subtitle": "BLOGS & NEWS"
+            }
+        },
+        {
+            "id": "appointment-services",
+            "section": "service-section",
+            "section_title": {
+                "title": "For your very specific industry, <br/> we have <span>highly-tailored IT solutions.",
+                "subtitle": "INDUSTRIES WE SERVE"
+            },
+            "buttons": [
+                {
+                    "id": 1,
+                    "variant": "contained",
+                    "color": "primary",
+                    "shape": "rounded",
+                    "size": "medium",
+                    "path": "/contact-us",
+                    "content": "Talk to a consultant",
+                    "disableHover": false,
+                    "hoverStyle": "one"
+                }
+            ]
+        },
+        {
+            "id": "resolutions-feature",
+            "section": "feature-section",
+            "motto": {
+                "text": "Challenges are just opportunities in disguise.",
+                "linkText": "Take the challenge!",
+                "link": "/it-services"
+            }
+        },
+        {
+            "id": "software-indistroes-serve",
+            "section": "software-indistroes-serve-section",
+            "headings": [
+                {
+                    "level": "h3",
+                    "content": "For your very specific industry, we <span> have highly-tailored IT solutions.</span>"
+                },
+                {
+                    "level": "h6",
+                    "content": "INDUSTRIES WE SERVE"
+                }
+            ],
+            "texts": [
+                {
+                    "content": "Engitech is the partner of choice for many of the world’s leading enterprises, SMEs and technology challengers. We help businesses elevate their value through custom software development, product design, QA and consultancy services."
+                }
+            ],
+            "video_button": {
+                "link": "https://www.youtube.com/watch?v=9No-FiEInLA",
+                "content": "How We Work"
+            },
+            "images": [
+                {
+                    "src": "../images/about-us/soft-s2-01.webp"
+                }
+            ]
+        },
+        {
+            "id": "software-funfact",
+            "section": "funfact-section",
+            "headings": [
+                {
+                    "level": "h2",
+                    "content": "<mark>38</mark> YEARS’ EXPERIENCE IN IT"
+                },
+                {
+                    "level": "h3",
+                    "content": "Learn more about our <span>Success Stories</span>"
+                }
+            ],
+            "items": [
+                {
+                    "id": 1,
+                    "count": 1056,
+                    "title": "Happy Clients"
+                },
+                {
+                    "id": 2,
+                    "count": 491,
+                    "title": "FINISHED PROJECTS"
+                },
+                {
+                    "id": 3,
+                    "count": 491,
+                    "title": "SKILLED EXPERTS"
+                },
+                {
+                    "id": 4,
+                    "count": 491,
+                    "title": "MEDIA POSTS"
+                }
+            ]
+        },
+        {
+            "id": "software-case-study",
+            "section": "case-study-section",
+            "section_title": {
+                "title": "Proud projects <span>make us excel</span>",
+                "subtitle": "CASE STUDIES"
+            },
+            "motto": {
+                "text": "Challenges are just opportunities in disguise.",
+                "linkText": "Take the challenge!",
+                "link": "/case-studies"
+            }
+        },
+        {
+            "id": "infotechno-testimonial",
+            "section": "testimonial-section",
+            "section_title": {
+                "title": "What do people praise about <span> Mitech?</span>",
+                "subtitle": "Testimonials"
+            },
+            "items": [
+                {
+                    "id": 1,
+                    "name": "Abbie Ferguson",
+                    "designation": "Marketing",
+                    "images": [
+                        {
+                            "src": "../images/avatar/avatar-01-90x90.jpg"
+                        }
+                    ],
+                    "rating": 5,
+                    "subject": "The Mitech team works really hard to ensure high level of quality",
+                    "description": "I’ve been working with over 35 IT companies on more than 200 projects of our company, but @Mitech is one of the most impressive to me."
+                },
+                {
+                    "id": 2,
+                    "name": "Monica Blews",
+                    "designation": "Web designer",
+                    "images": [
+                        {
+                            "src": "../images/avatar/avatar-02-90x90.jpg"
+                        }
+                    ],
+                    "rating": 4,
+                    "subject": "The Mitech team works really hard to ensure high level of quality",
+                    "description": "I’ve been working with over 35 IT companies on more than 200 projects of our company, but @Mitech is one of the most impressive to me."
+                },
+                {
+                    "id": 3,
+                    "name": "Sansa Stark",
+                    "designation": "Web designer",
+                    "images": [
+                        {
+                            "src": "../images/avatar/avatar-03-90x90.jpg"
+                        }
+                    ],
+                    "rating": 5,
+                    "subject": "The Mitech team works really hard to ensure high level of quality",
+                    "description": "I’ve been working with over 35 IT companies on more than 200 projects of our company, but @Mitech is one of the most impressive to me."
+                },
+                {
+                    "id": 4,
+                    "name": "Rickon Stark",
+                    "designation": "Web developer",
+                    "images": [
+                        {
+                            "src": "../images/avatar/avatar-04-90x90.jpg"
+                        }
+                    ],
+                    "rating": 5,
+                    "subject": "The Mitech team works really hard to ensure high level of quality",
+                    "description": "I’ve been working with over 35 IT companies on more than 200 projects of our company, but @Mitech is one of the most impressive to me."
+                }
+            ]
+        },
+        {
+            "id": "software-cta",
+            "section": "cta-section",
+            "headings": [
+                {
+                    "level": "h3",
+                    "content": "We run all kinds of IT services that vow your <span> success </span>"
+                }
+            ],
+            "buttons": [
+                {
+                    "id": 1,
+                    "path": "/contact-us",
+                    "color": "light",
+                    "icon": "far fa-comment-alt",
+                    "iconposition": "left",
+                    "icondistance": "8px",
+                    "iconsize": "16px",
+                    "hoverStyle": "three",
+                    "content": "Let's talk"
+                },
+                {
+                    "id": 2,
+                    "path": "/contact-us",
+                    "color": "secondary",
+                    "icon": "fas fa-info-circle",
+                    "iconposition": "left",
+                    "icondistance": "8px",
+                    "iconsize": "16px",
+                    "content": "Get Info"
+                }
+            ]
+        },
+        {
+            "id": "software-technology-list",
+            "section": "software-technology-section",
+            "headings": [
+                {
+                    "level": "h3",
+                    "content": "<span> Mitech </span> – Top Software Development Technology"
+                },
+                {
+                    "level": "h6",
+                    "content": "OUR TECHNOLOGY"
+                }
+            ],
+            "texts": [
+                {
+                    "content": "Our strong passion to modern tech trends and best practices drive in the development of top-notch solutions that are perfectly tailored to provide high quality and affordable software outsourcing solutions to growing startup and enterprise companies in the world."
+                }
+            ],
+            "buttons": [
+                {
+                    "id": 1,
+                    "path": "/contact-us",
+                    "color": "light",
+                    "content": "ASP. NET Core"
+                },
+                {
+                    "id": 2,
+                    "path": "/contact-us",
+                    "color": "light",
+                    "content": "REACT JS"
+                },
+                {
+                    "id": 3,
+                    "path": "/contact-us",
+                    "color": "light",
+                    "hoverStyle": "two",
+                    "content": "ANGULAR"
+                },
+                {
+                    "id": 4,
+                    "path": "/contact-us",
+                    "color": "light",
+                    "content": "PHP"
+                },
+                {
+                    "id": 5,
+                    "path": "/contact-us",
+                    "color": "light",
+                    "content": "JAVA"
+                },
+                {
+                    "id": 6,
+                    "path": "/contact-us",
+                    "color": "light",
+                    "content": "PYTHON"
+                }
+            ],
+            "images": [
+                {
+                    "src": "../images/about-us/soft-s5-img.webp"
+                }
+            ]
+        }
+    ]
+}

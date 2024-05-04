@@ -1,0 +1,36 @@
+@charset "UTF-8";
+/* Google fonts Inter */
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+@font-face {
+    font-family: "Font Awesome 5 Brands";
+    font-style: normal;
+    font-weight: 400;
+    font-display: block;
+    src: url(../fonts/font-awesome/webfonts/fa-brands-400.woff2);
+    src: local(""),
+        url(../fonts/font-awesome/webfonts/fa-brands-400.woff2) format("woff2"),
+        url(../fonts/font-awesome/webfonts/fa-brands-400.woff) format("woff");
+}
+
+@font-face {
+    font-family: "Font Awesome 5 Free";
+    font-style: normal;
+    font-weight: 400;
+    font-display: block;
+    src: url(../fonts/font-awesome/webfonts/fa-regular-400.woff2);
+    src: local(""),
+        url(../fonts/font-awesome/webfonts/fa-regular-400.woff2) format("woff2"),
+        url(../fonts/font-awesome/webfonts/fa-regular-400.woff) format("woff");
+}
+
+@font-face {
+    font-family: "Font Awesome 5 Free";
+    font-style: normal;
+    font-weight: 900;
+    font-display: block;
+    src: url(../fonts/font-awesome/webfonts/fa-solid-900.woff2);
+    src: local(""),
+        url(../fonts/font-awesome/webfonts/fa-solid-900.woff2) format("woff2"),
+        url(../fonts/font-awesome/webfonts/fa-solid-900.woff) format("woff");
+}
