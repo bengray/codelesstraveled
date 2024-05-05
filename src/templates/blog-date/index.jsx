@@ -7,7 +7,6 @@ import { Container, Row, Col } from "@ui/wrapper";
 import {
     RecentPostsWidget,
     PopularTagsWidget,
-    AdWidget,
 } from "@components/widgets";
 import Layout from "@layout";
 import Header from "@layout/header/layout-01";
@@ -50,10 +49,6 @@ const BlogDateTemplate = ({ pageContext, location, data }) => {
                                             ...content["recent-widget-section"],
                                             blogs: data.recentPosts.nodes,
                                         }}
-                                    />
-                                    <AdWidget
-                                        data={content["ad-section"]}
-                                        mb="47px"
                                     />
                                     <PopularTagsWidget
                                         data={{

@@ -6,7 +6,6 @@ import Seo from "@components/seo";
 import {
     RecentPostsWidget,
     PopularTagsWidget,
-    AdWidget,
 } from "@components/widgets";
 import Layout from "@layout";
 import Header from "@layout/header/layout-01";
@@ -91,10 +90,6 @@ const SearchTemplate = ({ data, pageContext, location }) => {
                                             ...content["recent-widget-section"],
                                             blogs: data.recentPosts.nodes,
                                         }}
-                                    />
-                                    <AdWidget
-                                        data={content["ad-section"]}
-                                        mb="47px"
                                     />
                                     <PopularTagsWidget
                                         data={{

@@ -1,12 +1,11 @@
 const footerData = {
     contact: {
-        phone: "190068668",
-        address: "58 Howard Street #2 San Francisco, CA 941",
-        email: "hello@mitech.com",
-        website: "https://example.com/",
+        phone: "555-123-1234",
+        email: "ben@codelesstraveled.com",
+        website: "https://codelesstraveled.com/",
     },
     copyright:
-        "Mitech. <a href='https://example.com/' target='_blank' rel='noopener noreferrer'>All Rights Reserved.</a>",
+        "Code Less Traveled. <a href='https://example.com/' target='_blank' rel='noopener noreferrer'>All Rights Reserved.</a>",
     socials: [
         {
             id: 1,

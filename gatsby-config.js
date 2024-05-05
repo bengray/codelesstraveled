@@ -7,17 +7,17 @@
 module.exports = {
     pathPrefix: `/`,
     siteMetadata: {
-        title: "React Gatsby Technology & Blog Template",
-        titleTemplate: `Mitech`,
-        description: `Mitech is a Powerful & flexible Technology And Digital Software Gatsby Template. 06 Stunning Homepages are included in this template. You can use any template or mix content from different home pages for your website.`,
-        author: `@HasThemes`,
-        twitterUsername: `@HasThemes`,
+        title: "Code Less Traveled",
+        titleTemplate: `Code Less Traveled`,
+        description: `Code Less Traveled develops custome web-bases software applications.`,
+        author: `Ben Gray`,
+        twitterUsername: `@bgray`,
         image: "landing.png",
-        siteUrl: "https://mitech.gatsbydemo.hasthemes.com/",
-        canonical: "https://mitech.gatsbydemo.hasthemes.com/",
-        getform: "https://getform.io/f/22b43bd4-29a7-4795-ba95-6abfe8bf1f39",
+        siteUrl: "https://codelesstraveled.com",
+        canonical: "https://codelesstraveled.com",
+        getform: "https://getform.io/f/nbdoxkra",
         copyright:
-            "Mitech. <a href='https://example.com/' target='_blank' rel='noopener noreferrer'>All Rights Reserved.</a>",
+            "Code Less Traveled LLC. All Rights Reserved.",
         siteLanguage: "en",
         socials: [
             {
@@ -46,10 +46,10 @@ module.exports = {
             },
         ],
         contact: {
-            phone: "190068668",
-            address: "58 Howard Street #2 San Francisco, CA 941",
-            email: "hello@mitech.com",
-            website: "https://example.com/",
+            phone: "4047754539",
+            address: "35 Brookview Drive Newnan GA 30265",
+            email: "ben@codelesstraveled.com",
+            website: "https://codelesstraveled.com/",
             rating: "4.9",
             customers: "700",
             clients: "3200",
@@ -103,8 +103,8 @@ module.exports = {
         {
             resolve: `gatsby-plugin-manifest`,
             options: {
-                name: "Mitech",
-                short_name: "mitech",
+                name: "Code Less Traveled",
+                short_name: "CLT",
                 theme_color: "#086ad8",
                 background_color: "#ffffff",
                 display: "standalone",

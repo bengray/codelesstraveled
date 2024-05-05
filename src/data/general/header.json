@@ -4,7 +4,7 @@
     "contact_info": [
         {
             "id": 1,
-            "title": "219 Amara Fort Apt. 394",
+            "title": "foobar",
             "text": "New York, NY 941",
             "icon": "fa fa-map-marker-alt"
         },
@@ -26,6 +26,5 @@
             "text": "Info@example.com",
             "icon": "fa fa-phone"
         }
-    ],
-    "slogan": "<span>Now Hiring:</span> Are you a driven and motivated 1st Line IT Support Engineer?"
+    ]
 }
