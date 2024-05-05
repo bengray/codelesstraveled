@@ -4,37 +4,25 @@ const comingSoon = () => {
     return (
         <div className="container text-center">
             <div className="row mt-5">
-                <div className="col">
+                <div className="col-12">
                     <p className="h1">Code Less Traveled</p>
                     <p className="lead">coming soon...</p>
-                    <blockquote class="h6 mt-5" style={{color:"#006400"}}>
-                        <p>Two roads diverged in a yellow wood,<br/>
-                        And sorry I could not travel both<br />
-                        And be one traveler, long I stood<br />
-                        And looked down one as far as I could<br />
-                        To where it bent in the undergrowth;<br />
-                        <br />
-                        Then took the other, as just as fair,<br />
-                        And having perhaps the better claim,<br />
-                        Because it was grassy and wanted wear;<br />
-                        Though as for that the passing there<br />
-                        Had worn them really about the same,<br />
-                        <br />
-                        And both that morning equally lay<br />
-                        In leaves no step had trodden black.<br />
-                        Oh, I kept the first for another day!<br />
-                        Yet knowing how way leads on to way,<br />
-                        I doubted if I should ever come back.<br />
-                        <br />
-                        I shall be telling this with a sigh<br />
-                        Somewhere ages and ages hence:<br />
-                        Two roads diverged in a wood, and I—<br />
-                        I took the one less traveled by,<br />
-                        And that has made all the difference.<br />
-                        <br />
-                        - Robert Frost
-                        </p>
-                    </blockquote>
+                </div>
+            </div>
+            <div className="row mt-5 justify-content-md-center">
+                <div className="col-6 text-start">
+                    Hi, I'm Ben Gray.  I've been developing software for the web for over 20 years.  I've built and enhanced systems for myriad different businesses; from Wall Street advisors, to high voltage R&D labratories, power companies, multi-national news agencies, automotive retailers, magazine publishers, point of sale providers, furniture retailers and flooring retailers.<br/><br/>
+
+                    Now I'm taking all my experience and bringing it to the masses.<br/><br/>
+
+                    I'm choosing the road less traveled by.<br/><br/>
+
+                    Welcome to <span style={{fontFamily:"Courier",color:"#000",fontSize:"1.2em"}}>Code Less Traveled</span>.
+                </div>
+            </div>
+            <div className="row mt-5 justify-content-md-center">
+                <div className="col-6 text-center">
+                    Let's build something great! Contact me: <a href="mailto:&#098;&#101;&#110;&#064;&#099;&#111;&#100;&#101;&#108;&#101;&#115;&#115;&#116;&#114;&#097;&#118;&#101;&#108;&#101;&#100;&#046;&#099;&#111;&#109;">&#098;&#101;&#110;&#064;&#099;&#111;&#100;&#101;&#108;&#101;&#115;&#115;&#116;&#114;&#097;&#118;&#101;&#108;&#101;&#100;&#046;&#099;&#111;&#109;</a>
                 </div>
             </div>
         </div>
