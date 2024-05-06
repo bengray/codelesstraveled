@@ -59,8 +59,11 @@ export const HeaderLeft = styled.div`
     flex-basis: 50%;
     justify-content: center;
     padding: 14px 0;
+    ${device.small} {
+        flex-basis: 30%;
+    }
     ${device.medium} {
-        flex-basis: 40%;
+        flex-basis: 30%;
     }
     ${device.xlarge} {
         flex-basis: 30%;

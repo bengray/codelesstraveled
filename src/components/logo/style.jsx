@@ -7,7 +7,7 @@ export const LogoWrapper = styled.div`
     ${device.xsmall} {
         a {
             img {
-                width: 200px;
+                width: 175px;
                 padding-top: 0px;
             }
         }
