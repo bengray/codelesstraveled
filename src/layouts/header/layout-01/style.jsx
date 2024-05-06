@@ -63,13 +63,13 @@ export const HeaderLeft = styled.div`
         flex-basis: 40%;
     }
     ${device.xlarge} {
-        flex-basis: 15%;
+        flex-basis: 30%;
     }
     ${device.xxlarge} {
-        flex-basis: 23%;
+        flex-basis: 30%;
     }
     ${device.xxxlarge} {
-        flex-basis: 25%;
+        flex-basis: 30%;
     }
 `;
 
