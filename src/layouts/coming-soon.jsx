@@ -10,7 +10,7 @@ const comingSoon = () => {
                 </div>
             </div>
             <div className="row mt-5 justify-content-md-center">
-                <div className="col-6 text-start">
+                <div className="col-xs-12 col-sm-6 text-start">
                     Hi, I'm Ben Gray.  I've been developing software for the web for over 20 years.  I've built and enhanced systems for myriad different businesses; from Wall Street advisors, to high voltage R&D labratories, power companies, multi-national news agencies, automotive retailers, magazine publishers, point of sale providers, furniture retailers and flooring retailers.<br/><br/>
 
                     Now I'm taking all my experience and bringing it to the masses.<br/><br/>
@@ -21,7 +21,7 @@ const comingSoon = () => {
                 </div>
             </div>
             <div className="row mt-5 justify-content-md-center">
-                <div className="col-6 text-center">
+                <div className="col-xs-12 col-md-6 text-center">
                     Let's build something great together!<br/>
                     Contact me: <a href="mailto:&#098;&#101;&#110;&#064;&#099;&#111;&#100;&#101;&#108;&#101;&#115;&#115;&#116;&#114;&#097;&#118;&#101;&#108;&#101;&#100;&#046;&#099;&#111;&#109;">&#098;&#101;&#110;&#064;&#099;&#111;&#100;&#101;&#108;&#101;&#115;&#115;&#116;&#114;&#097;&#118;&#101;&#108;&#101;&#100;&#046;&#099;&#111;&#109;</a>
                 </div>
