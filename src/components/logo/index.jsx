@@ -8,19 +8,19 @@ const Logo = ({ className, variant, ...restProps }) => {
     return (
         <LogoWrapper className={className} $variant={variant} {...restProps}>
             <Link to="/">
-                <StaticImage
-                    src="../../assets/images/logo/light-logo.png"
+                {/* <StaticImage
+                    src="../../assets/images/logo/clt-logo.png"
                     className="img-fluid static-img light-logo"
                     alt="logo"
                     width={160}
                     height={48}
-                />
+                /> */}
                 <StaticImage
-                    src="../../assets/images/logo/dark-logo.png"
+                    src="../../assets/images/logo/clt-logo-v3.png"
                     className="img-fluid static-img dark-logo"
                     alt="logo"
-                    width={160}
-                    height={48}
+                    // width={300}
+                    // height={48}
                 />
             </Link>
         </LogoWrapper>

@@ -2,7 +2,7 @@ import React, { Fragment, useState } from "react";
 import PropTypes from "prop-types";
 import Logo from "@components/logo";
 import { MainMenu, MobileMenu } from "@components/menu";
-import Language from "@components/language";
+// import Language from "@components/language";
 import HeaderForm from "@components/forms/search-form/layout-01";
 import BurgerButton from "@ui/burger-button";
 import OffCanvas, { OffCanvasHeader, OffCanvasBody } from "@ui/off-canvas";
@@ -68,7 +68,7 @@ const Header = ({ data }) => {
                                         "25px",
                                     ]}
                                 >
-                                    <Language />
+                                    {/* <Language /> */}
                                 </HeaderElement>
                                 <HeaderElement
                                     borderLeft={[null, null, "1px solid #eee"]}

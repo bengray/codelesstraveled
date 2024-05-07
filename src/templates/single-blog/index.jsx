@@ -16,7 +16,7 @@ import Tags from "@components/blog/tags";
 import BlogMedia from "@components/blog/blog-media";
 import SocialShare from "@components/blog/social-share";
 import { Container } from "@ui/wrapper";
-import Comment from "@components/blog/comment";
+// import Comment from "@components/blog/comment";
 import { BlogType } from "@utils/types";
 
 import {
@@ -90,13 +90,6 @@ const SingleBlogTemplate = ({ pageContext, location, data }) => {
                                             icon="fa fa-calendar-alt"
                                         />
                                     )}
-                                    <BlogMeta
-                                        mt="10px"
-                                        mr="20px"
-                                        path={`/`}
-                                        text={`4 Comments`}
-                                        icon="fa fa-comment-dots"
-                                    />
                                 </StyledHeaderMeta>
                             </header>
                             <StyledContent
@@ -125,12 +118,12 @@ const SingleBlogTemplate = ({ pageContext, location, data }) => {
                                     next: pageContext.next,
                                 }}
                             />
-                            <Comment
+                            {/* <Comment
                                 url={articleData?.slug}
                                 id={articleData?.id}
                                 title={articleData?.title}
                                 siteUrl={data.site.siteMetadata.siteUrl}
-                            />
+                            /> */}
                         </StyledBlogWrap>
                     </Container>
                 </StyledSection>

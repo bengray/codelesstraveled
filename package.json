@@ -1,7 +1,7 @@
 {
-  "name": "mitech-gatsby",
+  "name": "code-less-traveled-theme",
   "private": true,
-  "description": "A simplified bare-bones starter for Gatsby",
+  "description": "A basic theme for Code Less Traveled",
   "version": "0.1.0",
   "license": "0BSD",
   "scripts": {

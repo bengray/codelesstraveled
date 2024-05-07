@@ -9,7 +9,6 @@ const PageHeader = ({ pageContext, location, title }) => {
         breadcrumb: { crumbs },
     } = pageContext;
     const disableLinks = [
-        "/elements",
         "/category",
         "/profile",
         "/date",
