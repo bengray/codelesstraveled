@@ -1,11 +1,12 @@
 import "bootstrap/dist/css/bootstrap.min.css";
+import logo from "../assets/images/logo/clt-logo-v3.png";
 
 const comingSoon = () => {
     return (
         <div className="container text-center">
-            <div className="row mt-5">
-                <div className="col-12">
-                    <p className="h1">Code Less Traveled</p>
+            <div className="row justify-content-center mt-5">
+                <div className="col-6">
+                    <img src={logo} alt="Code Less Traveled Logo" />
                     <p className="lead">coming soon...</p>
                 </div>
             </div>
