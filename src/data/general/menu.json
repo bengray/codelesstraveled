@@ -36,20 +36,8 @@
         },
         {
             "id": "menu-3",
-            "text": "Services",
-            "link": "/it-services",
-            "submenu": [
-                {
-                    "id": "menu-31",
-                    "text": "IT Services",
-                    "link": "/it-services"
-                },
-                {
-                    "id": "menu-32",
-                    "text": "IT Solutions",
-                    "link": "/it-solutions"
-                }
-            ]
+            "text": "IT Solutions",
+            "link": "/it-solutions"
         },
         {
             "id": "menu-6",
