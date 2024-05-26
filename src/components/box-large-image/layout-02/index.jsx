@@ -80,7 +80,7 @@ BoxLargeImage.propTypes = {
 };
 
 BoxLargeImage.defaultProps = {
-    btnText: "Discover Now",
+    btnText: "Learn More",
 };
 
 export default BoxLargeImage;
