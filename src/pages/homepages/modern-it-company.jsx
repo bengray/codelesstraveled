@@ -23,7 +23,7 @@ const ModernIteCompanyPage = ({ location, data }) => {
 
     return (
         <Layout location={location}>
-            <Seo title="Infotechno" />
+            <Seo title="Home" />
             <Header
                 data={{
                     ...globalContent["header"],
