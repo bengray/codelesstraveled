@@ -4,7 +4,7 @@ import { graphql } from "gatsby";
 import { normalizedData } from "@utils";
 import Seo from "@components/seo";
 import Layout from "@layout";
-import Header from "@layout/header/layout-02";
+import Header from "@layout/header/layout-01";
 import Footer from "@layout/footer/layout-01";
 import HeroArea from "@containers/hero/layout-02";
 import ITServicesArea from "@containers/it-service/layout-02";

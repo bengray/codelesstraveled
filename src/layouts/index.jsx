@@ -16,8 +16,8 @@ const Layout = ({ children, location }) => {
             <Transition location={location}>
                 <div className="wrapper">
                     <GlobalStyle />
-                    {/* {children} */}
-                    <ComingSoon />
+                    {children}
+                    {/* <ComingSoon /> */}
                     <ScrollToTop />
                 </div>
             </Transition>
