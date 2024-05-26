@@ -41,7 +41,7 @@ const Footer = ({ data }) => {
                                                 {data.contact.address}
                                             </Text>
                                         )} */}
-                                        {data.contact?.email && (
+                                        {/* {data.contact?.email && (
                                             <Text mb="10px">
                                                 <Anchor
                                                     path={`mailto:${data.contact.email}`}
@@ -51,7 +51,7 @@ const Footer = ({ data }) => {
                                                     {data.contact.email}
                                                 </Anchor>
                                             </Text>
-                                        )}
+                                        )} */}
                                         {/* {data.contact?.phone && (
                                             <Text mb="10px">
                                                 <Anchor
@@ -63,7 +63,7 @@ const Footer = ({ data }) => {
                                                 </Anchor>
                                             </Text>
                                         )} */}
-                                        {data.contact?.website && (
+                                        {/* {data.contact?.website && (
                                             <Text mb="10px">
                                                 <Anchor
                                                     path={data.contact.website}
@@ -72,7 +72,7 @@ const Footer = ({ data }) => {
                                                     {data.contact.website}
                                                 </Anchor>
                                             </Text>
-                                        )}
+                                        )} */}
                                     </TextWidget>
                                 )}
                             </FooterWidget>
