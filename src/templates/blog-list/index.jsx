@@ -38,7 +38,7 @@ const BlogListTemplate = ({ pageContext, location, data }) => {
                 <PageHeader
                     pageContext={pageContext}
                     location={location}
-                    title="Blog Update"
+                    title="The Blog Less Traveled"
                 />
                 <StyledSection>
                     <Container>

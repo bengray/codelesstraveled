@@ -54,7 +54,7 @@ const Blog = ({
                 )}
                 {format === "quote" && (
                     <BlogQuote>
-                        {quote_text && <h3>{quote_text}eeee</h3>}
+                        {quote_text && <h3>{quote_text}</h3>}
                         {quote_author && <footer>-{quote_author}</footer>}
                     </BlogQuote>
                 )}
