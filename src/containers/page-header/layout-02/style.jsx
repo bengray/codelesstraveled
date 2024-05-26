@@ -18,8 +18,8 @@ export const PageHeaderWrap = styled.section`
     isolation: isolate;
     overflow: hidden;
     ${device.large} {
-        padding-block-start: 136px;
-        padding-block-end: 131px;
+        padding-block-start: 50px;
+        padding-block-end: 50px;
     }
     .breadcrumb {
         display: inline-block;
