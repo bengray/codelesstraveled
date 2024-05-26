@@ -5,7 +5,7 @@ import { normalizedData } from "@utils";
 import Seo from "@components/seo";
 import Layout from "@layout";
 import Header from "@layout/header/layout-01";
-import Footer from "@layout/footer/layout-02";
+import Footer from "@layout/footer/layout-01";
 import TopWrapper from "@containers/top-wrapper";
 import HeroArea from "@containers/hero/layout-07";
 import PartnerArea from "@containers/partner/layout-04";
