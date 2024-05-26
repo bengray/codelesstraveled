@@ -1,25 +1,25 @@
 {
-    "id": "it-security-and-compilance",
-    "title": "IT Security and Compilance",
-    "excerpt": "We provide the most responsive and functional IT design for companies and businesses worldwide.",
+    "id": "project-takeover",
+    "title": "Project Takeover",
+    "excerpt": "Regardless of the reason, our team is experienced and ready to analyze your situation, determine the next best steps, and get your software development back on track.",
     "icon": {
         "svg": {
             "src": "../images/icons/linea-basic-spread-text-bookmark.svg"
         },
         "images": [
             {
-                "src": "../images/icons/icon-15-80x83.png"
+                "src": "../images/icons/icon-16-80x83.png"
             },
             {
-                "src": "../images/icons/icon-06-100x98.png"
+                "src": "../images/icons/icon-04-100x98.png"
             }
         ]
     },
     "featured_image": {
-        "src": "../images/box-image/image-03-370x370.jpg"
+        "src": "../images/box-image/image-06-370x370.jpg"
     },
     "banner_image": {
-        "src": "../images/banner/banner-03.jpg"
+        "src": "../images/banner/banner-04.jpg"
     },
     "is_featured": true,
     "content": [

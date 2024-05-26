@@ -7,21 +7,21 @@
             "section": "hero-section",
             "images": [
                 {
-                    "src": "../images/hero/home-reputable-success.png"
+                    "src": "../images/hero/ducks.jpg"
                 }
             ],
             "headings": [
                 {
                     "level": "h1",
-                    "content": "Make your life easier with help from <mark>the pros</mark>"
+                    "content": "You're not like everyone else. <mark><i>Neither are we.</i></mark>"
                 },
                 {
                     "level": "h6",
-                    "content": "Team up with the best collaboration from the right expertises."
+                    "content": "We understand your needs, and can help."
                 },
                 {
                     "level": "h5",
-                    "content": "Booking is open today with profitable incentives for beginners."
+                    "content": "The journey of a thousand miles begins with a single step. Contacting our team is your first step:"
                 }
             ]
         },
@@ -31,7 +31,7 @@
             "headings": [
                 {
                     "level": "h5",
-                    "content": "Step forward to become one of <span>2</span> successful clients of Code Less Traveled."
+                    "content": ""
                 }
             ],
             "items": [
@@ -39,10 +39,10 @@
                     "id": 1,
                     "images": [
                         {
-                            "src": "../images/partners/mitech-client-logo-01.png"
+                            "src": "../images/partners/js.png"
                         },
                         {
-                            "src": "../images/partners/mitech-client-logo-01-hover.png"
+                            "src": "../images/partners/js-hover.png"
                         }
                     ],
                     "path": "/"
@@ -51,10 +51,10 @@
                     "id": 2,
                     "images": [
                         {
-                            "src": "../images/partners/mitech-client-logo-02.png"
+                            "src": "../images/partners/node.png"
                         },
                         {
-                            "src": "../images/partners/mitech-client-logo-02-hover.png"
+                            "src": "../images/partners/node-hover.png"
                         }
                     ],
                     "path": "/"
@@ -63,10 +63,10 @@
                     "id": 3,
                     "images": [
                         {
-                            "src": "../images/partners/mitech-client-logo-03.png"
+                            "src": "../images/partners/lol-php.png"
                         },
                         {
-                            "src": "../images/partners/mitech-client-logo-03-hover.png"
+                            "src": "../images/partners/lol-php-hover.png"
                         }
                     ],
                     "path": "/"
@@ -75,10 +75,10 @@
                     "id": 4,
                     "images": [
                         {
-                            "src": "../images/partners/mitech-client-logo-04.png"
+                            "src": "../images/partners/react.png"
                         },
                         {
-                            "src": "../images/partners/mitech-client-logo-04-hover.png"
+                            "src": "../images/partners/react-hover.png"
                         }
                     ],
                     "path": "/"
@@ -87,10 +87,10 @@
                     "id": 5,
                     "images": [
                         {
-                            "src": "../images/partners/mitech-client-logo-05.png"
+                            "src": "../images/partners/mysql.png"
                         },
                         {
-                            "src": "../images/partners/mitech-client-logo-05-hover.png"
+                            "src": "../images/partners/mysql-hover.png"
                         }
                     ],
                     "path": "/"
@@ -99,46 +99,10 @@
                     "id": 6,
                     "images": [
                         {
-                            "src": "../images/partners/mitech-client-logo-06.png"
+                            "src": "../images/partners/aws.png"
                         },
                         {
-                            "src": "../images/partners/mitech-client-logo-06-hover.png"
-                        }
-                    ],
-                    "path": "/"
-                },
-                {
-                    "id": 7,
-                    "images": [
-                        {
-                            "src": "../images/partners/mitech-client-logo-07.png"
-                        },
-                        {
-                            "src": "../images/partners/mitech-client-logo-07-hover.png"
-                        }
-                    ],
-                    "path": "/"
-                },
-                {
-                    "id": 8,
-                    "images": [
-                        {
-                            "src": "../images/partners/mitech-client-logo-08.png"
-                        },
-                        {
-                            "src": "../images/partners/mitech-client-logo-08-hover.png"
-                        }
-                    ],
-                    "path": "/"
-                },
-                {
-                    "id": 9,
-                    "images": [
-                        {
-                            "src": "../images/partners/mitech-client-logo-09.png"
-                        },
-                        {
-                            "src": "../images/partners/mitech-client-logo-09-hover.png"
+                            "src": "../images/partners/aws-hover.png"
                         }
                     ],
                     "path": "/"
@@ -150,21 +114,21 @@
             "section": "testimonial-section",
             "images": [
                 {
-                    "src": "../images/testimonial/home-reputable-success-about-image.jpg"
+                    "src": "../images/testimonial/ben_gray.jpg"
                 }
             ],
             "headings": [
                 {
                     "level": "h6",
-                    "content": "Luna Lovewoods"
+                    "content": "Ben Gray"
                 }
             ],
             "texts": [
                 {
-                    "content": "You know you did right when all your effort started to pay off in an unexpected and impressive way. @Mitech brings clients and businesses together in a fair play field."
+                    "content": "Life is more than your resume. Success is more than the balance in your bank account. At Code Less Traveled we connect people through technology; embracing the human element and wrangling the technical."
                 },
                 {
-                    "content": "Web design"
+                    "content": "Owner"
                 }
             ]
         },
@@ -196,10 +160,10 @@
             "id": "modern-it-company-solutions",
             "section": "solution-section",
             "section_title": {
-                "title": "No shortage in resources & initiatives in <br/> <span> Technology Aid</span>"
+                "title": "Our development team is built with the skills needed to iterate your online product in the marketplace <br/> <span> and create success.</span>"
             },
             "motto": {
-                "text": "Cheers to the work that comes from trusted service providers in time.",
+                "text": "You don't have to do this alone. We understand your needs and we're here to help.",
                 "link": "/contact-us",
                 "linkText": "Let's talk"
             }

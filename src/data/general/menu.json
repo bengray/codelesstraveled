@@ -23,34 +23,14 @@
                     "link": "/contact-us"
                 },
                 {
-                    "id": "menu-23",
-                    "text": "Leadership",
-                    "link": "/leadership"
-                },
-                {
                     "id": "menu-24",
                     "text": "Why Choose Us",
                     "link": "/why-choose-us"
                 },
                 {
-                    "id": "menu-25",
-                    "text": "Our History",
-                    "link": "/our-history"
-                },
-                {
                     "id": "menu-26",
                     "text": "FAQs",
                     "link": "/faq"
-                },
-                {
-                    "id": "menu-27",
-                    "text": "Careers",
-                    "link": "/careers"
-                },
-                {
-                    "id": "menu-28",
-                    "text": "Pricing Plans",
-                    "link": "/pricing-plan"
                 }
             ]
         },
@@ -70,11 +50,6 @@
                     "link": "/it-solutions"
                 }
             ]
-        },
-        {
-            "id": "menu-5",
-            "text": "Case Studies",
-            "link": "/case-studies"
         },
         {
             "id": "menu-6",

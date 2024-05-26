@@ -30,12 +30,12 @@ const OurHistoryPage = ({ pageContext, location, data }) => {
                     title="Our History"
                 />
                 <TimelineArea data={content["timeline-section"]} />
-                <ContactArea
+                {/* <ContactArea
                     data={{
                         ...content["contact-section"],
                         contact: data.site.siteMetadata.contact,
                     }}
-                />
+                /> */}
             </main>
             <Footer data={{ ...data.site.siteMetadata }} />
         </Layout>

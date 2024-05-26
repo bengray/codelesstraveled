@@ -9,7 +9,7 @@ module.exports = {
     siteMetadata: {
         title: "Code Less Traveled",
         titleTemplate: `Code Less Traveled`,
-        description: `Code Less Traveled develops custome web-bases software applications.`,
+        description: `Code Less Traveled develops custom web-based software applications.`,
         author: `Ben Gray`,
         twitterUsername: `@bgray`,
         image: "landing.png",
@@ -25,32 +25,12 @@ module.exports = {
                 icon: "fab fa-facebook-f",
                 link: "https://www.facebook.com",
                 title: "Facebook",
-            },
-            {
-                id: 2,
-                icon: "fab fa-twitter",
-                link: "https://www.twitter.com",
-                title: "Twitter",
-            },
-            {
-                id: 3,
-                icon: "fab fa-instagram",
-                link: "https://www.instagram.com",
-                title: "Instagram",
-            },
-            {
-                id: 4,
-                icon: "fab fa-linkedin",
-                link: "https://www.linkedin.com",
-                title: "Linkedin",
-            },
+            }
         ],
         contact: {
-            phone: "4047754539",
-            address: "35 Brookview Drive Newnan GA 30265",
+            phone: "404.775.4539",
             email: "ben@codelesstraveled.com",
             website: "https://codelesstraveled.com/",
-            rating: "4.9",
             customers: "700",
             clients: "3200",
         },

@@ -23,7 +23,7 @@ const slider = {
             slidesPerView: 5,
         },
         1499: {
-            slidesPerView: 6,
+            slidesPerView: 5,
         },
     },
 };
@@ -32,14 +32,7 @@ const PartnerArea = ({ data }) => {
     return (
         <SectionWrap>
             <Container>
-                {data?.headings?.[0] && (
-                    <StyledHeading
-                        as={data.headings[0]?.level}
-                        dangerouslySetInnerHTML={{
-                            __html: data.headings[0]?.content,
-                        }}
-                    />
-                )}
+
                 {data?.items && (
                     <SwiperSlider options={slider} vAlign="center">
                         {data.items?.map((item) => {

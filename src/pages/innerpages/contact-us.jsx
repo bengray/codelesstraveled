@@ -28,11 +28,11 @@ const ContactPage = ({ pageContext, location, data }) => {
                 <PageHeader
                     pageContext={pageContext}
                     location={location}
-                    title="Contact Us"
+                    title="Get In Touch"
                 />
                 <ContactArea data={content["contact-section"]} />
-                <ContactInfoArea data={content["contact-info-section"]} />
-                <CtaArea data={content["cta-section"]} />
+                {/* <ContactInfoArea data={content["contact-info-section"]} /> */}
+                {/* <CtaArea data={content["cta-section"]} /> */}
             </main>
             <Footer data={{ ...data.site.siteMetadata }} />
         </Layout>

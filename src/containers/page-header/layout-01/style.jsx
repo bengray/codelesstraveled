@@ -34,3 +34,7 @@ export const StyledDesc = styled.h5`
     color: #fff;
     font-weight: 400;
 `;
+
+export const StyledHeaderDiv = styled.div`
+    background-image: radial-gradient(ellipse, black, transparent 90%);
+`;

@@ -22,7 +22,7 @@ export const StyledTextBox = styled.div`
         padding-block-start: 100px;
     }
     ${device.xlarge} {
-        padding-block-start: 150px;
+        padding-block-start: 100px;
     }
 `;
 
@@ -31,6 +31,7 @@ export const StyledHeading = styled.h1`
     line-height: 1.2;
     mark {
         color: ${themeGet("colors.primary")};
+        font-family: Georgia;
     }
 `;
 
@@ -61,7 +62,7 @@ export const StyledBookBoxText = styled.h5`
     margin-block-end: 15px;
     font-weight: 800;
     ${device.large} {
-        max-width: 340px;
+        max-width: 500px;
     }
 `;
 

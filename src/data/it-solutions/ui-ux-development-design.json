@@ -1,14 +1,14 @@
 {
-    "id": "managed-it-services",
-    "title": "Managed IT Services",
-    "excerpt": "At Mitech, we have a holistic and integrated approach towards core modernization to experience technological evolution.",
+    "id": "ui-ux-development-design",
+    "title": "UI/UX Development and Design",
+    "excerpt": "UI/UX design focuses on the experience your user has while using your software product, which is key to adoption and success.",
     "icon": {
         "svg": {
-            "src": "../images/icons/linea-basic-spread-text-bookmark.svg"
+            "src": "../images/icons/linea-basic-alarm.svg"
         },
         "images": [
             {
-                "src": "../images/icons/icon-17-80x83.png"
+                "src": "../images/icons/icon-14-80x83.png"
             },
             {
                 "src": "../images/icons/icon-06-100x98.png"
@@ -16,10 +16,10 @@
         ]
     },
     "featured_image": {
-        "src": "../images/box-image/image-05-370x370.jpg"
+        "src": "../images/box-image/image-08-370x370.jpg"
     },
     "banner_image": {
-        "src": "../images/banner/banner-05.jpg"
+        "src": "../images/banner/banner-02.jpg"
     },
     "is_featured": true,
     "content": [

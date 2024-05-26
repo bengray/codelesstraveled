@@ -54,11 +54,6 @@ const headerData = {
                     link: "/contact-us",
                 },
                 {
-                    id: "menu-23",
-                    text: "Leadership",
-                    link: "/leadership",
-                },
-                {
                     id: "menu-24",
                     text: "Why Choose Us",
                     link: "/why-choose-us",
@@ -77,11 +72,6 @@ const headerData = {
                     id: "menu-27",
                     text: "Careers",
                     link: "/careers",
-                },
-                {
-                    id: "menu-28",
-                    text: "Pricing Plans",
-                    link: "/pricing-plan",
                 },
             ],
         },

@@ -36,17 +36,17 @@ const ModernIteCompanyPage = ({ location, data }) => {
                     <PartnerArea data={content["partner-section"]} />
                     <TestimonialArea data={content["testimonial-section"]} />
                 </TopWrapper>
-                <FunFactArea data={content["funfact-section"]} />
+                {/* <FunFactArea data={content["funfact-section"]} /> */}
                 <SolutionArea
                     data={{
                         ...content["solution-section"],
                         items: data.allItSolution.nodes,
                     }}
                 />
-                <ProjectArea data={content["project-section"]} />
-                <ContactArea data={content["contact-section"]} />
-                <ClaimArea data={content["claim-section"]} />
-                <CTAArea data={content["cta-section"]} />
+                {/* <ProjectArea data={content["project-section"]} /> */}
+                {/* <ContactArea data={content["contact-section"]} /> */}
+                {/* <ClaimArea data={content["claim-section"]} /> */}
+                {/* <CTAArea data={content["cta-section"]} /> */}
             </main>
             <Footer data={{ ...data.site.siteMetadata }} />
         </Layout>

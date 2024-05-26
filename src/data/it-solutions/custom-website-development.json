@@ -1,14 +1,14 @@
 {
-    "id": "cloud-managed-services",
-    "title": "Cloud managed services",
-    "excerpt": "We provide the most responsive and functional IT design for companies and businesses worldwide.",
+    "id": "custom-website-development",
+    "title": "Custom Website Development",
+    "excerpt": "Our custom website development services are customized to suit your needs and surpass your user’s expectations.",
     "icon": {
         "svg": {
-            "src": "../images/icons/linea-basic-alarm.svg"
+            "src": "../images/icons/linea-basic-spread-text-bookmark.svg"
         },
         "images": [
             {
-                "src": "../images/icons/icon-14-80x83.png"
+                "src": "../images/icons/icon-17-80x83.png"
             },
             {
                 "src": "../images/icons/icon-06-100x98.png"
@@ -16,10 +16,10 @@
         ]
     },
     "featured_image": {
-        "src": "../images/box-image/image-08-370x370.jpg"
+        "src": "../images/box-image/image-05-370x370.jpg"
     },
     "banner_image": {
-        "src": "../images/banner/banner-02.jpg"
+        "src": "../images/banner/banner-05.jpg"
     },
     "is_featured": true,
     "content": [

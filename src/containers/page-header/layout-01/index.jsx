@@ -3,7 +3,7 @@ import PropTypes from "prop-types";
 import Image from "@ui/image";
 import { Container, Row, Col } from "@ui/wrapper";
 import { HeadingType, TextType, ImageType } from "@utils/types";
-import { PageHeaderWrap, StyledTitle, StyledDesc, StyledBG } from "./style";
+import { PageHeaderWrap, StyledTitle, StyledDesc, StyledBG, StyledHeaderDiv } from "./style";
 
 const PageHeader = ({ data }) => {
     return (
@@ -19,7 +19,8 @@ const PageHeader = ({ data }) => {
             <Container>
                 <Row textAlign="center">
                     <Col lg={8} mx="auto">
-                        {data?.headings?.[0] && (
+                        <StyledHeaderDiv>
+                            {data?.headings?.[0] && (
                             <StyledTitle as={data.headings[0]?.level}>
                                 {data.headings[0]?.content}
                             </StyledTitle>
@@ -27,6 +28,8 @@ const PageHeader = ({ data }) => {
                         {data?.texts?.[0] && (
                             <StyledDesc>{data.texts[0]?.content}</StyledDesc>
                         )}
+                        </StyledHeaderDiv>
+
                     </Col>
                 </Row>
             </Container>

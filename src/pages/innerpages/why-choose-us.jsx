@@ -31,19 +31,19 @@ const WhyChooseUsPage = ({ pageContext, location, data }) => {
                     title="Why Choose Us"
                 />
                 <AboutArea data={content["about-section"]} />
-                <ITServiceArea
+                {/* <ITServiceArea
                     data={{
                         ...content["service-section"],
                         items: data?.services?.nodes,
                     }}
                     space={2}
-                />
-                <ContactArea
+                /> */}
+                {/* <ContactArea
                     data={{
                         ...content["contact-section"],
                         contact: data.site.siteMetadata.contact,
                     }}
-                />
+                /> */}
             </main>
             <Footer data={{ ...data.site.siteMetadata }} />
         </Layout>

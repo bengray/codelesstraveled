@@ -32,23 +32,23 @@ const AboutPage = ({ location, data }) => {
             <main className="site-wrapper-reveal">
                 <PageHeader data={content["page-header-section"]} />
                 <AboutArea data={content["about-section"]} />
-                <ITSolutionArea
+                {/* <ITSolutionArea
                     data={{
                         ...content["feature-section"],
                         items: data.allItSolution.nodes,
                     }}
-                />
-                <CtaArea data={content["cta-section"]} />
+                /> */}
+                {/* <CtaArea data={content["cta-section"]} />
                 <SolutionArea data={content["solution-section"]} />
                 <FunFactArea data={content["funfact-section"]} />
-                <TestimonialArea data={content["testimonial-section"]} />
-                <PartnerArea data={content["partner-section"]} />
-                <ContactArea
+                <TestimonialArea data={content["testimonial-section"]} /> */}
+                {/* <PartnerArea data={content["partner-section"]} /> */}
+                {/* <ContactArea
                     data={{
                         ...content["contact-section"],
                         contact: data.site.siteMetadata.contact,
                     }}
-                />
+                /> */}
             </main>
             <Footer data={{ ...data.site.siteMetadata }} />
         </Layout>

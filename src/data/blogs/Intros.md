@@ -4,19 +4,19 @@ date: "2020-01-25 05:01:00"
 author: "Ben Gray"
 image: { src: "../images/blog/blog-07-1170x570.jpg", alt: "techy blog" }
 categories:
-    - success story
-    - tips
+  - success story
+  - tips
 tags:
-    - business
-    - IT Security
-    - IT Services
+  - business
+  - IT Security
+  - IT Services
 format: "quote"
 quote_text: "The use of apps in investment ideas is a great way to enjoy the convenience."
 quote_author: "Beeige Lunmis"
 is_featured: false
 ---
 
-Havsssse you ever thought about a guarantee in which you invest your money and get returns? While people tend to have different ideas on the best ways to invest
+Have you ever thought about a guarantee in which you invest your money and get returns? While people tend to have different ideas on the best ways to invest
 
 <!-- endexcerpt -->
 

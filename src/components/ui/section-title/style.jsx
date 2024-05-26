@@ -14,7 +14,9 @@ export const StyledSectionTitle = styled("div").withConfig({
 })`
     ${typography};
     ${space};
-    ${layout}
+    ${layout};
+    display: flex;
+    flex-direction: column;
 `;
 
 export const StyledTitle = styled.h3`
@@ -56,8 +58,13 @@ export const StyledSubtitle = styled.h6`
 
 export const StyledDesc = styled.p`
     margin-block-start: 20px;
+    align: center;
+    align-self: center;
     ${device.medium} {
         margin-block-start: 30px;
+    }
+    ${device.large} {
+        max-width: 70%;
     }
     ${space}
 `;

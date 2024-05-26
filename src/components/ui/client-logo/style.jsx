@@ -5,6 +5,7 @@ export const BrandLogoWrap = styled.div`
     a {
         display: block;
         text-align: center;
+        cursor: default;
     }
     .brand-logo__image {
         transition: all 0.4s linear;
@@ -77,7 +78,7 @@ export const BrandLogoWrap = styled.div`
                 }
             }
         `}
-    
+
     ${(props) =>
         props.$layout === 4 &&
         css`

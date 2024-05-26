@@ -14,14 +14,14 @@ export const SectionWrap = styled.section`
 `;
 
 export const StyledLeftHeading = styled.h4`
-    font-size: 24px;
+    font-size: 16px;
     span {
         color: ${themeGet("colors.primary")};
     }
     ${device.medium} {
-        font-size: 28px;
+        font-size: 16px;
     }
     ${device.large} {
-        font-size: 38px;
+        font-size: 16px;
     }
 `;

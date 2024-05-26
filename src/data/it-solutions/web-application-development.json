@@ -1,8 +1,7 @@
 {
-    "id": "backup-and-recovery",
-    "title": "Backup and recovery",
-    "tagline": "Reach out to the world’s most reliable IT services.",
-    "excerpt": "We provide the most responsive and functional IT design for companies and businesses worldwide.",
+    "id": "web-application-development",
+    "title": "Web Application Development",
+    "excerpt": "Whether you're a small business or a national brand, we develop custom web applications that are efficient, secure, low-maintenance, and give customers a unique, unforgettable experience.",
     "icon": {
         "svg": {
             "src": "../images/icons/linea-basic-gear.svg"

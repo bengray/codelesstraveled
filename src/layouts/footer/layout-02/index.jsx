@@ -25,9 +25,9 @@ const Footer = ({ data }) => {
             <FooterTop>
                 <Container>
                     <Row>
-                        <Col lg={4} sm={6}>
+                        <Col lg={4} sm={7}>
                             <FooterWidget mb={["31px", null, null, 0]}>
-                                <StyledWidgetTitle>Company</StyledWidgetTitle>
+                                <StyledWidgetTitle>Code Less Traveled</StyledWidgetTitle>
                                 {data?.contact && (
                                     <div>
                                         {data.contact?.address && (
@@ -45,7 +45,7 @@ const Footer = ({ data }) => {
                                                 </Anchor>
                                             </Text>
                                         )}
-                                        {data.contact?.phone && (
+                                        {/* {data.contact?.phone && (
                                             <Text mb="10px">
                                                 <Anchor
                                                     path={`tel:${data.contact.phone}`}
@@ -55,7 +55,7 @@ const Footer = ({ data }) => {
                                                     {data.contact.phone}
                                                 </Anchor>
                                             </Text>
-                                        )}
+                                        )} */}
                                         {data.contact?.website && (
                                             <Text mb="10px">
                                                 <Anchor
@@ -94,7 +94,7 @@ const Footer = ({ data }) => {
                                 )}
                             </FooterWidget>
                         </Col>
-                        <Col lg={2} md={4} sm={6}>
+                        <Col lg={3} md={5} sm={7}>
                             <FooterWidget mb={["31px", null, null, 0]}>
                                 <StyledWidgetTitle>
                                     IT Services
@@ -102,43 +102,43 @@ const Footer = ({ data }) => {
                                 <FooterWidgetList>
                                     <li>
                                         <Anchor path="/" $hover={{ layout: 2 }}>
-                                            Managed IT
+                                            Custom Software
                                         </Anchor>
                                     </li>
                                     <li>
                                         <Anchor path="/" $hover={{ layout: 2 }}>
-                                            IT Support
+                                            Testing & QA Services
                                         </Anchor>
                                     </li>
                                     <li>
                                         <Anchor path="/" $hover={{ layout: 2 }}>
-                                            IT Consultancy
+                                            Web Application
                                         </Anchor>
                                     </li>
                                     <li>
                                         <Anchor path="/" $hover={{ layout: 2 }}>
-                                            Cloud Computing
+                                            Project Takeover
                                         </Anchor>
                                     </li>
                                     <li>
                                         <Anchor path="/" $hover={{ layout: 2 }}>
-                                            Cyber Security
+                                            UI/UX Design
+                                        </Anchor>
+                                    </li>
+                                    <li>
+                                        <Anchor path="/" $hover={{ layout: 2 }}>
+                                            Website Development
                                         </Anchor>
                                     </li>
                                 </FooterWidgetList>
                             </FooterWidget>
                         </Col>
-                        <Col lg={2} md={4} sm={6}>
+                        <Col lg={3} md={5} sm={7}>
                             <FooterWidget mb={["27px", null, 0]}>
                                 <StyledWidgetTitle>
                                     Quick links
                                 </StyledWidgetTitle>
                                 <FooterWidgetList>
-                                    <li>
-                                        <Anchor path="/" $hover={{ layout: 2 }}>
-                                            Pick up locations
-                                        </Anchor>
-                                    </li>
                                     <li>
                                         <Anchor path="/" $hover={{ layout: 2 }}>
                                             Terms of Payment
@@ -147,11 +147,6 @@ const Footer = ({ data }) => {
                                     <li>
                                         <Anchor path="/" $hover={{ layout: 2 }}>
                                             Privacy Policy
-                                        </Anchor>
-                                    </li>
-                                    <li>
-                                        <Anchor path="/" $hover={{ layout: 2 }}>
-                                            Where to Find Us
                                         </Anchor>
                                     </li>
                                 </FooterWidgetList>
@@ -163,11 +158,6 @@ const Footer = ({ data }) => {
                                 <FooterWidgetList>
                                     <li>
                                         <Anchor path="/" $hover={{ layout: 2 }}>
-                                            Forum Support
-                                        </Anchor>
-                                    </li>
-                                    <li>
-                                        <Anchor path="/" $hover={{ layout: 2 }}>
                                             Help &amp; FAQ
                                         </Anchor>
                                     </li>
@@ -176,7 +166,7 @@ const Footer = ({ data }) => {
                                             Contact Us
                                         </Anchor>
                                     </li>
-                                    <li>
+                                    {/* <li>
                                         <Anchor path="/" $hover={{ layout: 2 }}>
                                             Pricing and plans
                                         </Anchor>
@@ -185,33 +175,7 @@ const Footer = ({ data }) => {
                                         <Anchor path="/" $hover={{ layout: 2 }}>
                                             Cookies Policy
                                         </Anchor>
-                                    </li>
-                                </FooterWidgetList>
-                            </FooterWidget>
-                        </Col>
-                        <Col lg={2} md={4} sm={6}>
-                            <FooterWidget mt={["34px", null, "50px"]}>
-                                <FooterWidgetList>
-                                    <li>
-                                        <Button path="/" imgbutton shadow>
-                                            <StaticImage
-                                                src="../../../assets//images/icons/aeroland-button-google-play.jpg"
-                                                alt="Google Play"
-                                                width={162}
-                                                height={48}
-                                            />
-                                        </Button>
-                                    </li>
-                                    <li>
-                                        <Button path="/" imgbutton shadow>
-                                            <StaticImage
-                                                src="../../../assets//images/icons/aeroland-button-app-store.jpg"
-                                                alt="App Store"
-                                                width={162}
-                                                height={48}
-                                            />
-                                        </Button>
-                                    </li>
+                                    </li> */}
                                 </FooterWidgetList>
                             </FooterWidget>
                         </Col>
@@ -219,17 +183,9 @@ const Footer = ({ data }) => {
                 </Container>
             </FooterTop>
             <FooterBottom>
-                <LogoWidget>
-                    <StaticImage
-                        src="../../../assets/images/logo/primary-white-logo-160x47.png"
-                        alt="logo"
-                        width={165}
-                        height={48}
-                    />
-                </LogoWidget>
                 {data?.copyright && (
                     <Text pb={["15px", 0]}>
-                        &copy; {new Date().getFullYear()}{" "}
+                        &copy; 2023-{new Date().getFullYear()}{" "}
                         <span
                             dangerouslySetInnerHTML={{
                                 __html: data.copyright,

@@ -39,7 +39,8 @@ const HeroArea = ({ data }) => {
                                     }}
                                 />
                             )}
-                            {data?.headings?.[1] && (
+                            <Col md={7}>
+                                {data?.headings?.[1] && (
                                 <StyledSubtitle
                                     as={data.headings[1]?.level}
                                     dangerouslySetInnerHTML={{
@@ -47,6 +48,8 @@ const HeroArea = ({ data }) => {
                                     }}
                                 />
                             )}
+                            </Col>
+
 
                             <StyledBookBox>
                                 <StyledBookBoxImage>

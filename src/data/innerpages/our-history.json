@@ -6,13 +6,13 @@
             "id": "our-history-timeline",
             "section": "timeline-section",
             "section_title": {
-                "title": "We create dreams <span>for the future.</span> <br/> We realize them sucessfully.",
-                "description": "You know that you found your dream when you have a desire to achieve a goal, have the gut to pursue it, have the courage to overcome any obstacles on your path and feel blessed when finally realizing it. Dream on, keep up and make it pay off."
+                "title": "What a long, strange trip it's been.",
+                "description": ""
             },
             "items": [
                 {
                     "id": 1,
-                    "title": "The Foundation of Mitech",
+                    "title": "The Foundation of Code Less Traveled",
                     "description": "The beginning of Mitech Co. was laid by three men: Jackie Moodle, Alan Morray and Burrow Kills. Back in 1988, three passionate young pupils, whose major is Information Technology, had discussed with each other about starting a company to deliver technological & digital services in an old rented apartment.",
                     "images": [
                         {

@@ -29,19 +29,18 @@ const Footer = ({ data }) => {
                             <FooterWidget mb={["31px", null, null, 0]}>
                                 <LogoWidget>
                                     <StaticImage
-                                        src="../../../assets/images/logo/dark-logo-160x48.png"
+                                        src="../../../assets/images/logo/clt-logo-v3.png"
                                         alt="logo"
-                                        width={160}
-                                        height={48}
+                                        height={18}
                                     />
                                 </LogoWidget>
                                 {data?.contact && (
                                     <TextWidget>
-                                        {data.contact?.address && (
+                                        {/* {data.contact?.address && (
                                             <Text mb="10px">
                                                 {data.contact.address}
                                             </Text>
-                                        )}
+                                        )} */}
                                         {data.contact?.email && (
                                             <Text mb="10px">
                                                 <Anchor
@@ -53,18 +52,17 @@ const Footer = ({ data }) => {
                                                 </Anchor>
                                             </Text>
                                         )}
-                                        {data.contact?.phone && (
+                                        {/* {data.contact?.phone && (
                                             <Text mb="10px">
                                                 <Anchor
                                                     path={`tel:${data.contact.phone}`}
-                                                    fontWeight="800"
                                                     color="heading"
                                                     $hover={{ layout: 2 }}
                                                 >
                                                     {data.contact.phone}
                                                 </Anchor>
                                             </Text>
-                                        )}
+                                        )} */}
                                         {data.contact?.website && (
                                             <Text mb="10px">
                                                 <Anchor
@@ -79,7 +77,7 @@ const Footer = ({ data }) => {
                                 )}
                             </FooterWidget>
                         </Col>
-                        <Col lg={2} md={4} sm={6}>
+                        <Col lg={3} md={5} sm={6}>
                             <FooterWidget mb={["31px", null, null, 0]}>
                                 <Heading as="h6" mt="-3px" mb="20px">
                                     IT Services
@@ -91,7 +89,7 @@ const Footer = ({ data }) => {
                                             color="text"
                                             $hover={{ layout: 2 }}
                                         >
-                                            Managed IT
+                                            Custom Software
                                         </Anchor>
                                     </li>
                                     <li>
@@ -100,7 +98,7 @@ const Footer = ({ data }) => {
                                             color="text"
                                             $hover={{ layout: 2 }}
                                         >
-                                            IT Support
+                                            Testing & QA Services
                                         </Anchor>
                                     </li>
                                     <li>
@@ -109,7 +107,7 @@ const Footer = ({ data }) => {
                                             color="text"
                                             $hover={{ layout: 2 }}
                                         >
-                                            IT Consultancy
+                                            Web Application
                                         </Anchor>
                                     </li>
                                     <li>
@@ -118,7 +116,7 @@ const Footer = ({ data }) => {
                                             color="text"
                                             $hover={{ layout: 2 }}
                                         >
-                                            Cloud Computing
+                                            Project Takeover
                                         </Anchor>
                                     </li>
                                     <li>
@@ -127,27 +125,27 @@ const Footer = ({ data }) => {
                                             color="text"
                                             $hover={{ layout: 2 }}
                                         >
-                                            Cyber Security
+                                            UI/UX Design
+                                        </Anchor>
+                                    </li>
+                                    <li>
+                                        <Anchor
+                                            path="/"
+                                            color="text"
+                                            $hover={{ layout: 2 }}
+                                        >
+                                            Website Development
                                         </Anchor>
                                     </li>
                                 </FooterWidgetList>
                             </FooterWidget>
                         </Col>
-                        <Col lg={2} md={4} sm={6}>
+                        <Col lg={3} md={5} sm={6}>
                             <FooterWidget mb={["27px", null, 0]}>
                                 <Heading as="h6" mt="-3px" mb="20px">
                                     Quick links
                                 </Heading>
                                 <FooterWidgetList>
-                                    <li>
-                                        <Anchor
-                                            path="/"
-                                            color="text"
-                                            $hover={{ layout: 2 }}
-                                        >
-                                            Pick up locations
-                                        </Anchor>
-                                    </li>
                                     <li>
                                         <Anchor
                                             path="/"
@@ -166,15 +164,6 @@ const Footer = ({ data }) => {
                                             Privacy Policy
                                         </Anchor>
                                     </li>
-                                    <li>
-                                        <Anchor
-                                            path="/"
-                                            color="text"
-                                            $hover={{ layout: 2 }}
-                                        >
-                                            Where to Find Us
-                                        </Anchor>
-                                    </li>
                                 </FooterWidgetList>
                             </FooterWidget>
                         </Col>
@@ -186,16 +175,7 @@ const Footer = ({ data }) => {
                                 <FooterWidgetList>
                                     <li>
                                         <Anchor
-                                            path="/"
-                                            color="text"
-                                            $hover={{ layout: 2 }}
-                                        >
-                                            Forum Support
-                                        </Anchor>
-                                    </li>
-                                    <li>
-                                        <Anchor
-                                            path="/"
+                                            path="/faq"
                                             color="text"
                                             $hover={{ layout: 2 }}
                                         >
@@ -204,7 +184,7 @@ const Footer = ({ data }) => {
                                     </li>
                                     <li>
                                         <Anchor
-                                            path="/"
+                                            path="/contact-us"
                                             color="text"
                                             $hover={{ layout: 2 }}
                                         >
@@ -217,43 +197,8 @@ const Footer = ({ data }) => {
                                             color="text"
                                             $hover={{ layout: 2 }}
                                         >
-                                            Pricing and plans
-                                        </Anchor>
-                                    </li>
-                                    <li>
-                                        <Anchor
-                                            path="/"
-                                            color="text"
-                                            $hover={{ layout: 2 }}
-                                        >
                                             Cookies Policy
                                         </Anchor>
-                                    </li>
-                                </FooterWidgetList>
-                            </FooterWidget>
-                        </Col>
-                        <Col lg={2} md={4} sm={6}>
-                            <FooterWidget mt={["34px", null, "50px"]}>
-                                <FooterWidgetList>
-                                    <li>
-                                        <Button path="/" imgbutton shadow>
-                                            <StaticImage
-                                                src="../../../assets//images/icons/aeroland-button-google-play.jpg"
-                                                alt="Google Play"
-                                                width={162}
-                                                height={48}
-                                            />
-                                        </Button>
-                                    </li>
-                                    <li>
-                                        <Button path="/" imgbutton shadow>
-                                            <StaticImage
-                                                src="../../../assets//images/icons/aeroland-button-app-store.jpg"
-                                                alt="App Store"
-                                                width={162}
-                                                height={48}
-                                            />
-                                        </Button>
                                     </li>
                                 </FooterWidgetList>
                             </FooterWidget>

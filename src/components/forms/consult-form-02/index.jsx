@@ -2,6 +2,7 @@ import { useForm } from "react-hook-form";
 import { Row, Col } from "@ui/wrapper";
 import { FormGroup, Input, Select } from "@ui/form-elements";
 import Button from "@ui/button";
+import axios from "axios";
 import { hasKey } from "@utils";
 
 const ConsultForm = () => {
@@ -11,7 +12,16 @@ const ConsultForm = () => {
         formState: { errors },
     } = useForm();
     const onSubmit = (data) => {
-        console.log(data);
+        axios
+            .post("https://getform.io/f/nbdoxkra", {
+                name: data.con_email,
+                email: data.con_email,
+                subject: data.message,
+                message: data.message,
+            },
+            { headers: {'Accept': 'application/json'}})
+            .then(response => console.log(response))
+            .catch(error => console.log(error))
     };
     return (
         <form onSubmit={handleSubmit(onSubmit)}>
@@ -42,30 +52,29 @@ const ConsultForm = () => {
                 <Col lg={6}>
                     <FormGroup mb={20}>
                         <Select
-                            id="visiting"
+                            id="message"
                             defaultValue=""
-                            feedbackText={errors?.visiting?.message}
+                            feedbackText={errors?.message?.message}
                             state={
-                                hasKey(errors, "visiting") ? "error" : "success"
+                                hasKey(errors, "message") ? "error" : "success"
                             }
-                            showState={!!hasKey(errors, "visiting")}
-                            {...register("visiting", {
+                            showState={!!hasKey(errors, "message")}
+                            {...register("message", {
                                 required: "Select a field",
                             })}
                         >
-                            <option value="">Select Department to email</option>
-                            <option value="Your inquiry about">
-                                Your inquiry about
+                            <option value="">How can we help you?</option>
+                            <option value="Improve Your Existing Website">
+                                Improve Your Existing Website
                             </option>
-                            <option value="General Information Request">
-                                General Information Request
+                            <option value="Build A New Website">
+                                Build A New Website
                             </option>
-                            <option value="Partner Relations">
-                                Partner Relations
+                            <option value="Build A Custom Software Application">
+                                Build A Custom Software Application
                             </option>
-                            <option value="Careers">Careers</option>
-                            <option value="Software Licencing">
-                                Software Licencing
+                            <option value="Work For Code Less Traveled">
+                                Work For Code Less Traveled
                             </option>
                         </Select>
                     </FormGroup>

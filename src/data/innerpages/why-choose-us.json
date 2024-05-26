@@ -6,23 +6,23 @@
             "id": "why-choose-us-about",
             "section": "about-section",
             "section_title": {
-                "title": "Preparing for your success, <br> we provide <span>truly prominent IT solutions.</span>",
-                "description": "The IT services that Mitech are running can be segmented by the type of skills employed to deliver the service (design, build, run). Technically, these fall into three main categories: business process services, application services, and infrastructure services."
+                "title": "Seeing you succeed is <span>our mission.</span>",
+                "description": "There are a lot of web development companies out there, and we know it. You need a company that understands how your brain works, how you work, and how to help you find success in a world that just doesn't seem to get it."
             },
             "headings": [
                 {
                     "level": "h2",
-                    "content": "<mark>38</mark> YEARS’ EXPERIENCE IN IT"
+                    "content": "<mark>20</mark> YEARS EXPERIENCE IN WEB DEV AND INOFORMATION TECHNOLOGY"
                 },
                 {
-                    "level": "h4",
-                    "content": "Learn More About Our <span>Success Stories</span>"
+                    "level": "h6",
+                    "content": "We've been around the block. This isn't our first rodeo. We didn't just fall off the turnip truck, we weren't born yesterday... and other odd colloquialisms."
                 }
             ],
             "items": [
                 {
                     "id": 1,
-                    "title": "UI/UX",
+                    "title": "UI/UX Development and Design",
                     "value": 90
                 },
                 {

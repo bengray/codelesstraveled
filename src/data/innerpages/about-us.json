@@ -7,19 +7,19 @@
             "section": "page-header-section",
             "images": [
                 {
-                    "src": "../images/banner/banner-09.jpg",
+                    "src": "../images/banner/two-roads-wood.jpg",
                     "alt": "page header"
                 }
             ],
             "headings": [
                 {
                     "level": "h1",
-                    "content": "About Mitech"
+                    "content": "About Code Less Traveled"
                 }
             ],
             "texts": [
                 {
-                    "content": "Mitech specializes in technological and IT-related services such as product engineering, warranty management, building cloud, infrastructure, network, etc."
+                    "content": "Two roads diverged in a wood, and I — I took the one less traveled by, and that has made all the difference."
                 }
             ]
         },
@@ -27,22 +27,22 @@
             "id": "aboutus-about",
             "section": "about-section",
             "section_title": {
-                "title": "We run all kinds of IT services that <br/> vow your <span>success</span>",
+                "title": "We've been where you are, and we know <br />what it takes to <span>succeed</span>",
                 "subtitle": "OUR COMPANY"
             },
             "headings": [
                 {
                     "level": "h2",
-                    "content": "<mark>38</mark> YEARS’ EXPERIENCE IN IT"
+                    "content": "<mark>20</mark> YEARS EXPERIENCE IN WEB DEVELOPMENT AND IT"
                 },
                 {
                     "level": "h6",
-                    "content": "Learn more about our Success Stories"
+                    "content": "We've been around the block. This isn't our first rodeo. We didn't just fall off the turnip truck, we weren't born yesterday... and other odd colloquialisms."
                 }
             ],
             "texts": [
                 {
-                    "content": "Mitech specializes in technological and IT-related services such as product engineering, warranty management, building cloud, infrastructure, network, etc. We put a strong focus on the needs of your business to figure out solutions that best fits your demand and nail it."
+                    "content": "Code Less Traveled specializes in software and IT-related services such as product engineering, building cloud applications & infrastructure, networking, and all manner of other software needs. We put a strong focus on the needs of your business to figure out solutions that best fits your demand and execute it to perfection. We work with a wide variety of entrepreneurs and businesses, and are open to any startup or company that requires a personal touch to their web and software development needs."
                 }
             ],
             "buttons": [
@@ -58,8 +58,8 @@
                     "disableHover": false,
                     "hoverStyle": "one",
                     "fontWeight": 500,
-                    "path": "/about-us",
-                    "content": "Discover Now"
+                    "path": "/contact-us",
+                    "content": "Contact us today"
                 }
             ]
         },
