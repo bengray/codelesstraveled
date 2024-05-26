@@ -23,8 +23,8 @@
     },
     "is_featured": true,
     "featured_image": {
-        "src": "../images/box-image/image-06-480x298.jpg",
-        "alt": "Business Reform"
+        "src": "../images/box-image/custom-software-box.jpg",
+        "alt": "image of cell phone with design"
     },
     "banner_image": {
         "src": "../images/banner/friendly-programmer.jpg",
@@ -77,8 +77,8 @@
             ],
             "images": [
                 {
-                    "src": "../images/about-us/video-01-image-01-570x350.jpg",
-                    "alt": "Business Reform image"
+                    "src": "../images/about-us/custom-software.jpg",
+                    "alt": "cell phone with design on its screen"
                 }
             ],
             "video_button": {

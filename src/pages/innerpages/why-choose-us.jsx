@@ -17,7 +17,7 @@ const WhyChooseUsPage = ({ pageContext, location, data }) => {
 
     return (
         <Layout location={location}>
-            <Seo title="Why Choose Us" />
+            <Seo title="Why Choose Us Code Less Traveled" />
             <Header
                 data={{
                     ...globalContent["header"],
@@ -28,7 +28,7 @@ const WhyChooseUsPage = ({ pageContext, location, data }) => {
                 <PageHeader
                     pageContext={pageContext}
                     location={location}
-                    title="Why Choose Us"
+                    title="Why Choose Code Less Traveled"
                 />
                 <AboutArea data={content["about-section"]} />
                 {/* <ITServiceArea

@@ -1,6 +1,6 @@
 {
     "id": "testing-and-qa",
-    "title": "Comprehensive Software Testing and QA Services",
+    "title": "Testing and QA",
     "excerpt": "Whether you have a desktop, mobile, or web-based product, our team uses a targeted strategy to provide quick testing and QA.",
     "icon": {
         "svg": {
@@ -16,7 +16,7 @@
         ]
     },
     "featured_image": {
-        "src": "../images/box-image/image-03-370x370.jpg"
+        "src": "../images/box-image/qa-testing-box.jpg"
     },
     "banner_image": {
         "src": "../images/banner/friendly-programmer.jpg"
@@ -69,8 +69,8 @@
             ],
             "images": [
                 {
-                    "src": "../images/about-us/video-01-image-01-570x350.jpg",
-                    "alt": "Business Reform image"
+                    "src": "../images/about-us/qa-testing.jpg",
+                    "alt": "hand putting cassette into toaster"
                 }
             ],
             "video_button": {

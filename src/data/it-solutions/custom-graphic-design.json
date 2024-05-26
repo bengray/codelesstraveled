@@ -1,7 +1,7 @@
 {
-    "id": "custom-software-development",
-    "title": "Custom Software Development",
-    "excerpt": "We specialize in end-to-end delivery of custom technological solutions, from developers who are completely capable of delivering solutions and value in a timely and effective manner.",
+    "id": "custom-graphic-design",
+    "title": "Custom Graphic Design",
+    "excerpt": "Totally awesome at graphic design.",
     "icon": {
         "svg": {
             "src": "../images/icons/linea-ecommerce-money.svg"
@@ -16,7 +16,7 @@
         ]
     },
     "featured_image": {
-        "src": "../images/box-image/image-09-370x370.jpg"
+        "src": "../images/box-image/laptop-graphics-box.jpg"
     },
     "banner_image": {
         "src": "../images/banner/friendly-programmer.jpg"
@@ -29,16 +29,16 @@
             "headings": [
                 {
                     "level": "h3",
-                    "content": "Learn More About Our <span> Success <br /> Stories</span>"
+                    "content": "We've built custom software for some of the largest corporations <span>on the planet.</span>"
                 },
                 {
                     "level": "h5",
-                    "content": "Code Less Traveled specializes in <span>technological and IT-related services</span> such as product engineering, warranty management, building cloud, infrastructure, network, etc."
+                    "content": "We're the scalable, inventive, and competitive partner <span>you've been looking for</span> for custom software development."
                 }
             ],
             "texts": [
                 {
-                    "content": "We’re available for 8 hours a day! <br/>Contact to require a detailed analysis and assessment of your plan."
+                    "content": "We specialize in end-to-end delivery of custom technological solutions, from fully managed delivery teams to individual skilled software developers completely capable of delivering solutions and value in a timely and effective manner."
                 }
             ]
         },
@@ -48,29 +48,19 @@
             "items": [
                 {
                     "id": 1,
-                    "title": "New multiple site connectivity",
+                    "title": "Scalable -- Horizontally and Vertically",
                     "description": "We use a newly developed technology to connect sites that are based on different types of servers and networks, SiteConnect, which helps to reduce the misinterpretation of signals as well as the loss of data during transfering."
                 },
                 {
                     "id": 2,
-                    "title": "IT Security & Software",
+                    "title": "Secure",
                     "description": "To keep your systems, your devices, and network stay secure, we have developed a new program that limits the access of suspicious objects or people and authenticate all logins to the system."
-                },
-                {
-                    "id": 3,
-                    "title": "Weak hosted capability",
-                    "description": "Some hosts are unaware of the potential risks as well as security loopholes in their system. By detecting these errors and taking prompt actions on improving firewalls, we can upgrade the system security."
-                },
-                {
-                    "id": 4,
-                    "title": "Build internal network",
-                    "description": "The internal network is essential for all companies and corporations, especially for those working in IT sector. To avoid possible risks when sharing internal confidential files and documentation to an external receiver, internal network must be strong."
                 }
             ],
             "images": [
                 {
-                    "src": "../images/about-us/video-01-image-01-570x350.jpg",
-                    "alt": "Business Reform image"
+                    "src": "../images/about-us/laptop-graphics.jpg",
+                    "alt": "cell phone with design on its screen"
                 }
             ]
         },

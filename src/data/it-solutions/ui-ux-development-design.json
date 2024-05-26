@@ -16,7 +16,7 @@
         ]
     },
     "featured_image": {
-        "src": "../images/box-image/image-08-370x370.jpg"
+        "src": "../images/box-image/ui-ux-box.jpg"
     },
     "banner_image": {
         "src": "../images/banner/friendly-programmer.jpg"
@@ -69,7 +69,7 @@
             ],
             "images": [
                 {
-                    "src": "../images/about-us/video-01-image-01-570x350.jpg",
+                    "src": "../images/about-us/ui-ux.jpg",
                     "alt": "Business Reform image"
                 }
             ],
