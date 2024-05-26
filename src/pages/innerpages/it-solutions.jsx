@@ -37,7 +37,7 @@ const ItSolutionsPage = ({ pageContext, location, data }) => {
                     space={2}
                 />
 
-                <ContactArea data={content["contact-section"]} />
+                {/* <ContactArea data={content["contact-section"]} /> */}
             </main>
             <Footer data={{ ...data.site.siteMetadata }} />
         </Layout>

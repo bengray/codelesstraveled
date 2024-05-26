@@ -37,7 +37,39 @@
         {
             "id": "menu-3",
             "text": "IT Solutions",
-            "link": "/it-solutions"
+            "link": "/it-solutions",
+            "submenu": [
+                {
+                    "id": "menu-31",
+                    "text": "Project Takeover",
+                    "link": "/it-solution/project-takeover"
+                },
+                {
+                    "id": "menu-32",
+                    "text": "Custom Website Development",
+                    "link": "/it-solution/custom-website-development"
+                },
+                {
+                    "id": "menu-33",
+                    "text": "UI/UX Development",
+                    "link": "/it-solution/uiux-development-and-design"
+                },
+                {
+                    "id": "menu-34",
+                    "text": "Web Application Development",
+                    "link": "/it-solution/web-application-development"
+                },
+                {
+                    "id": "menu-35",
+                    "text": "Custom Graphic Design",
+                    "link": "/it-solution/custom-graphic-design"
+                },
+                {
+                    "id": "menu-36",
+                    "text": "Testing and QA",
+                    "link": "/it-solution/testing-and-qa"
+                }
+            ]
         },
         {
             "id": "menu-6",
