@@ -3,15 +3,15 @@ import styled, { device } from "@styled";
 export const PageHeaderWrap = styled.div`
     position: relative;
     isolation: isolate;
-    padding-block-start: 60px;
-    padding-block-end: 60px;
+    padding-block-start: 20px;
+    padding-block-end: 20px;
     ${device.medium} {
-        padding-block-start: 100px;
-        padding-block-end: 100px;
+        padding-block-start: 75px;
+        padding-block-end: 75px;
     }
     ${device.large} {
-        padding-block-start: 192px;
-        padding-block-end: 165px;
+        padding-block-start: 75px;
+        padding-block-end: 75px;
     }
 `;
 

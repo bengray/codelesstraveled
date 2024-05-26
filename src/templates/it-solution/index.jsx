@@ -58,8 +58,8 @@ const ITSolutionTemplate = ({ location, data }) => {
                 </BannerArea>
                 <IntroArea data={content["intro-section"]} />
                 <FaqArea space={2} data={content["faq-section"]} />
-                <WhatsNewArea space={2} data={content["whats-new-section"]} />
-                <CtaArea data={content["cta-section"]} />
+                {/* <WhatsNewArea space={2} data={content["whats-new-section"]} /> */}
+                {/* <CtaArea data={content["cta-section"]} /> */}
             </main>
             <Footer data={{ ...data.site.siteMetadata }} />
         </Layout>

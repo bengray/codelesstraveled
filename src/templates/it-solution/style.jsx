@@ -3,12 +3,12 @@ import styled, { device } from "@styled";
 export const BannerArea = styled.section`
     position: relative;
     isolation: isolate;
-    padding-block-start: 100px;
-    padding-block-end: 104px;
+    padding-block-start: 60px;
+    padding-block-end: 60px;
 
     ${device.large} {
-        padding-block-start: 195px;
-        padding-block-end: 204px;
+        padding-block-start: 60px;
+        padding-block-end: 60px;
     }
 `;
 
@@ -24,7 +24,7 @@ export const StyledBG = styled.div`
 
 export const StyledBannerTextWrap = styled.div`
     text-align: center;
-    max-width: 750px;
+    max-width: 1000px;
     margin-inline: auto;
 `;
 

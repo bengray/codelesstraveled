@@ -19,7 +19,7 @@
         "src": "../images/box-image/image-09-370x370.jpg"
     },
     "banner_image": {
-        "src": "../images/banner/banner-06.jpg"
+        "src": "../images/banner/friendly-programmer.jpg"
     },
     "is_featured": true,
     "content": [
@@ -33,7 +33,7 @@
                 },
                 {
                     "level": "h5",
-                    "content": "Mitech specializes in <span>technological and IT-related services</span> such as product engineering, warranty management, building cloud, infrastructure, network, etc."
+                    "content": "Code Less Traveled specializes in <span>technological and IT-related services</span> such as product engineering, warranty management, building cloud, infrastructure, network, etc."
                 }
             ],
             "texts": [
@@ -72,10 +72,7 @@
                     "src": "../images/about-us/video-01-image-01-570x350.jpg",
                     "alt": "Business Reform image"
                 }
-            ],
-            "video_button": {
-                "link": "https://www.youtube.com/watch?v=9No-FiEInLA"
-            }
+            ]
         },
         {
             "id": "features",

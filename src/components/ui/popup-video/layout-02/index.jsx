@@ -23,12 +23,12 @@ const PopupVideo = ({ image, video_button, className }) => {
                         alt={image?.alt || "Popup thumbnail"}
                     />
                 )}
-                <VideoBtnWrap>
+                {/* <VideoBtnWrap>
                     <VideoButton
                         color="primary"
                         onClick={() => setVideoOpen(true)}
                     />
-                </VideoBtnWrap>
+                </VideoBtnWrap> */}
             </PopupVideoWrap>
             {!isSSR && (
                 <React.Suspense fallback={<div />}>

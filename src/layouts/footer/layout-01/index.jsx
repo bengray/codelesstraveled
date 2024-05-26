@@ -212,7 +212,7 @@ const Footer = ({ data }) => {
                         <Col md={6} textAlign={["center", null, "left"]}>
                             {data?.copyright && (
                                 <Text pb={["15px", 0]}>
-                                    &copy; {new Date().getFullYear()}{" "}
+                                    &copy; 2023 - {new Date().getFullYear()}{" "}
                                     <span
                                         dangerouslySetInnerHTML={{
                                             __html: data.copyright,

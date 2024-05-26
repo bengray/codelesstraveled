@@ -16,10 +16,10 @@
         ]
     },
     "featured_image": {
-        "src": "../images/box-image/image-06-370x370.jpg"
+        "src": "../images/box-image/help-is-here-box.jpg"
     },
     "banner_image": {
-        "src": "../images/banner/banner-04.jpg"
+        "src": "../images/banner/friendly-programmer.jpg"
     },
     "is_featured": true,
     "content": [
@@ -29,16 +29,16 @@
             "headings": [
                 {
                     "level": "h3",
-                    "content": "Learn More About Our <span> Success <br /> Stories</span>"
+                    "content": "Don't let what is stand in the way of <span>what could be.</span>"
                 },
                 {
                     "level": "h5",
-                    "content": "Mitech specializes in <span>technological and IT-related services</span> such as product engineering, warranty management, building cloud, infrastructure, network, etc."
+                    "content": "It happens all the time. A company hires someone to develop a website, only to realize sooner or later that it just isn’t working out."
                 }
             ],
             "texts": [
                 {
-                    "content": "We’re available for 8 hours a day! <br/>Contact to require a detailed analysis and assessment of your plan."
+                    "content": " Maybe the development has outgrown the capacity of the existing developer. Perhaps you simply aren’t happy with the results, or you realize they just don't understand your needs. Regardless of the reason, our team is experienced and ready to analyze your situation, determine the next best steps, and get your online presence back on track."
                 }
             ]
         },
@@ -48,28 +48,18 @@
             "items": [
                 {
                     "id": 1,
-                    "title": "New multiple site connectivity",
-                    "description": "We use a newly developed technology to connect sites that are based on different types of servers and networks, SiteConnect, which helps to reduce the misinterpretation of signals as well as the loss of data during transfering."
+                    "title": "Fix your WordPress website",
+                    "description": "We've been working with WordPress since 2005. We were on the ground-floor of its creation and have been making modifications to this popular CMS ever since."
                 },
                 {
                     "id": 2,
-                    "title": "IT Security & Software",
-                    "description": "To keep your systems, your devices, and network stay secure, we have developed a new program that limits the access of suspicious objects or people and authenticate all logins to the system."
-                },
-                {
-                    "id": 3,
-                    "title": "Weak hosted capability",
-                    "description": "Some hosts are unaware of the potential risks as well as security loopholes in their system. By detecting these errors and taking prompt actions on improving firewalls, we can upgrade the system security."
-                },
-                {
-                    "id": 4,
-                    "title": "Build internal network",
-                    "description": "The internal network is essential for all companies and corporations, especially for those working in IT sector. To avoid possible risks when sharing internal confidential files and documentation to an external receiver, internal network must be strong."
+                    "title": "Take over your custom web application",
+                    "description": "Whether you need a team to finish building your application, or just need someone to make changes to a finished product, our team has the experience you need.  We have been building web applications for over two decades. We've built custom software for CNN, Kelley Blue Book, Cricket Wireless, Autotrader, Rooms To Go and Floor & Decor.  We know what it takes to build scalable software that makes you money."
                 }
             ],
             "images": [
                 {
-                    "src": "../images/about-us/video-01-image-01-570x350.jpg",
+                    "src": "../images/about-us/help-is-here.jpg",
                     "alt": "Business Reform image"
                 }
             ],
