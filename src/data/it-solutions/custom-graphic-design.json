@@ -49,13 +49,23 @@
             "items": [
                 {
                     "id": 1,
-                    "title": "Scalable -- Horizontally and Vertically",
-                    "description": "We use a newly developed technology to connect sites that are based on different types of servers and networks, SiteConnect, which helps to reduce the misinterpretation of signals as well as the loss of data during transfering."
+                    "title": "Item 1",
+                    "description": "Description 1"
                 },
                 {
                     "id": 2,
-                    "title": "Secure",
-                    "description": "To keep your systems, your devices, and network stay secure, we have developed a new program that limits the access of suspicious objects or people and authenticate all logins to the system."
+                    "title": "Item 2",
+                    "description": "Description 2"
+                },
+                {
+                    "id": 3,
+                    "title": "Item 3",
+                    "description": "Description 3"
+                },
+                {
+                    "id": 4,
+                    "title": "Item 4",
+                    "description": "Description 4"
                 }
             ],
             "images": [

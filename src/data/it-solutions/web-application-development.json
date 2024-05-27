@@ -37,16 +37,16 @@
             "headings": [
                 {
                     "level": "h3",
-                    "content": "Web application"
+                    "content": "We've built web apps for some of the <span>largest companies on the planet.</span>"
                 },
                 {
                     "level": "h5",
-                    "content": "Web applications are our bread and butter."
+                    "content": "We're the scalable, inventive, and competitive partner <span>you've been looking for</span> for custom software development."
                 }
             ],
             "texts": [
                 {
-                    "content": "Something here."
+                    "content": "We specialize in end-to-end delivery of custom software solutions. Our skilled software developers are completely capable of delivering solutions and value in a timely and effective manner."
                 }
             ]
         },
@@ -56,23 +56,13 @@
             "items": [
                 {
                     "id": 1,
-                    "title": "Item 1",
-                    "description": "Description 1"
+                    "title": "Scalable",
+                    "description": "As your needs grow, your web application will too."
                 },
                 {
                     "id": 2,
-                    "title": "Item 2",
-                    "description": "Description 2"
-                },
-                {
-                    "id": 3,
-                    "title": "Item 3",
-                    "description": "Description 3"
-                },
-                {
-                    "id": 4,
-                    "title": "Item 4",
-                    "description": "Description 4"
+                    "title": "Secure",
+                    "description": "To keep your systems, your devices, and network stay secure, we diligently use prevailing industry best practices."
                 }
             ],
             "images": [
