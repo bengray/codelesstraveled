@@ -18,8 +18,9 @@
     "featured_image": {
         "src": "../images/box-image/laptop-graphics-box.jpg"
     },
-    "banner_image": {
-        "src": "../images/banner/friendly-programmer.jpg"
+     "banner_image": {
+        "src": "../images/banner/friendly-programmer.jpg",
+        "alt": "Friendly robot looking at a laptop"
     },
     "is_featured": true,
     "content": [

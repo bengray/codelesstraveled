@@ -19,7 +19,8 @@
         "src": "../images/box-image/custom-made-box.jpg"
     },
     "banner_image": {
-        "src": "../images/banner/friendly-programmer.jpg"
+        "src": "../images/banner/friendly-programmer.jpg",
+        "alt": "Friendly robot looking at a laptop"
     },
     "is_featured": true,
     "content": [
@@ -54,23 +55,23 @@
                 {
                     "id": 2,
                     "title": "Responsive & Efficient",
-                    "description": ""
+                    "description": "We build websites with usability in mind. This means that when you partner with us to build your online web presence we deliver a product that looks equally great on a big screen or a cell phone."
                 },
                 {
                     "id": 3,
                     "title": "Secure",
-                    "description": "Some hosts are unaware of the potential risks as well as security loopholes in their system. By detecting these errors and taking prompt actions on improving firewalls, we can upgrade the system security."
+                    "description": "We follow industry best practices to ensure that your webiste meets our strict security standards."
                 },
                 {
                     "id": 4,
                     "title": "Low maintenance",
-                    "description": "The internal network is essential for all companies and corporations, especially for those working in IT sector. To avoid possible risks when sharing internal confidential files and documentation to an external receiver, internal network must be strong."
+                    "description": "Your website should work for you, not the other way around. Our websites are easy to maintain, even if you eventually choose another IT provider."
                 }
             ],
             "images": [
                 {
                     "src": "../images/about-us/custom-made.jpg",
-                    "alt": "Business Reform image"
+                    "alt": "Sign that says custom made"
                 }
             ],
             "video_button": {
