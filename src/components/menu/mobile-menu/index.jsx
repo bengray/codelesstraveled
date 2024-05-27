@@ -33,6 +33,7 @@ const MobileMenu = ({ menuData }) => {
     };
 
     const onClickHandler = (e, selector) => {
+        console.log(e);
         const target = e.target;
         const parentEl = target.parentElement;
         if (
@@ -47,7 +48,6 @@ const MobileMenu = ({ menuData }) => {
                 removeClassFromChildren(sibling);
             });
             removeClassFromChildren(parent);
-            console.log(parent);
             parent.classList.toggle("submenu-open");
         }
     };
@@ -61,7 +61,7 @@ const MobileMenu = ({ menuData }) => {
                     const menuIndex = i;
                     return (
                         <StyledNavitem
-                            key={`mainmenu-${menu.id}`}
+                            key={`mainmenu-${menu.id}-${i}`}
                             hasSubmenu={submenu}
                             hasMegamenu={megamenu}
                             className="menu-item"
