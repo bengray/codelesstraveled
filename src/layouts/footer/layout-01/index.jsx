@@ -82,21 +82,30 @@ const Footer = ({ data }) => {
                         <Col lg={3} md={5} sm={6}>
                             <FooterWidget mb={["31px", null, null, 0]}>
                                 <Heading as="h6" mt="-3px" mb="20px">
-                                    IT Services
+                                    IT Solutions
                                 </Heading>
                                 <FooterWidgetList>
                                     <li>
                                         <Anchor
-                                            path="/"
+                                            path="/it-solution/custom-website-development/"
                                             color="text"
                                             $hover={{ layout: 2 }}
                                         >
-                                            Custom Software
+                                            Website Development
                                         </Anchor>
                                     </li>
                                     <li>
                                         <Anchor
-                                            path="/"
+                                            path="/it-solution/graphic-design/"
+                                            color="text"
+                                            $hover={{ layout: 2 }}
+                                        >
+                                            Graphic Design
+                                        </Anchor>
+                                    </li>
+                                    <li>
+                                        <Anchor
+                                            path="/it-solution/testing-and-qa/"
                                             color="text"
                                             $hover={{ layout: 2 }}
                                         >
@@ -105,16 +114,16 @@ const Footer = ({ data }) => {
                                     </li>
                                     <li>
                                         <Anchor
-                                            path="/"
+                                            path="/it-solution/web-application-development/"
                                             color="text"
                                             $hover={{ layout: 2 }}
                                         >
-                                            Web Application
+                                            Web Application Development
                                         </Anchor>
                                     </li>
                                     <li>
                                         <Anchor
-                                            path="/"
+                                            path="/it-solution/project-takeover/"
                                             color="text"
                                             $hover={{ layout: 2 }}
                                         >
@@ -123,20 +132,11 @@ const Footer = ({ data }) => {
                                     </li>
                                     <li>
                                         <Anchor
-                                            path="/"
+                                            path="/it-solution/uiux-development-and-design/"
                                             color="text"
                                             $hover={{ layout: 2 }}
                                         >
                                             UI/UX Design
-                                        </Anchor>
-                                    </li>
-                                    <li>
-                                        <Anchor
-                                            path="/"
-                                            color="text"
-                                            $hover={{ layout: 2 }}
-                                        >
-                                            Website Development
                                         </Anchor>
                                     </li>
                                 </FooterWidgetList>
