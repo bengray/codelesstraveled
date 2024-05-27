@@ -49,11 +49,16 @@
             "items": [
                 {
                     "id": 1,
-                    "title": "Fix your WordPress website",
-                    "description": "We've been working with WordPress since 2005. We were on the ground-floor of its creation and have been making modifications to this popular CMS ever since."
+                    "title": "Modify or update your existing website",
+                    "description": "Regardless of how or when your website was built, we the expertise necessary to get into the code and it work and look the way you want."
                 },
                 {
                     "id": 2,
+                    "title": "Modify or update your WordPress website",
+                    "description": "We've been working with WordPress since 2005. We were on the ground-floor of its creation and have been making modifications to this popular CMS ever since. Regardless of your needs, we can update or fix your WordPress website."
+                },
+                {
+                    "id": 3,
                     "title": "Take over your custom web application",
                     "description": "Whether you need a team to finish building your application, or just need someone to make changes to a finished product, our team has the experience you need.  We have been building web applications for over two decades. We've built custom software for CNN, Kelley Blue Book, Cricket Wireless, Autotrader, Rooms To Go and Floor & Decor.  We know what it takes to build scalable software that makes you money."
                 }

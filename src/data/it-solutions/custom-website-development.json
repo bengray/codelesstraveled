@@ -30,7 +30,7 @@
             "headings": [
                 {
                     "level": "h3",
-                    "content": "We've been building websites <span>for over two decades</span>"
+                    "content": "We've been building websites <span>for over two decades.</span>"
                 },
                 {
                     "level": "h5",
@@ -39,7 +39,7 @@
             ],
             "texts": [
                 {
-                    "content": "Whether you're a small business or a national brand. We develop custom websites that are efficient, secure, low-maintenance, and give users a unique, unforgettable experience."
+                    "content": "Whether you're a small business or a national brand, we develop custom websites that are efficient, secure, low-maintenance, and give users a unique, unforgettable experience."
                 }
             ]
         },

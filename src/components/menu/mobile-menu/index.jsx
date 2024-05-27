@@ -33,7 +33,7 @@ const MobileMenu = ({ menuData }) => {
     };
 
     const onClickHandler = (e, selector) => {
-        console.log(e);
+        console.log(selector);
         const target = e.target;
         const parentEl = target.parentElement;
         if (
@@ -61,7 +61,7 @@ const MobileMenu = ({ menuData }) => {
                     const menuIndex = i;
                     return (
                         <StyledNavitem
-                            key={`mainmenu-${menu.id}-${i}`}
+                            key={`mainmenu-${menu.id}`}
                             hasSubmenu={submenu}
                             hasMegamenu={megamenu}
                             className="menu-item"
