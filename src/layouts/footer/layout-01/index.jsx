@@ -36,11 +36,11 @@ const Footer = ({ data }) => {
                                 </LogoWidget>
                                 {data?.contact && (
                                     <TextWidget>
-                                        {/* {data.contact?.address && (
+                                        {data.contact?.address && (
                                             <Text mb="10px">
                                                 {data.contact.address}
                                             </Text>
-                                        )} */}
+                                        )}
                                         {/* {data.contact?.email && (
                                             <Text mb="10px">
                                                 <Anchor
