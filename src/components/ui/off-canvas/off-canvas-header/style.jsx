@@ -2,7 +2,7 @@ import styled from "@styled";
 
 export const OffCanvasHeaderWrap = styled.div`
     background-color: #ffffff;
-    padding: 15px;
+    padding: 5px;
     display: flex;
     align-items: center;
     justify-content: space-between;

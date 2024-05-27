@@ -56,35 +56,35 @@ export const HeaderMain = styled.div`
 `;
 
 export const HeaderLeft = styled.div`
-    flex-basis: 50%;
+    flex-basis: 75%;
     justify-content: center;
     padding: 14px 0;
     ${device.small} {
-        flex-basis: 30%;
+        flex-basis: 75%;
     }
     ${device.medium} {
-        flex-basis: 30%;
+        flex-basis: 45%;
     }
     ${device.xlarge} {
-        flex-basis: 30%;
+        flex-basis: 45%;
     }
     ${device.xxlarge} {
-        flex-basis: 30%;
+        flex-basis: 45%;
     }
     ${device.xxxlarge} {
-        flex-basis: 30%;
+        flex-basis: 45%;
     }
 `;
 
 export const HeaderMiddle = styled.div`
     flex-grow: 1;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    justify-content: right;
+    align-items: right;
 `;
 export const HeaderRight = styled.div`
     flex-shrink: 0;
-    flex-basis: 50%;
+    flex-basis: 25%;
     display: flex;
     justify-content: flex-end;
     align-items: center;

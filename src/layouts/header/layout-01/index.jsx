@@ -1,8 +1,8 @@
 import React, { Fragment, useState } from "react";
 import PropTypes from "prop-types";
 import Logo from "@components/logo";
+import LogoMini from "@components/logo-mini";
 import { MainMenu, MobileMenu } from "@components/menu";
-// import Language from "@components/language";
 import HeaderForm from "@components/forms/search-form/layout-01";
 import BurgerButton from "@ui/burger-button";
 import OffCanvas, { OffCanvasHeader, OffCanvasBody } from "@ui/off-canvas";
@@ -68,7 +68,6 @@ const Header = ({ data }) => {
                                         "25px",
                                     ]}
                                 >
-                                    {/* <Language /> */}
                                 </HeaderElement>
                                 <HeaderElement
                                     borderLeft={[null, null, "1px solid #eee"]}
@@ -105,7 +104,7 @@ const Header = ({ data }) => {
                 onClick={offCanvasHandler}
             >
                 <OffCanvasHeader onClick={offCanvasHandler}>
-                    <Logo darkLogo align={{ default: "flex-start" }} />
+                    <LogoMini align={{ default: "flex-start" }} />
                 </OffCanvasHeader>
                 <OffCanvasBody>
                     <MobileMenu menuData={data.menu} />

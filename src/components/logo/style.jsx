@@ -7,7 +7,7 @@ export const LogoWrapper = styled.div`
     ${device.xsmall} {
         a {
             img {
-                width: 175px;
+                width: 250px;
                 padding-top: 0px;
             }
         }
@@ -15,7 +15,7 @@ export const LogoWrapper = styled.div`
     ${device.small} {
         a {
             img {
-                width: 200px;
+                width: 350px;
                 padding-top: 0px;
             }
         }
@@ -23,24 +23,24 @@ export const LogoWrapper = styled.div`
     ${device.xlarge} {
         a {
             img {
-                width: 300px;
-                padding-top: 12px;
+                width: 500px;
+                padding-top: 7px;
             }
         }
     }
     ${device.xxlarge} {
         a {
             img {
-                width: 300px;
-                padding-top: 12px;
+                width: 500px;
+                padding-top: 7px;
             }
         }
     }
     ${device.xxxlarge} {
         a {
             img {
-                width: 300px;
-                padding-top: 12px;
+                width: 500px;
+                padding-top: 7px;
             }
         }
     }
