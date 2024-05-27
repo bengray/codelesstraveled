@@ -33,30 +33,23 @@ const MobileMenu = ({ menuData }) => {
     };
 
     const onClickHandler = (e, selector) => {
+
         const target = e.target;
-        const parentElement = target.parentElement;
-        const parent = getClosest(parentElement, "#menu-item-2");
-
-        console.log(parent);
-
-        parent.classList.toggle("submenu-open");
-
-        // const target = e.target;
-        // const parentEl = target.parentElement;
-        // if (
-        //     parentEl.classList.contains("menu-expand") ||
-        //     target.classList.contains("menu-expand")
-        // ) {
-        //     let element = target.classList.contains("icon") ? parentEl : target;
-        //     const parent = getClosest(element, selector);
-        //     const parentSiblings = getSiblings(parent);
-        //     parentSiblings.forEach((sibling) => {
-        //         sibling.classList.remove("submenu-open");
-        //         removeClassFromChildren(sibling);
-        //     });
-        //     removeClassFromChildren(parent);
-        //     parent.classList.toggle("submenu-open");
-        // }
+        const parentEl = target.parentElement;
+        if (
+            parentEl.classList.contains("menu-expand") ||
+            target.classList.contains("menu-expand")
+        ) {
+            let element = target.classList.contains("icon") ? parentEl : target;
+            const parent = getClosest(element, selector);
+            const parentSiblings = getSiblings(parent);
+            parentSiblings.forEach((sibling) => {
+                sibling.classList.remove("submenu-open");
+                removeClassFromChildren(sibling);
+            });
+            removeClassFromChildren(parent);
+            parent.classList.toggle("submenu-open");
+        }
     };
 
     return (
@@ -157,73 +150,6 @@ const MobileMenu = ({ menuData }) => {
                                         );
                                     })}
                                 </StyledSubmenu>
-                            )}
-                            {megamenu && (
-                                <StyledMegamenu className="megamenu">
-                                    {megamenu.map((megaitem, i) => {
-                                        const megaSubmenu = megaitem.submenu;
-                                        const megaIndex = i;
-                                        return (
-                                            <StyledNavitem
-                                                key={`megamenu-${menu.id}-${megaIndex}`}
-                                                id={`megamenu-${menu.id}-${megaIndex}`}
-                                                $inSubmenu={true}
-                                            >
-                                                <StyledMegatitle>
-                                                    <span>
-                                                        {megaitem.title}
-                                                    </span>
-                                                    <StyledButton
-                                                        className="menu-expand"
-                                                        $inSubmenu={true}
-                                                        onClick={(e) =>
-                                                            onClickHandler(
-                                                                e,
-                                                                `#megamenu-${menu.id}-${megaIndex}`
-                                                            )
-                                                        }
-                                                    >
-                                                        <i className="icon fa fa-angle-down"></i>
-                                                    </StyledButton>
-                                                </StyledMegatitle>
-                                                {megaSubmenu && (
-                                                    <StyledSubmenu className="submenu">
-                                                        {megaSubmenu.map(
-                                                            (
-                                                                megaSubitem,
-                                                                i
-                                                            ) => {
-                                                                return (
-                                                                    <StyledNavitem
-                                                                        key={`megasubmenu-${megaIndex}-${i}`}
-                                                                        $inSubmenu={
-                                                                            true
-                                                                        }
-                                                                    >
-                                                                        <StyledNavlink
-                                                                            $inSubmenu={
-                                                                                true
-                                                                            }
-                                                                            path={
-                                                                                megaSubitem.link
-                                                                            }
-                                                                        >
-                                                                            <span>
-                                                                                {
-                                                                                    megaSubitem.text
-                                                                                }
-                                                                            </span>
-                                                                        </StyledNavlink>
-                                                                    </StyledNavitem>
-                                                                );
-                                                            }
-                                                        )}
-                                                    </StyledSubmenu>
-                                                )}
-                                            </StyledNavitem>
-                                        );
-                                    })}
-                                </StyledMegamenu>
                             )}
                         </StyledNavitem>
                     );
