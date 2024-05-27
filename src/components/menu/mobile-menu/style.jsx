@@ -23,7 +23,6 @@ export const StyledNavitem = styled.li`
             padding-block-start: 12px;
             padding-block-end: 10px;
             pointer-events: visible;
-            border: 1px solid red;
         }
     }
     ${({ $inSubmenu }) =>
