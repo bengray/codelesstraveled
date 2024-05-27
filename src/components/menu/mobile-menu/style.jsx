@@ -16,14 +16,14 @@ export const StyledNavitem = styled.li`
         }
     }
     &.submenu-open {
-        & > .submenu
-         {
+        & > .submenu {
             max-height: 1000px;
             visibility: visible;
             opacity: 1;
             padding-block-start: 12px;
             padding-block-end: 10px;
             pointer-events: visible;
+            border: 1px solid red;
         }
     }
     ${({ $inSubmenu }) =>
