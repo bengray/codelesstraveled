@@ -16,8 +16,6 @@ import {
     StyledNavlink,
     StyledButton,
     StyledSubmenu,
-    StyledMegamenu,
-    StyledMegatitle,
 } from "./style";
 
 const MobileMenu = ({ menuData }) => {
@@ -57,20 +55,18 @@ const MobileMenu = ({ menuData }) => {
             <StyledNavbar>
                 {menuData.map((menu, i) => {
                     const submenu = menu.submenu ? menu.submenu : null;
-                    const megamenu = menu.megamenu ? menu.megamenu : null;
                     const menuIndex = i;
                     return (
                         <StyledNavitem
                             key={`mainmenu-${menu.id}`}
                             hasSubmenu={submenu}
-                            hasMegamenu={megamenu}
                             className="menu-item"
                             id={`menu-item-${menuIndex}`}
                         >
                             <StyledNavlink path={menu.link}>
                                 {menu.text}
                             </StyledNavlink>
-                            {(submenu || megamenu) && (
+                            {submenu && (
                                 <StyledButton
                                     className="menu-expand"
                                     onClick={(e) =>
