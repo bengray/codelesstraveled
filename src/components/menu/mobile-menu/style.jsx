@@ -16,8 +16,8 @@ export const StyledNavitem = styled.li`
         }
     }
     &.submenu-open {
-        & > .submenu,
-        & > .megamenu {
+        & > .submenu
+         {
             max-height: 1000px;
             visibility: visible;
             opacity: 1;
