@@ -4,13 +4,13 @@ export const StyledSection = styled.section`
     padding-block: 60px;
 
     ${device.medium} {
-        padding-block: 80px;
+        padding-block: 50px;
     }
     ${device.large} {
-        padding-block: 100px;
+        padding-block: 60px;
     }
     ${device.xlarge} {
-        padding-block: 120px;
+        padding-block: 70px;
     }
 `;
 

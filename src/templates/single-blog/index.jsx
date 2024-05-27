@@ -46,7 +46,6 @@ const SingleBlogTemplate = ({ pageContext, location, data }) => {
                 <PageHeader
                     pageContext={pageContext}
                     location={location}
-                    title="Blog"
                 />
                 <StyledSection>
                     <Container>
