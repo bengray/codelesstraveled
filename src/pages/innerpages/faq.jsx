@@ -30,9 +30,7 @@ const FaqPage = ({ pageContext, location, data }) => {
                     location={location}
                     title="Faq"
                 />
-                <FaqAreaOne data={content["faq-section-one"]} />
                 <FaqAreaTwo data={content["faq-section-two"]} />
-                <ContactArea data={content["contact-section"]} />
             </main>
             <Footer data={{ ...data.site.siteMetadata }} />
         </Layout>
