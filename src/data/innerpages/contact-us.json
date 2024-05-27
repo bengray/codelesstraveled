@@ -8,12 +8,12 @@
             "headings": [
                 {
                     "level": "h3",
-                    "content": "Fill out the form and give us some info about you and your awesome idea. We'll reach out to you as soon as we can to discuss how <span>we can partner up!</span>"
+                    "content": "Fill out the form and give us some info about you and your <span>awesome idea!</span>"
                 }
             ],
             "texts": [
                 {
-                    "content": "We will typically reply to you within 1 business day."
+                    "content": "We'll reach out to you as soon as we can to discuss how we can partner up! We will typically reply to you within 1 business day."
                 }
             ]
         },

@@ -49,7 +49,7 @@
             "items": [
                 {
                     "id": 1,
-                    "title": "SEO Optimization",
+                    "title": "SEO Optimized",
                     "description": "Search Engine Optimization (SEO) is the process used to get your website to the top of Google and other search engine results when your prospective clients search for your services. 90% of people searching for a service never make it to the second page of results. You'll benefit greatly from a specialized local search engine optimization program. At Code Less Traveled, we provide the most effective and affordable SEO plans and expect to achieve first-page results."
                 },
                 {
@@ -59,13 +59,13 @@
                 },
                 {
                     "id": 3,
-                    "title": "Secure",
-                    "description": "We follow industry best practices to ensure that your webiste meets our strict security standards."
+                    "title": "Beautiful Design",
+                    "description": "Combining talent for graphic design with a belief that 'code is poetry' we consistently build great-looking websites. Each of our websites is designed and developed based on your design preferences. We start by asking you to send us a sample of a website or design that you like.  Once our initial design is developed, we show it to you and can make any requested changes.  Once the design is approved we move into the development stage."
                 },
                 {
                     "id": 4,
-                    "title": "Low maintenance",
-                    "description": "Your website should work for you, not the other way around. Our websites are easy to maintain, even if you eventually choose another IT provider."
+                    "title": "Maintainable",
+                    "description": "Your website should work for you, not the other way around. Our websites are easy to maintain, even if you eventually choose another IT provider in the future.  We don't lock you into our system."
                 }
             ],
             "images": [
