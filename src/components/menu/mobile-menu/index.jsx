@@ -42,13 +42,13 @@ const MobileMenu = ({ menuData }) => {
             let element = target.classList.contains("icon") ? parentEl : target;
             const parent = getClosest(element, selector);
             const parentSiblings = getSiblings(parent);
-            // parentSiblings.forEach((sibling) => {
-            //     sibling.classList.remove("submenu-open");
-            //     removeClassFromChildren(sibling);
-            // });
-            // removeClassFromChildren(parent);
-            // console.log(parent.classList);
-            // parent.classList.toggle("submenu-open");
+            parentSiblings.forEach((sibling) => {
+                sibling.classList.remove("submenu-open");
+                removeClassFromChildren(sibling);
+            });
+            removeClassFromChildren(parent);
+            console.log(parent.classList);
+            parent.classList.toggle("submenu-open");
         }
     };
 
