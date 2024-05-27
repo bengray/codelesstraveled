@@ -12,7 +12,6 @@ const getSiblings = function (elem) {
 
 const getClosest = function (elem, selector) {
     for (; elem && elem !== document; elem = elem.parentNode) {
-        console.log(elem);
         if (elem.matches(selector)) return elem;
     }
     return;

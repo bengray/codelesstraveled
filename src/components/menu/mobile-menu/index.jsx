@@ -33,23 +33,30 @@ const MobileMenu = ({ menuData }) => {
     };
 
     const onClickHandler = (e, selector) => {
-        console.log(selector);
         const target = e.target;
-        const parentEl = target.parentElement;
-        if (
-            parentEl.classList.contains("menu-expand") ||
-            target.classList.contains("menu-expand")
-        ) {
-            let element = target.classList.contains("icon") ? parentEl : target;
-            const parent = getClosest(element, selector);
-            const parentSiblings = getSiblings(parent);
-            parentSiblings.forEach((sibling) => {
-                sibling.classList.remove("submenu-open");
-                removeClassFromChildren(sibling);
-            });
-            removeClassFromChildren(parent);
-            parent.classList.toggle("submenu-open");
-        }
+        const parentElement = target.parentElement;
+        const parent = getClosest(parentElement, "#menu-item-2");
+
+        console.log(parent);
+
+        parent.classList.toggle("submenu-open");
+
+        // const target = e.target;
+        // const parentEl = target.parentElement;
+        // if (
+        //     parentEl.classList.contains("menu-expand") ||
+        //     target.classList.contains("menu-expand")
+        // ) {
+        //     let element = target.classList.contains("icon") ? parentEl : target;
+        //     const parent = getClosest(element, selector);
+        //     const parentSiblings = getSiblings(parent);
+        //     parentSiblings.forEach((sibling) => {
+        //         sibling.classList.remove("submenu-open");
+        //         removeClassFromChildren(sibling);
+        //     });
+        //     removeClassFromChildren(parent);
+        //     parent.classList.toggle("submenu-open");
+        // }
     };
 
     return (
