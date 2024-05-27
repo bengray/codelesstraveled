@@ -37,16 +37,16 @@
             "headings": [
                 {
                     "level": "h3",
-                    "content": "Learn More About Our <span> Success <br /> Stories</span>"
+                    "content": "Web application"
                 },
                 {
                     "level": "h5",
-                    "content": "Mitech specializes in <span>technological and IT-related services</span> such as product engineering, warranty management, building cloud, infrastructure, network, etc."
+                    "content": "Web applications are our bread and butter."
                 }
             ],
             "texts": [
                 {
-                    "content": "We’re available for 8 hours a day! <br/>Contact to require a detailed analysis and assessment of your plan."
+                    "content": "Something here."
                 }
             ]
         },
