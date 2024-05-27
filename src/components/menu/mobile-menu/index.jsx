@@ -47,7 +47,7 @@ const MobileMenu = ({ menuData }) => {
                 removeClassFromChildren(sibling);
             });
             removeClassFromChildren(parent);
-            console.log(parent.classList);
+            console.log(parent);
             parent.classList.toggle("submenu-open");
         }
     };
