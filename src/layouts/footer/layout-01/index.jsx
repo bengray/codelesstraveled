@@ -17,6 +17,7 @@ import {
     TextWidget,
     FooterWidgetList,
     FooterBottom,
+    StyledWidgetTitle
 } from "./style";
 
 const Footer = ({ data }) => {
@@ -28,11 +29,12 @@ const Footer = ({ data }) => {
                         <Col lg={4} sm={6}>
                             <FooterWidget mb={["31px", null, null, 0]}>
                                 <LogoWidget>
-                                    <StaticImage
+                                    {/* <StaticImage
                                         src="../../../assets/images/logo/clt-logo-v3.png"
                                         alt="logo"
                                         height={18}
-                                    />
+                                    /> */}
+                                    <StyledWidgetTitle>Code Less Traveled</StyledWidgetTitle>
                                 </LogoWidget>
                                 {data?.contact && (
                                     <TextWidget>
@@ -44,11 +46,11 @@ const Footer = ({ data }) => {
                                         {/* {data.contact?.email && (
                                             <Text mb="10px">
                                                 <Anchor
-                                                    path={`mailto:${data.contact.email}`}
+                                                    path={`mailto:hello@codelesstraveled.com`}
                                                     color="text"
                                                     $hover={{ layout: 2 }}
                                                 >
-                                                    {data.contact.email}
+                                                    hello@codelesstraveled.com
                                                 </Anchor>
                                             </Text>
                                         )} */}
@@ -63,7 +65,7 @@ const Footer = ({ data }) => {
                                                 </Anchor>
                                             </Text>
                                         )} */}
-                                        {/* {data.contact?.website && (
+                                        {data.contact?.website && (
                                             <Text mb="10px">
                                                 <Anchor
                                                     path={data.contact.website}
@@ -72,7 +74,7 @@ const Footer = ({ data }) => {
                                                     {data.contact.website}
                                                 </Anchor>
                                             </Text>
-                                        )} */}
+                                        )}
                                     </TextWidget>
                                 )}
                             </FooterWidget>

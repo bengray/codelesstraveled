@@ -33,6 +33,7 @@ module.exports = {
             website: "https://codelesstraveled.com/",
             customers: "700",
             clients: "3200",
+            address: "Newnan, GA 30265"
         },
     },
     plugins: [

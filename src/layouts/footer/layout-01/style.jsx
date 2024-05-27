@@ -1,6 +1,11 @@
 import React from "react";
 import styled, { space, device, themeGet } from "@styled";
 
+export const StyledWidgetTitle = styled.h6`
+    margin-bottom: 20px;
+    margin-top: -3px;
+`;
+
 export const FooterWrap = styled.footer`
     background-color: ${themeGet("colors.gray.100")};
 `;
