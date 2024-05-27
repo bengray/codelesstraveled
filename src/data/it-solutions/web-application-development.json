@@ -57,12 +57,12 @@
                 {
                     "id": 1,
                     "title": "Scalable",
-                    "description": "As your needs grow, your web application will too."
+                    "description": "As your needs grow, your web application should too. We build all our web applications with scalability in mind."
                 },
                 {
                     "id": 2,
                     "title": "Secure",
-                    "description": "To keep your systems, your devices, and network stay secure, we diligently use prevailing industry best practices."
+                    "description": "To keep your systems, your devices, and network secure, we diligently use prevailing industry best practices."
                 }
             ],
             "images": [

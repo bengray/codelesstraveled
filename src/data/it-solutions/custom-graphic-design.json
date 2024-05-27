@@ -30,16 +30,16 @@
             "headings": [
                 {
                     "level": "h3",
-                    "content": "We've built custom software for some of the largest corporations <span>on the planet.</span>"
+                    "content": "Regardless of your graphic design needs, <span>we can help.</span>"
                 },
                 {
                     "level": "h5",
-                    "content": "We're the scalable, inventive, and competitive partner <span>you've been looking for</span> for custom software development."
+                    "content": "Whether you need a logo for your new business, a promotional pamphlet, or a full-on custom designed website, our team is up for the challenge! Let us put our <span>artistic prowess</span> to work for you."
                 }
             ],
             "texts": [
                 {
-                    "content": "We specialize in end-to-end delivery of custom technological solutions, from fully managed delivery teams to individual skilled software developers completely capable of delivering solutions and value in a timely and effective manner."
+                    "content": "By utilizing the latest industry-standard tools we create eye-popping, attention-getting designs for both print and web."
                 }
             ]
         },
@@ -49,23 +49,13 @@
             "items": [
                 {
                     "id": 1,
-                    "title": "Item 1",
-                    "description": "Description 1"
+                    "title": "Logos",
+                    "description": "Are you a new businesses? Revamping your brand? Or just updating an old look? Logos can make or break a business. Many people don’t realize that branding is the first step to an effective marketing campaign. Your logo is the first thing that will stick in people’s minds, making it the thing they will most associate with you and your business."
                 },
                 {
                     "id": 2,
-                    "title": "Item 2",
-                    "description": "Description 2"
-                },
-                {
-                    "id": 3,
-                    "title": "Item 3",
-                    "description": "Description 3"
-                },
-                {
-                    "id": 4,
-                    "title": "Item 4",
-                    "description": "Description 4"
+                    "title": "Web Design",
+                    "description": "Each of our websites is designed developed based on your design preferences. We start by asking you to send us a sample of a website or design that you like.  Once our initial design is developed, we show it to you and can make any requested changes.  Once the design is approved we move into the development stage."
                 }
             ],
             "images": [

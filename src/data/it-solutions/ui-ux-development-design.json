@@ -34,7 +34,7 @@
                 },
                 {
                     "level": "h5",
-                    "content": "Code Less Traveled is great at UI and UX."
+                    "content": "UI/UX design focuses on the experience your user has while using your software product, which is key to adoption and success."
                 }
             ],
             "texts": [
@@ -49,23 +49,13 @@
             "items": [
                 {
                     "id": 1,
-                    "title": "Item 1",
-                    "description": "Description 1"
+                    "title": "User Interface Expertise",
+                    "description": "We've been developing winning User Interfaces and User Experiences for decades. Our designs have been used by hundreds of websites across the internet."
                 },
                 {
                     "id": 2,
-                    "title": "Item 2",
-                    "description": "Description 2"
-                },
-                {
-                    "id": 3,
-                    "title": "Item 3",
-                    "description": "Description 3"
-                },
-                {
-                    "id": 4,
-                    "title": "Item 4",
-                    "description": "Description 4"
+                    "title": "User Experience Expertise",
+                    "description": "We've been building websites and web applications for decades. You could say we've got a sixth-sense for good User Experience, and we would love to work with you to bring this skillset to your company."
                 }
             ],
             "images": [
