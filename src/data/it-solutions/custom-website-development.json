@@ -1,7 +1,7 @@
 {
     "id": "custom-website-development",
     "title": "Custom Website Development",
-    "excerpt": "Our custom website development services are customized to suit your needs and surpass your user’s expectations.",
+    "excerpt": "Our website development services are dialed-in and fully customized to suit your needs and surpass your user’s expectations. It's time to leverage our experience to help your web presence.",
     "icon": {
         "svg": {
             "src": "../images/icons/linea-basic-spread-text-bookmark.svg"
@@ -29,7 +29,7 @@
             "headings": [
                 {
                     "level": "h3",
-                    "content": "We've been building websites <span>since 2003</span>"
+                    "content": "We've been building websites <span>for over two decades</span>"
                 },
                 {
                     "level": "h5",
@@ -48,13 +48,13 @@
             "items": [
                 {
                     "id": 1,
-                    "title": "SEO Optimized",
-                    "description": "We use a newly developed technology to connect sites that are based on different types of servers and networks, SiteConnect, which helps to reduce the misinterpretation of signals as well as the loss of data during transfering."
+                    "title": "SEO Optimization",
+                    "description": "Search Engine Optimization (SEO) is the process used to get your website to the top of Google and other search engine results when your prospective clients search for your services. 90% of people searching for a service never make it to the second page of results. You'll benefit greatly from a specialized local search engine optimization program. At Code Less Traveled, we provide the most effective and affordable SEO plans and expect to achieve first-page results."
                 },
                 {
                     "id": 2,
                     "title": "Responsive & Efficient",
-                    "description": "To keep your systems, your devices, and network stay secure, we have developed a new program that limits the access of suspicious objects or people and authenticate all logins to the system."
+                    "description": ""
                 },
                 {
                     "id": 3,
