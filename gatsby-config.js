@@ -157,8 +157,6 @@ module.exports = {
                 anonymize: true,
                 // Setting this parameter is also optional
                 respectDNT: true,
-                // Avoids sending pageview hits from custom paths
-                exclude: [""],
                 // Delays sending pageview hits on route update (in milliseconds)
                 pageTransitionDelay: 0,
                 // Defers execution of google analytics script after page load
