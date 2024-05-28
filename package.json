@@ -27,6 +27,7 @@
     "disqus-react": "^1.1.5",
     "gatsby": "^5.3.3",
     "gatsby-plugin-breadcrumb": "^12.3.1",
+    "gatsby-plugin-google-analytics": "^5.13.1",
     "gatsby-plugin-image": "^3.3.2",
     "gatsby-plugin-manifest": "^5.3.1",
     "gatsby-plugin-offline": "^6.3.1",
