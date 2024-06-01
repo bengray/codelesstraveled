@@ -37,6 +37,7 @@ const HeaderForm = () => {
                         disableHover={true}
                         variant="texted"
                         size="large"
+                        aria-label="search-button"
                     >
                         <i className="fa fa-search"></i>
                     </Button>

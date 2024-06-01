@@ -236,13 +236,13 @@ const Footer = ({ data }) => {
                                             key={social.id}
                                             path={social.link}
                                             title={social.title}
+                                            ariaLabel={social.ariaLabel}
                                         >
-                                            <i
+                                            {<i
                                                 className={cn(
                                                     social.icon,
-                                                    "link-icon"
-                                                )}
-                                            ></i>
+                                                    "link-icon"                                                )}
+                                            ></i>}
                                         </SocialLink>
                                     ))}
                                 </Social>
@@ -257,7 +257,7 @@ const Footer = ({ data }) => {
 
 Footer.propTypes = {
     data: PropTypes.shape({
-        socials: PropTypes.arrayOf(PropTypes.shape(SocialType)),
+        // socials: PropTypes.arrayOf(PropTypes.shape(SocialType)),
         copyright: PropTypes.string,
         contact: PropTypes.shape({
             phone: PropTypes.string,

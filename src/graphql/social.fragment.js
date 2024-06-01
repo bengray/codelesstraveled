@@ -6,5 +6,6 @@ export const query = graphql`
         icon
         link
         title
+        ariaLabel
     }
 `;

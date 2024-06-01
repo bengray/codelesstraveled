@@ -2,7 +2,7 @@ import React from "react";
 import PropTypes from "prop-types";
 import Image from "@ui/image";
 import Social, { SocialLink } from "@ui/social";
-import { ImageType, SoicalType } from "@utils/types";
+import { ImageType, SocialType } from "@utils/types";
 import { StyledAuthor, StyledAvatar, StyledInfo, StyledBio } from "./style";
 
 const AuthorDetails = ({ avatar, name, bio, socials }) => {
@@ -38,7 +38,7 @@ AuthorDetails.propTypes = {
     avatar: PropTypes.shape(ImageType),
     name: PropTypes.string,
     bio: PropTypes.string,
-    socials: PropTypes.arrayOf(PropTypes.shape(SoicalType)),
+    socials: PropTypes.arrayOf(PropTypes.shape(SocialType)),
 };
 
 export default AuthorDetails;

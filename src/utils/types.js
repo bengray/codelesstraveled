@@ -87,6 +87,7 @@ export const SocialType = {
     icon: PropTypes.string,
     link: PropTypes.string,
     title: PropTypes.string,
+    ariaLabel: PropTypes.string,
 };
 
 export const MottoType = {
@@ -140,11 +141,4 @@ export const BlogType = {
     image: PropTypes.shape(ImageType),
     categories: PropTypes.arrayOf(PropTypes.shape(BlogMetaType)),
     tags: PropTypes.arrayOf(PropTypes.shape(BlogMetaType)),
-};
-
-export const SoicalType = {
-    id: IDType,
-    title: PropTypes.string,
-    link: PropTypes.string,
-    icon: PropTypes.string,
 };

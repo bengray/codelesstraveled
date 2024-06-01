@@ -10,6 +10,7 @@ type Social {
     icon: String
     link: String
     title: String
+    ariaLabel: String
 }
 
 type List {

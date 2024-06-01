@@ -15,6 +15,7 @@ export const SocialLink = ({
     variant,
     space,
     hover,
+    ariaLabel,
     ...props
 }) => {
     return (
@@ -23,6 +24,7 @@ export const SocialLink = ({
             href={path}
             target="_blank"
             rel="noopener noreferrer"
+            aria-label={ariaLabel}
             $tooltip={tooltip}
             $tooltip_bg={tooltip_bg}
             $tooltip_position={tooltip_position}
@@ -63,5 +65,6 @@ SocialLink.propTypes = {
     tooltip: PropTypes.bool,
     tooltip_bg: PropTypes.string,
     tooltip_position: PropTypes.string,
+    ariaLabel: PropTypes.string,
     hover: PropTypes.shape({}),
 };

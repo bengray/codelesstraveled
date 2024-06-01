@@ -25,6 +25,7 @@ module.exports = {
                 icon: "fab fa-facebook-f",
                 link: "https://www.facebook.com",
                 title: "Facebook",
+                ariaLabel: "facebook link",
             }
         ],
         contact: {

@@ -98,7 +98,7 @@ function splitVideoLink(link) {
 }
 
 function normalizedData(data) {
-    let allContetnt;
+    let allContent;
 
     data.forEach((item) => {
         const newObj = Object.entries(item).reduce((acc, cur) => {
@@ -112,15 +112,15 @@ function normalizedData(data) {
             };
         }, {});
 
-        allContetnt = {
-            ...allContetnt,
+        allContent = {
+            ...allContent,
             [newObj["section"]]: {
                 ...newObj,
             },
         };
     });
 
-    return allContetnt;
+    return allContent;
 }
 
 function normalizedArray(data, key) {
