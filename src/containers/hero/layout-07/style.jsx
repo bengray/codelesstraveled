@@ -32,6 +32,24 @@ export const StyledHeading = styled.h1`
     mark {
         color: ${themeGet("colors.primary")};
         font-family: Georgia;
+        animation: colorRotate 15s linear 0s infinite;
+    }
+    @keyframes colorRotate {
+        from {
+            color: #6666ff;
+        }
+        10% {
+            color: #0099ff;
+        }
+        50% {
+            color: #00ff00;
+        }
+        75% {
+            color: #ff3399;
+        }
+        100% {
+            color: #6666ff;
+        }
     }
 `;
 
