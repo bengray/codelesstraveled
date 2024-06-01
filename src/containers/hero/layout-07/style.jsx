@@ -66,6 +66,15 @@ export const StyledBookBoxText = styled.h5`
     }
 `;
 
+export const StyledCustomHeroText = styled.div`
+    margin-block-start: 15px;
+    margin-block-end: 15px;
+    font-weight: 800;
+    ${device.large} {
+        max-width: 500px;
+    }
+`
+
 export const StyledForm = styled.div`
     max-width: 550px;
 `;

@@ -14,6 +14,7 @@ import {
     StyledBookBoxImage,
     StyledForm,
     StyledImage,
+    StyledCustomHeroText,
 } from "./style";
 
 const HeroArea = ({ data }) => {
@@ -41,7 +42,7 @@ const HeroArea = ({ data }) => {
                             )}
                             <Col md={7}>
                                 {data?.headings?.[1] && (
-                                <StyledSubtitle
+                                <StyledCustomHeroText
                                     as={data.headings[1]?.level}
                                     dangerouslySetInnerHTML={{
                                         __html: data.headings[1]?.content,
@@ -59,7 +60,7 @@ const HeroArea = ({ data }) => {
                                     />
                                 </StyledBookBoxImage>
                                 {data?.headings?.[2] && (
-                                    <StyledBookBoxText
+                                    <StyledCustomHeroText
                                         as={data.headings[2]?.level}
                                         dangerouslySetInnerHTML={{
                                             __html: data.headings[2]?.content,

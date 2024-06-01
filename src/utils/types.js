@@ -17,7 +17,7 @@ export const SvgIconType = {
 };
 
 export const HeadingType = {
-    level: PropTypes.oneOf(["h1", "h2", "h3", "h4", "h5", "h6"]),
+    level: PropTypes.oneOf(["h1", "h2", "h3", "h4", "h5", "h6", "div"]),
     content: PropTypes.string.isRequired,
 };
 export const TextType = {

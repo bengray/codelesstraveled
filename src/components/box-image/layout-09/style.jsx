@@ -14,10 +14,11 @@ export const StyledImage = styled.div`
     margin-bottom: 41px;
 `;
 
-export const StyledTitle = styled.h6`
+export const StyledTitle = styled.div`
     font-weight: 600;
     line-height: 1.25;
     margin-bottom: 12px;
+    color: black;
 `;
 
 export const StyledMoreLink = styled(Anchor)`
