@@ -54,7 +54,7 @@ const MobileMenu = ({ menuData }) => {
         <StyledMobileMenu>
             <StyledNavbar>
                 {menuData.map((menu, i) => {
-                    const submenu = menu.submenu ? menu.submenu : null;
+                    const submenu = menu?.submenu;
                     const menuIndex = i;
                     return (
                         <StyledNavitem
@@ -83,7 +83,6 @@ const MobileMenu = ({ menuData }) => {
                             {submenu && (
                                 <StyledSubmenu className="submenu">
                                     {submenu.map((subitem, j) => {
-                                        const submenuLevelTwo = subitem.submenu;
                                         const submenuIndex = j;
                                         return (
                                             <StyledNavitem
@@ -98,50 +97,6 @@ const MobileMenu = ({ menuData }) => {
                                                 >
                                                     {subitem.text}
                                                 </StyledNavlink>
-                                                {submenuLevelTwo && (
-                                                    <StyledButton
-                                                        className="menu-expand"
-                                                        $inSubmenu={true}
-                                                        onClick={(e) =>
-                                                            onClickHandler(
-                                                                e,
-                                                                `#submenu-item-${menuIndex}${submenuIndex}`
-                                                            )
-                                                        }
-                                                    >
-                                                        <i className="icon fa fa-angle-down"></i>
-                                                    </StyledButton>
-                                                )}
-                                                {submenuLevelTwo && (
-                                                    <StyledSubmenu>
-                                                        {submenuLevelTwo.map(
-                                                            (
-                                                                subitemLevelTwo,
-                                                                k
-                                                            ) => {
-                                                                const subsubmenuIndex =
-                                                                    k;
-                                                                return (
-                                                                    <StyledNavitem
-                                                                        key={`submenu-${menu.id}-${submenuIndex}-${subsubmenuIndex}`}
-                                                                        className="menu-item"
-                                                                        id={`submenu-item-${menuIndex}${submenuIndex}${subsubmenuIndex}`}
-                                                                    >
-                                                                        <StyledNavlink
-                                                                            path={
-                                                                                subitemLevelTwo.link
-                                                                            }
-                                                                        >
-                                                                            {
-                                                                                subitemLevelTwo.text
-                                                                            }
-                                                                        </StyledNavlink>
-                                                                    </StyledNavitem>
-                                                                );
-                                                            }
-                                                        )}
-                                                    </StyledSubmenu>
-                                                )}
                                             </StyledNavitem>
                                         );
                                     })}

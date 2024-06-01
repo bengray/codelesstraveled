@@ -87,25 +87,25 @@ export const StyledNavlink = styled(Anchor)`
 `;
 
 const submenuStyles = css`
-    position: relative;
-    min-width: 100%;
-    padding-block-start: 0;
-    padding-block-end: 0;
-    padding-inline-start: 14px;
-    padding-inline-end: 0;
-    background-color: transparent;
-    top: auto;
-    left: 0;
-    box-shadow: 0 0px 0px rgba(0, 0, 0, 0.05);
-    border-bottom: none;
-    transform: translateY(0);
+    // position: relative;
+    // min-width: 100%;
+    // padding-block-start: 0;
+    // padding-block-end: 0;
+    // padding-inline-start: 14px;
+    // padding-inline-end: 0;
+    // background-color: transparent;
+    // top: auto;
+    // left: 0;
+    // box-shadow: 0 0px 0px rgba(0, 0, 0, 0.05);
+    // border-bottom: none;
+    // transform: translateY(0);
     max-height: 0;
     overflow-y: hidden;
-    transition-property: all;
-    transition-duration: 0.5s;
-    transition-timing-function: ease-in-out;
-    transform-origin: top;
-    z-index: 99;
+    // transition-property: all;
+    // transition-duration: 0.5s;
+    // transition-timing-function: ease-in-out;
+    // transform-origin: top;
+    // z-index: 99;
 `;
 
 export const StyledSubmenu = styled.ul`
