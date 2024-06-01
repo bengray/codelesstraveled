@@ -45,6 +45,20 @@ module.exports = {
         `gatsby-plugin-styled-components`,
         "gatsby-transformer-json",
         {
+            resolve: "gatsby-plugin-robots-txt",
+            options: {
+                host: "https://codelesstraveled.com",
+                sitemap: "https://codelesstraveled.com/sitemap",
+                policy: [
+                {
+                    userAgent: "*",
+                    allow: ["/"],
+                    disallow: [],
+                }
+                ],
+            },
+        },
+        {
             resolve: `gatsby-transformer-remark`,
             options: {
                 excerpt_separator: `<!-- endexcerpt -->`,
