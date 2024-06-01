@@ -52,6 +52,7 @@ const ConsultForm = () => {
                 <Col lg={6}>
                     <FormGroup mb={20}>
                         <Select
+                            aria-label="Select contact reason"
                             id="message"
                             defaultValue=""
                             feedbackText={errors?.message?.message}
