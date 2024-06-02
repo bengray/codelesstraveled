@@ -2,7 +2,7 @@ import { breakpoints } from "./index";
 
 export const theme = {
     colors: {
-        primary: "#0a56f0",
+        primary: "#206cc9",
         text: "#696969",
         heading: "#333333",
         border: "#ededed",
