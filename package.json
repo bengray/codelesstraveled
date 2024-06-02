@@ -1,7 +1,7 @@
 {
-  "name": "code-less-traveled-theme",
+  "name": "code-less-traveled",
   "private": true,
-  "description": "A basic theme for Code Less Traveled",
+  "description": "The code for Code Less Traveled LLC",
   "version": "0.1.0",
   "license": "0BSD",
   "scripts": {
