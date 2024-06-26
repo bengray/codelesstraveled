@@ -65,17 +65,17 @@ const ConsultForm = () => {
                             })}
                         >
                             <option value="">How can we help you?</option>
-                            <option value="Improve Your Existing Website">
-                                Improve Your Existing Website
-                            </option>
                             <option value="Build A New Website">
                                 Build A New Website
                             </option>
-                            <option value="Build A Custom Software Application">
-                                Build A Custom Software Application
+                            <option value="Fix Your Existing Website">
+                                Fix Your Existing Website
                             </option>
-                            <option value="Work For Code Less Traveled">
-                                Work For Code Less Traveled
+                            <option value="Add To Your Existing Website">
+                                Add To Your Existing Website
+                            </option>
+                            <option value="Build A Custom Web Application">
+                                Build A Custom Web Application
                             </option>
                         </Select>
                     </FormGroup>
