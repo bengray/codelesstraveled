@@ -7,7 +7,7 @@ export const StyledHero = styled.section`
         margin-block-end: 0;
     }
     ${device.xlarge} {
-        margin-block-end: 200px;
+        margin-block-end: 100px;
     }
 `;
 

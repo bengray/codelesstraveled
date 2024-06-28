@@ -17,11 +17,11 @@
                 },
                 {
                     "level": "div",
-                    "content": "Every hour you spend fiddling with your website or trying to fix something that broke or add things to it, you're taking away time you could have spent on your business and making money. Let us worry about this, so you don't have to. "
+                    "content": "Your <i>special interest</i> is not web development. <br /><br />Every minute you spend fiddling with your website or trying to fix something that broke or add things to it, you're taking away time you could have spent on your business and working on your passion. <br /><br />Let us worry about this, so you don't have to. "
                 },
                 {
                     "level": "h5",
-                    "content": "It's time you had your own personal web developer in your pocket. Let's talk about how we can help:"
+                    "content": "You need your own personal web developer in your pocket. Let's talk about how we can help:"
                 }
             ]
         },
@@ -160,10 +160,10 @@
             "id": "modern-it-company-solutions",
             "section": "solution-section",
             "section_title": {
-                "title": "Our development team has the experience you need to iterate your online product in the marketplace <br/> <span> and create success.</span>"
+                "title": "We've gathered a team of experienced, passionate and talented professionals who have pledged to work with fellow neurodiverse humans and <span>help them succeed</span>"
             },
             "motto": {
-                "text": "You don't have to do this alone. We understand your needs and we're here to help.",
+                "text": "You don't have to do this alone. We understand your unique needs and we're here to help.",
                 "link": "/contact-us",
                 "linkText": "Let's talk"
             }
