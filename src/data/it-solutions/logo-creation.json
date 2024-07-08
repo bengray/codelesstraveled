@@ -1,14 +1,14 @@
 {
-    "id": "project-takeover",
-    "title": "Project Takeover",
-    "excerpt": "Regardless of the reason, our team is experienced and ready to analyze your situation, determine the next best steps, and get your software development back on track.",
+    "id": "logo-creation",
+    "title": "Logo Creation",
+    "excerpt": "We make the best logos around.",
     "icon": {
         "svg": {
             "src": "../images/icons/linea-basic-spread-text-bookmark.svg"
         },
         "images": [
             {
-                "src": "../images/icons/icon-16-80x83.png"
+                "src": "../images/icons/logo-design.png"
             },
             {
                 "src": "../images/icons/icon-04-100x98.png"
@@ -30,16 +30,16 @@
             "headings": [
                 {
                     "level": "h3",
-                    "content": "Don't let what is stand in the way of <span>what could be.</span>"
+                    "content": "Your logo is a key part of <span>your brand</span>"
                 },
                 {
                     "level": "h5",
-                    "content": "It happens all the time. A company hires someone to develop a website, only to realize sooner or later that it just isn’t working out."
+                    "content": "We're pros at creating custom, unique, and captivating logos for all types of businesses and purposes.  Let us put our creativity to work for you!"
                 }
             ],
             "texts": [
                 {
-                    "content": " Maybe the development has outgrown the capacity of the existing developer. Perhaps you simply aren’t happy with the results, or you realize they just don't understand your needs. Regardless of the reason, our team is experienced and ready to analyze your situation, determine the next best steps, and get your online presence back on track."
+                    "content": "Creating a logo seems easy until it isn't.  That's where we come in."
                 }
             ]
         },

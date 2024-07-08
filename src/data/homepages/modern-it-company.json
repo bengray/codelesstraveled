@@ -17,7 +17,7 @@
                 },
                 {
                     "level": "div",
-                    "content": "Your special interest is <i>not</i> web development. <br /><br />Every minute you spend fiddling with your website or trying to fix something that broke or add things to it, you're taking away time you could have spent on your business and working on your passion. <br /><br />Let us worry about this, so you don't have to. "
+                    "content": "We know web development is <i>not</i> your special interest. <br /><br />Every minute you spend fiddling with your website or trying to fix something that broke or add things to it, you're taking away time you could have spent on your business and working on your passion. <br /><br />Let us worry about this, so you don't have to. "
                 },
                 {
                     "level": "h5",
@@ -160,7 +160,7 @@
             "id": "modern-it-company-solutions",
             "section": "solution-section",
             "section_title": {
-                "title": "We've gathered a team of experienced, passionate and talented professionals who have pledged to work with fellow neurodivergent humans and <span>help them succeed</span>"
+                "title": "At Code Less Traveled we have pledged to work with fellow neurodivergent humans (and those who support them) to <span>help them succeed</span>"
             },
             "motto": {
                 "text": "You don't have to do this alone. We understand your unique needs and we're here to help.",

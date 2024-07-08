@@ -1,14 +1,14 @@
 {
     "id": "custom-graphic-design",
     "title": "Graphic Design",
-    "excerpt": "Whether you need a logo for your business, a promotional pamphlet, or a full-on custom designed website, our team is up for the challenge! Let us put our artistic prowess to work for you.",
+    "excerpt": "Whether you need a logo for your business, a promotional pamphlet, or a full-on custom designed website, we're up for the challenge! Let us put our artistic prowess to work for you.",
     "icon": {
         "svg": {
             "src": "../images/icons/linea-ecommerce-money.svg"
         },
         "images": [
             {
-                "src": "../images/icons/icon-18-80x83.png"
+                "src": "../images/icons/graphic-design.png"
             },
             {
                 "src": "../images/icons/icon-04-100x98.png"
