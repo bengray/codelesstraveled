@@ -27,22 +27,22 @@
             "id": "aboutus-about",
             "section": "about-section",
             "section_title": {
-                "title": "We've been where you are, and we know <br />what it takes to <span>succeed</span>",
+                "title": "<span>Start</span> where you are. <span>Use</span> what you have. <span>Do</span> what you can.",
                 "subtitle": "OUR COMPANY"
             },
             "headings": [
                 {
                     "level": "h2",
-                    "content": "<mark>20</mark> YEARS EXPERIENCE IN WEB DEVELOPMENT AND IT"
+                    "content": "<mark>Go</mark> where you are celebrated, not tolerated"
                 },
                 {
                     "level": "h6",
-                    "content": "We've been around the block. This isn't our first rodeo. We didn't just fall off the turnip truck, we weren't born yesterday... and other odd colloquialisms."
+                    "content": ""
                 }
             ],
             "texts": [
                 {
-                    "content": "Code Less Traveled specializes in software and IT-related services such as product engineering, building cloud applications & infrastructure, networking, and all manner of other software needs. We put a strong focus on the needs of your business to figure out solutions that best fits your demand and execute it to perfection. We work with a wide variety of entrepreneurs and businesses, and are open to any startup or company that requires a personal touch to their web and software development needs."
+                    "content": "Code Less Traveled was created by me, Ben Gray, after almost two decades of web development experience. Ever the humanitarian, I had become increasingly aware of just how neglected and under-served the neurodivergent community is. Being neurodivergent myself, I decided to build a team of highly skilled individuals (who also are neurodivergent) with whom I have worked over the years. It didn't take much convincing to get these people on board with this project, and before we knew it we had a real motley crew."
                 }
             ],
             "buttons": [
