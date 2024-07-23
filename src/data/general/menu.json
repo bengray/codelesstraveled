@@ -36,38 +36,38 @@
         },
         {
             "id": "menu-3",
-            "text": "IT Solutions",
+            "text": "Web Solutions",
             "link": "/it-solutions",
             "submenu": [
                 {
                     "id": "menu-31",
-                    "text": "Project Takeover",
-                    "link": "/it-solution/project-takeover"
-                },
-                {
-                    "id": "menu-32",
-                    "text": "Website Development",
-                    "link": "/it-solution/custom-website-development"
-                },
-                {
-                    "id": "menu-33",
-                    "text": "UI/UX Development",
-                    "link": "/it-solution/uiux-development-and-design"
-                },
-                {
-                    "id": "menu-34",
-                    "text": "Web App Development",
-                    "link": "/it-solution/web-application-development"
-                },
-                {
-                    "id": "menu-35",
                     "text": "Graphic Design",
                     "link": "/it-solution/graphic-design"
                 },
                 {
+                    "id": "menu-32",
+                    "text": "Problem Resolution",
+                    "link": "/it-solution/website-problem-resolution"
+                },
+                {
+                    "id": "menu-33",
+                    "text": "Web App Development",
+                    "link": "/it-solution/web-application-development"
+                },
+                {
+                    "id": "menu-34",
+                    "text": "Logo Creation",
+                    "link": "/it-solution/logo-creation"
+                },
+                {
+                    "id": "menu-35",
+                    "text": "Web Optimization",
+                    "link": "/it-solution/website-optimization"
+                },
+                {
                     "id": "menu-36",
-                    "text": "Testing and QA",
-                    "link": "/it-solution/testing-and-qa"
+                    "text": "Web Development",
+                    "link": "/it-solution/custom-website-development"
                 }
             ]
         },

@@ -1,7 +1,7 @@
 {
     "id": "website-optimization",
     "title": "Website Optimization",
-    "excerpt": "Slow websites are not only frustrating to use, but they negatively impact several areas of your buisiness online.",
+    "excerpt": "Slow websites are not only frustrating to use, they also negatively impact several areas of your business online including bounce rate and accessibility. We will analyze your site and present a custom solution to bring it up to industry standards.",
     "icon": {
         "svg": {
             "src": "../images/icons/linea-basic-alarm.svg"
@@ -30,16 +30,16 @@
             "headings": [
                 {
                     "level": "h3",
-                    "content": "User experience is king."
+                    "content": "User experience is king. Optimization is queen."
                 },
                 {
                     "level": "h5",
-                    "content": "UI/UX design focuses on the experience your user has while using your software product, which is key to adoption and success."
+                    "content": "We're web site optimization gurus. Highly skilled at pinpointing bottlenecks and bending websites to our will, we will help you wrangle our web presence into compliance with industry standards."
                 }
             ],
             "texts": [
                 {
-                    "content": "Let us partner with you to build a truly great user experience."
+                    "content": "Let us partner with you to build a truly great user experience by making sure your website is as optimized as it can be."
                 }
             ]
         },
@@ -49,13 +49,13 @@
             "items": [
                 {
                     "id": 1,
-                    "title": "User Interface Expertise",
-                    "description": "We've been developing winning User Interfaces and User Experiences for decades. Our designs have been used by hundreds of websites across the internet."
+                    "title": "User Experience Expertise",
+                    "description": "We've been developing winning User Interfaces and User Experiences for decades. Our designs have been used by hundreds of websites across the internet.  From CNN, to advertising and marketing agencies, we've had our hands in some of the most high-traffic websites on the planet."
                 },
                 {
                     "id": 2,
-                    "title": "User Experience Expertise",
-                    "description": "We've been building websites and web applications for decades. You could say we've got a sixth-sense for good User Experience, and we would love to work with you to bring this skillset to your company."
+                    "title": "Website Optimization",
+                    "description": "We have what it takes, and know the tricks of the trade to optimize your website or web application.  It's time to trim the fat, speed up rendering, and create the user experience your valued users deserve."
                 }
             ],
             "images": [

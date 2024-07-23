@@ -56,6 +56,16 @@
                     "id": 2,
                     "title": "Web Design",
                     "description": "Each of our websites is designed and developed based on your design preferences. We start by asking you to send us a sample of a website or design that you like.  Once our initial design is developed, we show it to you and can make any requested changes.  Once the design is approved we move into the development stage."
+                },
+                {
+                    "id": 3,
+                    "title": "Google Ads",
+                    "description": "Creating eye-catching advertisements is an art unto itself. It takes a keen eye for design and an intricate knowledge of what Google is looking for in its ads.  We've been in this game for a long time, and we know how the system works.  Put us to work, so you don't have to."
+                },
+                {
+                    "id": 4,
+                    "title": "Business Cards",
+                    "description": "Business cards may be dying a slow death in our technologically advancing society, but that doesn't mean they don't have their uses!  We'll create memorable and functional business card designs that you can send off to your printer of choice."
                 }
             ],
             "images": [

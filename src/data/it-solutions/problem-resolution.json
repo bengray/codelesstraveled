@@ -34,7 +34,7 @@
                 },
                 {
                     "level": "h5",
-                    "content": "When you've been engineering and delivering software as long as we have, you develop a <span>sixth-sense for quality</span>. It's time to let our team develop a targeted strategy to provide you with quick testing and QA."
+                    "content": "When you've been building, implementing and trouble-shooting software as long as we have, you develop a <span>sixth-sense for troubleshooting</span>. It's time to let our team develop a targeted strategy to resolve the felt-need you're currently experiencing."
                 }
             ],
             "texts": [
@@ -56,11 +56,6 @@
                     "id": 2,
                     "title": "Comprehensive Testing",
                     "description": "This comprehensive service covers the most popular testing services, including security, exploratory, ad-hoc, usability, localization, installation, error handling, and compatibility testing."
-                },
-                {
-                    "id": 3,
-                    "title": "Web and Mobile QA",
-                    "description": "In a world where users might jump from a high-end desktop to a mid-range smartphone, your websites and apps should look great and perform well on all browsers and devices. Our web and mobile QA service focuses on responsive design and cross-platform compatibility for a seamless user experience. We also conduct accessibility testing to confirm your software is usable by people with disabilities."
                 }
             ],
             "images": [
