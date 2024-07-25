@@ -1,7 +1,7 @@
 {
     "id": "logo-creation",
     "title": "Logo Creation",
-    "excerpt": "Your logo is an integral part of your branding. It sets you apart from your competion and is a key piece of your business.  We've been creating logos for years and our graphic designer is top notch.  Let's brainstorm together, and create a unique logo for you!",
+    "excerpt": "Your logo is an integral part of your branding. It sets you apart from your competion and is a key piece of your business.  We've been creating logos for years and our graphic designer is top notch.  Let's brainstorm together, and create a unique logo that will set you apart from the crowd.",
     "icon": {
         "svg": {
             "src": "../images/icons/linea-basic-spread-text-bookmark.svg"
@@ -49,18 +49,13 @@
             "items": [
                 {
                     "id": 1,
-                    "title": "Modify or update your existing website",
-                    "description": "Regardless of how or when your website was built, we the expertise necessary to get into the code and it work and look the way you want."
+                    "title": "Modify or update your existing logo",
+                    "description": "Regardless of how or when your current logo was created,  necessary to get into the code and it work and look the way you want."
                 },
                 {
                     "id": 2,
-                    "title": "Modify or update your WordPress website",
-                    "description": "We've been working with WordPress since 2005. We were on the ground-floor of its creation and have been making modifications to this popular CMS ever since. Regardless of your needs, we can update or fix your WordPress website."
-                },
-                {
-                    "id": 3,
-                    "title": "Take over your custom web application",
-                    "description": "Whether you need a team to finish building your application, or just need someone to make changes to a finished product, our team has the experience you need.  We have been building web applications for over two decades. We've built custom software for CNN, Kelley Blue Book, Cricket Wireless, Autotrader, Rooms To Go and Floor & Decor.  We know what it takes to build scalable software that makes you money."
+                    "title": "Create a new logo for your business",
+                    "description": "Starting a business or creating a brand takes a LOT of work. When you partner with us for your logo creation you're partnering with experience and pure artistry. Don't spend time fiddling with Photoshop or Illustrator, we're already pros with the tools. Instead, share your vision with us and let us do the heavy lifting for you."
                 }
             ],
             "images": [
