@@ -105,11 +105,11 @@ const Footer = ({ data }) => {
                                     </li>
                                     <li>
                                         <Anchor
-                                            path="/it-solution/testing-and-qa/"
+                                            path="/it-solution/website-problem-resolution/"
                                             color="text"
                                             $hover={{ layout: 2 }}
                                         >
-                                            Testing & QA Services
+                                            Website Problem Resolution
                                         </Anchor>
                                     </li>
                                     <li>
@@ -123,20 +123,20 @@ const Footer = ({ data }) => {
                                     </li>
                                     <li>
                                         <Anchor
-                                            path="/it-solution/project-takeover/"
+                                            path="/it-solution/logo-creation/"
                                             color="text"
                                             $hover={{ layout: 2 }}
                                         >
-                                            Project Takeover
+                                            Logo Creation
                                         </Anchor>
                                     </li>
                                     <li>
                                         <Anchor
-                                            path="/it-solution/uiux-development-and-design/"
+                                            path="/it-solution/website-optimization/"
                                             color="text"
                                             $hover={{ layout: 2 }}
                                         >
-                                            UI/UX Design
+                                            Website Optimization
                                         </Anchor>
                                     </li>
                                 </FooterWidgetList>

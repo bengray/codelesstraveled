@@ -42,7 +42,7 @@
             ],
             "texts": [
                 {
-                    "content": "Code Less Traveled was created by me, Ben Gray, after almost two decades of web development experience. Ever the humanitarian, I had become increasingly aware of just how neglected and under-served the neurodivergent community is. Being neurodivergent myself, I decided to build a team of highly skilled individuals (who also are neurodivergent) with whom I have worked over the years. It didn't take much convincing to get these people on board with this project, and before we knew it we had a real motley crew."
+                    "content": "Code Less Traveled was created by me, Ben Gray, after almost two decades of web development experience. Ever the advocate for humanity, I became increasingly aware of just how neglected and under-served the neurodivergent community is. Being neurodivergent myself, I decided to put together a team of highly skilled individuals with whom I had worked over the years. It didn't take much convincing to get these amazing people on board with this project, and before we knew it we had a real motley crew."
                 }
             ],
             "buttons": [
@@ -58,8 +58,8 @@
                     "disableHover": false,
                     "hoverStyle": "one",
                     "fontWeight": 500,
-                    "path": "/contact-us",
-                    "content": "Contact us today"
+                    "path": "/meet-the-team",
+                    "content": "Meet the team"
                 }
             ]
         },

@@ -18,7 +18,7 @@ const LeadershipPage = ({ pageContext, location, data }) => {
 
     return (
         <Layout location={location}>
-            <Seo title="Leadership" />
+            <Seo title="Meet The Team" />
             <Header
                 data={{
                     ...globalContent["header"],
@@ -29,12 +29,12 @@ const LeadershipPage = ({ pageContext, location, data }) => {
                 <PageHeader
                     pageContext={pageContext}
                     location={location}
-                    title="Leadership"
+                    title="Our Team"
                 />
                 <HeadTeamArea data={content["head-section"]} />
-                <ExecutiveTeamArea data={content["executive-section"]} />
+                {/* <ExecutiveTeamArea data={content["executive-section"]} />
                 <EmployeTeamArea data={content["employee-section"]} />
-                <ContactArea data={content["contact-section"]} />
+                <ContactArea data={content["contact-section"]} /> */}
             </main>
             <Footer data={{ ...data.site.siteMetadata }} />
         </Layout>
@@ -52,7 +52,7 @@ export const query = graphql`
         site {
             ...Site
         }
-        page(title: { eq: "leadership" }, pageType: { eq: "innerpage" }) {
+        page(title: { eq: "meet-the-team" }, pageType: { eq: "innerpage" }) {
             content {
                 ...PageContent
             }

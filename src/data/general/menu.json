@@ -28,6 +28,11 @@
                     "link": "/why-choose-us"
                 },
                 {
+                    "id": "menu-25",
+                    "text": "Meet The Team",
+                    "link": "/meet-the-team"
+                },
+                {
                     "id": "menu-26",
                     "text": "FAQs",
                     "link": "/faq"

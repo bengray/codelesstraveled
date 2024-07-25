@@ -1,48 +1,48 @@
 {
-    "title": "leadership",
+    "title": "meet-the-team",
     "pageType": "innerpage",
     "content": [
         {
             "id": "leadership-head",
             "section": "head-section",
             "section_title": {
-                "title": "We hire staffs who know more than what they show <br>of <span> IT services</span>"
+                "title": "This motley crew has accumulated combined experience in many areas."
             },
             "items": [
                 {
                     "id": 1,
-                    "name": "Dollie Horton",
-                    "designation": "Chief People Officer",
+                    "name": "Ben Gray",
+                    "designation": "Founder / Lead Software Engineer",
                     "images": [
                         {
-                            "src": "../images/team/team-member-07-370x455.jpg"
+                            "src": "../images/team/ben-gray-founder.jpg"
                         }
                     ],
                     "socials": [
                         {
                             "id": 1,
                             "icon": "fab fa-facebook",
-                            "link": "https://www.twitter.com",
+                            "link": "https://www.facebook.com/bendoylegray",
                             "title": "Facebook"
                         },
                         {
                             "id": 2,
                             "icon": "fab fa-twitter",
-                            "link": "https://www.twitter.com",
+                            "link": "https://x.com/bgray",
                             "title": "Twitter"
                         },
                         {
                             "id": 3,
                             "icon": "fab fa-instagram",
-                            "link": "https://www.instagram.com",
+                            "link": "https://www.instagram.com/bendoylegray/",
                             "title": "Instagram"
                         }
                     ]
                 },
                 {
                     "id": 2,
-                    "name": "Robert Amplilian",
-                    "designation": "Chief People Officer",
+                    "name": "Nick Gray",
+                    "designation": "Graphic Designer / Artist",
                     "images": [
                         {
                             "src": "../images/team/team-member-01-370x455.jpg"
@@ -71,11 +71,11 @@
                 },
                 {
                     "id": 3,
-                    "name": "Stephen Mearsley",
-                    "designation": "President & CEO",
+                    "name": "Michael Coleman",
+                    "designation": "Web Accessibility Expert",
                     "images": [
                         {
-                            "src": "../images/team/team-member-06-370x455.jpg"
+                            "src": "../images/team/michael-coleman.jpg"
                         }
                     ],
                     "socials": [
