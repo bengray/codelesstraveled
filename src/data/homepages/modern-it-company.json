@@ -39,10 +39,10 @@
                     "id": 1,
                     "images": [
                         {
-                            "src": "../images/partners/js.png"
+                            "src": "../images/partners/aws-logo.png"
                         },
                         {
-                            "src": "../images/partners/js-hover.png"
+                            "src": "../images/partners/aws-logo-hover.png"
                         }
                     ],
                     "path": "/"
@@ -51,10 +51,10 @@
                     "id": 2,
                     "images": [
                         {
-                            "src": "../images/partners/node.png"
+                            "src": "../images/partners/woocommerce-logo.png"
                         },
                         {
-                            "src": "../images/partners/node-hover.png"
+                            "src": "../images/partners/woocommerce-logo-hover.png"
                         }
                     ],
                     "path": "/"
@@ -63,10 +63,10 @@
                     "id": 3,
                     "images": [
                         {
-                            "src": "../images/partners/lol-php.png"
+                            "src": "../images/partners/wordpress-logo.png"
                         },
                         {
-                            "src": "../images/partners/lol-php-hover.png"
+                            "src": "../images/partners/wordpress-logo-hover.png"
                         }
                     ],
                     "path": "/"
@@ -75,10 +75,10 @@
                     "id": 4,
                     "images": [
                         {
-                            "src": "../images/partners/react.png"
+                            "src": "../images/partners/squarespace-logo.png"
                         },
                         {
-                            "src": "../images/partners/react-hover.png"
+                            "src": "../images/partners/squarespace-logo-hover.png"
                         }
                     ],
                     "path": "/"
@@ -87,22 +87,10 @@
                     "id": 5,
                     "images": [
                         {
-                            "src": "../images/partners/mysql.png"
+                            "src": "../images/partners/shopify-logo.png"
                         },
                         {
-                            "src": "../images/partners/mysql-hover.png"
-                        }
-                    ],
-                    "path": "/"
-                },
-                {
-                    "id": 6,
-                    "images": [
-                        {
-                            "src": "../images/partners/aws.png"
-                        },
-                        {
-                            "src": "../images/partners/aws-hover.png"
+                            "src": "../images/partners/shopify-logo-hover.png"
                         }
                     ],
                     "path": "/"
