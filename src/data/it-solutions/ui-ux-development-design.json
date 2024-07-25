@@ -39,7 +39,7 @@
             ],
             "texts": [
                 {
-                    "content": "Let us partner with you to build a truly great user experience by making sure your website is as optimized as it can be."
+                    "content": "With us as your website development and solutions partner, we will meticulously analyze your website to ensure it's up to industry standards."
                 }
             ]
         },
@@ -49,13 +49,13 @@
             "items": [
                 {
                     "id": 1,
-                    "title": "User Experience Expertise",
-                    "description": "We've been developing winning User Interfaces and User Experiences for decades. Our designs have been used by hundreds of websites across the internet.  From CNN, to advertising and marketing agencies, we've had our hands in some of the most high-traffic websites on the planet."
+                    "title": "User Experience Optimization",
+                    "description": "Optimizing your website is vital for several reasons; not the least of which is creating a wonderful user experience.  We've been creating optimize UI and UX (Uiser Interfaces and User Experiences) for decades.  Isn't it time you stopped wondering if users enjoy your website?  We will help ensure that they do."
                 },
                 {
                     "id": 2,
-                    "title": "Website Optimization",
-                    "description": "We have what it takes, and know the tricks of the trade to optimize your website or web application.  It's time to trim the fat, speed up rendering, and create the user experience your valued users deserve."
+                    "title": "SEO Optimization",
+                    "description": "Search engines such as Google and Bing utilize complex, ever-changing algorithms to determine where your website should rank in their search engine results.  Fortunately, we understand their algorithms and have what it takes to optimize your website for them.  It's time to trim the fat, speed up rendering, and get the SEO you need."
                 }
             ],
             "images": [
