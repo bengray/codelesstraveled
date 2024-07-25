@@ -71,8 +71,11 @@ const ConsultForm = () => {
                             <option value="Fix Your Existing Website">
                                 Fix Your Existing Website
                             </option>
-                            <option value="Add To Your Existing Website">
-                                Add To Your Existing Website
+                            <option value="Optimize Your Website">
+                                Optimize Your Website
+                            </option>
+                            <option value="Create a custom logo">
+                                Create a custom logo
                             </option>
                             <option value="Build A Custom Web Application">
                                 Build A Custom Web Application
