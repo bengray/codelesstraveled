@@ -20,24 +20,6 @@ const TeamMember = ({ image, name, designation, socials, layout }) => {
                     {image?.src && (
                         <Image src={image.src} alt={image?.alt || name} />
                     )}
-
-                    <TeamMemberSocialWrap>
-                        <Social
-                            color="light"
-                            variant="texted"
-                            tooltip={true}
-                            tooltip_bg="secondary"
-                            hover={{ color: "#fff" }}
-                            space="20px"
-                            size="small"
-                        >
-                            {socials?.map(({ id, icon, link, title }) => (
-                                <SocialLink key={id} title={title} path={link}>
-                                    <i className={icon}></i>
-                                </SocialLink>
-                            ))}
-                        </Social>
-                    </TeamMemberSocialWrap>
                 </TeamMemberImage>
                 <TeamMemberInfo $layout={layout}>
                     {name && (
