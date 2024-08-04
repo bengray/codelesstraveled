@@ -16,7 +16,7 @@ const TeamArea = ({ data }) => {
                         {...data.section_title}
                     />
                 )}
-                <Row gutters={{ lg: 60 }}>
+                <Row gutters={{ lg: 60 }} justifyContent="center">
                     {data?.items?.map((member) => (
                         <Col md={4} key={member.id} mb="30px">
                             <TeamMember

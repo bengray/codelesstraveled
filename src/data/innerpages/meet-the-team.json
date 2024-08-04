@@ -6,7 +6,7 @@
             "id": "leadership-head",
             "section": "head-section",
             "section_title": {
-                "title": "This motley crew has accumulated combined experience in many areas."
+                "title": "At Code Less Traveled we've gathered a team of people from all kinds of backgrounds to provide you with a truly excellent set of services."
             },
             "items": [
                 {
@@ -45,7 +45,7 @@
                     "designation": "Graphic Designer / Artist",
                     "images": [
                         {
-                            "src": "../images/team/team-member-01-370x455.jpg"
+                            "src": "../images/team/nick-gray.jpg"
                         }
                     ],
                     "socials": [
@@ -76,6 +76,36 @@
                     "images": [
                         {
                             "src": "../images/team/michael-coleman.jpg"
+                        }
+                    ],
+                    "socials": [
+                        {
+                            "id": 1,
+                            "icon": "fab fa-facebook",
+                            "link": "https://www.twitter.com",
+                            "title": "Facebook"
+                        },
+                        {
+                            "id": 2,
+                            "icon": "fab fa-twitter",
+                            "link": "https://www.twitter.com",
+                            "title": "Twitter"
+                        },
+                        {
+                            "id": 3,
+                            "icon": "fab fa-instagram",
+                            "link": "https://www.instagram.com",
+                            "title": "Instagram"
+                        }
+                    ]
+                },
+                {
+                    "id": 4,
+                    "name": "Jason Mkrtschjan",
+                    "designation": "Digital Marketing Strategist",
+                    "images": [
+                        {
+                            "src": "../images/team/jason-mkrtschjan.jpg"
                         }
                     ],
                     "socials": [
