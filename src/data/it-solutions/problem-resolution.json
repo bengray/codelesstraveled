@@ -39,7 +39,7 @@
             ],
             "texts": [
                 {
-                    "content": "<a href='/contact-us'>Contact us</a> to begin the process of getting a detailed analysis and assessment."
+                    "content": "<a style='text-decoration:underline' href='/contact-us'>Contact us</a> to begin the process of getting a detailed analysis and assessment."
                 }
             ]
         },
