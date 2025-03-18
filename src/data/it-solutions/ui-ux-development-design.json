@@ -1,151 +1,151 @@
 {
-    "id": "website-optimization",
-    "title": "Website Optimization",
-    "excerpt": "Slow websites are not only frustrating to use, they also negatively impact several areas of your business online including bounce rate and accessibility. We will analyze your site and present a custom solution to bring it up to industry standards.",
-    "icon": {
-        "svg": {
-            "src": "../images/icons/linea-basic-alarm.svg"
-        },
-        "images": [
-            {
-                "src": "../images/icons/website-optimization.png"
-            },
-            {
-                "src": "../images/icons/icon-06-100x98.png"
-            }
-        ]
+  "id": "website-optimization",
+  "title": "Website Optimization",
+  "excerpt": "Slow websites are not only frustrating to use, they also negatively impact several areas of your business online including bounce rate and accessibility. We will analyze your site and present a custom solution to bring it up to industry standards.",
+  "icon": {
+    "svg": {
+      "src": "../images/icons/linea-basic-alarm.svg"
     },
-    "featured_image": {
-        "src": "../images/box-image/ui-ux-box.jpg"
-    },
-    "banner_image": {
-        "src": "../images/banner/friendly-programmer.jpg",
-        "alt": "Friendly robot looking at a laptop"
-    },
-    "is_featured": true,
-    "content": [
-        {
-            "id": "intro",
-            "section": "intro-section",
-            "headings": [
-                {
-                    "level": "h3",
-                    "content": "If user experience is king, optimization is queen."
-                },
-                {
-                    "level": "h5",
-                    "content": "We're web site optimization gurus. Highly skilled at pinpointing bottlenecks and bending websites to our will, we will help you wrangle our web presence into compliance with industry standards."
-                }
-            ],
-            "texts": [
-                {
-                    "content": "With us as your website development and solutions partner, we will meticulously analyze your website to ensure it's up to industry standards."
-                }
-            ]
-        },
-        {
-            "id": "faq",
-            "section": "faq-section",
-            "items": [
-                {
-                    "id": 1,
-                    "title": "User Experience Optimization",
-                    "description": "Optimizing your website is vital for several reasons; not the least of which is creating a wonderful user experience.  We've been creating optimize UI and UX (Uiser Interfaces and User Experiences) for decades.  Isn't it time you stopped wondering if users enjoy your website?  We will help ensure that they do."
-                },
-                {
-                    "id": 2,
-                    "title": "SEO Optimization",
-                    "description": "Search engines such as Google and Bing utilize complex, ever-changing algorithms to determine where your website should rank in their search engine results.  Fortunately, we understand their algorithms and have what it takes to optimize your website for them.  It's time to trim the fat, speed up rendering, and get the SEO you need."
-                }
-            ],
-            "images": [
-                {
-                    "src": "../images/about-us/ui-ux.jpg",
-                    "alt": "Drawn image of design on a phone"
-                }
-            ]
-        },
-        {
-            "id": "features",
-            "section": "whats-new-section",
-            "section_title": {
-                "title": "Prominent IT Security Services"
-            },
-            "items": [
-                {
-                    "id": 1,
-                    "images": [
-                        {
-                            "src": "../images/icons/icon-07-60x60.png"
-                        }
-                    ],
-                    "title": "Mitech Management Systems",
-                    "description": "Our service offerings enhance customer experience throughout secure & highly functional end-to-end warranty management."
-                },
-                {
-                    "id": 2,
-                    "images": [
-                        {
-                            "src": "../images/icons/icon-08-60x60.png"
-                        }
-                    ],
-                    "title": "Reliable Multi-function Technology",
-                    "description": "Develop and propose product improvements through periodical and accurate testing, repairing & refining every version."
-                },
-                {
-                    "id": 3,
-                    "images": [
-                        {
-                            "src": "../images/icons/icon-09-60x60.png"
-                        }
-                    ],
-                    "title": "Highly Professional Staffs",
-                    "description": "Develop and propose product improvements through periodical and accurate testing, repairing & refining every version."
-                },
-                {
-                    "id": 4,
-                    "images": [
-                        {
-                            "src": "../images/icons/icon-10-60x60.png"
-                        }
-                    ],
-                    "title": "Infrastructure Integration Technology",
-                    "description": "At Mitech, we have a holistic and integrated approach towards core modernization to experience technological evolution."
-                }
-            ]
-        },
-        {
-            "id": "services-cta",
-            "section": "cta-section",
-            "headings": [
-                {
-                    "level": "h3",
-                    "content": "Assess your business potentials and find opportunities <span>for bigger success </span>"
-                }
-            ],
-            "buttons": [
-                {
-                    "id": 1,
-                    "path": "/contact-us",
-                    "color": "light",
-                    "icon": "far fa-comment-alt",
-                    "iconposition": "left",
-                    "icondistance": "8px",
-                    "iconsize": "16px",
-                    "hoverStyle": "three",
-                    "content": "Let's talk"
-                },
-                {
-                    "id": 2,
-                    "path": "/contact-us",
-                    "color": "secondary",
-                    "icon": "fas fa-info-circle",
-                    "iconposition": "left",
-                    "icondistance": "8px",
-                    "iconsize": "16px",
-                    "content": "Get Info"
-                }
-            ]
-        }
+    "images": [
+      {
+        "src": "../images/icons/website-optimization.png"
+      },
+      {
+        "src": "../images/icons/icon-06-100x98.png"
+      }
     ]
+  },
+  "featured_image": {
+    "src": "../images/box-image/ui-ux-box.jpg"
+  },
+  "banner_image": {
+    "src": "../images/banner/friendly-programmer.jpg",
+    "alt": "Friendly robot looking at a laptop"
+  },
+  "is_featured": true,
+  "content": [
+    {
+      "id": "intro",
+      "section": "intro-section",
+      "headings": [
+        {
+          "level": "h3",
+          "content": "If user experience is king, optimization is queen."
+        },
+        {
+          "level": "h5",
+          "content": "We're website optimization gurus. Highly skilled at pinpointing bottlenecks and bending websites to our will, we will help you wrangle our web presence into compliance with industry standards."
+        }
+      ],
+      "texts": [
+        {
+          "content": "With us as your website development and solutions partner, we will meticulously analyze your website to ensure it's up to industry standards."
+        }
+      ]
+    },
+    {
+      "id": "faq",
+      "section": "faq-section",
+      "items": [
+        {
+          "id": 1,
+          "title": "User Experience Optimization",
+          "description": "Optimizing your website is vital for several reasons; not the least of which is creating a wonderful user experience.  We've been creating optimized UI and UX (User Interfaces and User Experiences) for decades.  Isn't it time you stopped wondering if users enjoy your website?  We will help ensure that they do."
+        },
+        {
+          "id": 2,
+          "title": "SEO Optimization",
+          "description": "Search engines such as Google and Bing utilize complex, ever-changing algorithms to determine where your website should rank in their search engine results.  Fortunately, we understand their algorithms and have what it takes to optimize your website for them.  It's time to trim the fat, speed up page rendering, and get the SEO you need."
+        }
+      ],
+      "images": [
+        {
+          "src": "../images/about-us/ui-ux.jpg",
+          "alt": "Drawn image of design on a phone"
+        }
+      ]
+    },
+    {
+      "id": "features",
+      "section": "whats-new-section",
+      "section_title": {
+        "title": "Prominent IT Security Services"
+      },
+      "items": [
+        {
+          "id": 1,
+          "images": [
+            {
+              "src": "../images/icons/icon-07-60x60.png"
+            }
+          ],
+          "title": "Mitech Management Systems",
+          "description": "Our service offerings enhance customer experience throughout secure & highly functional end-to-end warranty management."
+        },
+        {
+          "id": 2,
+          "images": [
+            {
+              "src": "../images/icons/icon-08-60x60.png"
+            }
+          ],
+          "title": "Reliable Multi-function Technology",
+          "description": "Develop and propose product improvements through periodical and accurate testing, repairing & refining every version."
+        },
+        {
+          "id": 3,
+          "images": [
+            {
+              "src": "../images/icons/icon-09-60x60.png"
+            }
+          ],
+          "title": "Highly Professional Staffs",
+          "description": "Develop and propose product improvements through periodical and accurate testing, repairing & refining every version."
+        },
+        {
+          "id": 4,
+          "images": [
+            {
+              "src": "../images/icons/icon-10-60x60.png"
+            }
+          ],
+          "title": "Infrastructure Integration Technology",
+          "description": "At Mitech, we have a holistic and integrated approach towards core modernization to experience technological evolution."
+        }
+      ]
+    },
+    {
+      "id": "services-cta",
+      "section": "cta-section",
+      "headings": [
+        {
+          "level": "h3",
+          "content": "Assess your business potentials and find opportunities <span>for bigger success </span>"
+        }
+      ],
+      "buttons": [
+        {
+          "id": 1,
+          "path": "/contact-us",
+          "color": "light",
+          "icon": "far fa-comment-alt",
+          "iconposition": "left",
+          "icondistance": "8px",
+          "iconsize": "16px",
+          "hoverStyle": "three",
+          "content": "Let's talk"
+        },
+        {
+          "id": 2,
+          "path": "/contact-us",
+          "color": "secondary",
+          "icon": "fas fa-info-circle",
+          "iconposition": "left",
+          "icondistance": "8px",
+          "iconsize": "16px",
+          "content": "Get Info"
+        }
+      ]
+    }
+  ]
 }

@@ -1,85 +1,85 @@
 {
-    "id": "menu-data",
-    "section": "menu",
-    "menu": [
+  "id": "menu-data",
+  "section": "menu",
+  "menu": [
+    {
+      "id": "menu-1",
+      "text": "Home",
+      "link": "/"
+    },
+    {
+      "id": "menu-2",
+      "text": "Company",
+      "link": "/about-us",
+      "submenu": [
         {
-            "id": "menu-1",
-            "text": "Home",
-            "link": "/"
+          "id": "menu-21",
+          "text": "About Us",
+          "link": "/about-us"
         },
         {
-            "id": "menu-2",
-            "text": "Company",
-            "link": "/about-us",
-            "submenu": [
-                {
-                    "id": "menu-21",
-                    "text": "About Us",
-                    "link": "/about-us"
-                },
-                {
-                    "id": "menu-22",
-                    "text": "Contact Us",
-                    "link": "/contact-us"
-                },
-                {
-                    "id": "menu-24",
-                    "text": "Why Choose Us",
-                    "link": "/why-choose-us"
-                },
-                {
-                    "id": "menu-25",
-                    "text": "Meet The Team",
-                    "link": "/meet-the-team"
-                },
-                {
-                    "id": "menu-26",
-                    "text": "FAQs",
-                    "link": "/faq"
-                }
-            ]
+          "id": "menu-22",
+          "text": "Contact Us",
+          "link": "/contact-us"
         },
         {
-            "id": "menu-3",
-            "text": "Web Solutions",
-            "link": "/it-solutions",
-            "submenu": [
-                {
-                    "id": "menu-31",
-                    "text": "Graphic Design",
-                    "link": "/it-solution/graphic-design"
-                },
-                {
-                    "id": "menu-32",
-                    "text": "Problem Resolution",
-                    "link": "/it-solution/website-problem-resolution"
-                },
-                {
-                    "id": "menu-33",
-                    "text": "Web App Development",
-                    "link": "/it-solution/web-application-development"
-                },
-                {
-                    "id": "menu-34",
-                    "text": "Logo Creation",
-                    "link": "/it-solution/logo-creation"
-                },
-                {
-                    "id": "menu-35",
-                    "text": "Web Optimization",
-                    "link": "/it-solution/website-optimization"
-                },
-                {
-                    "id": "menu-36",
-                    "text": "Web Development",
-                    "link": "/it-solution/custom-website-development"
-                }
-            ]
+          "id": "menu-24",
+          "text": "Why Choose Us",
+          "link": "/why-choose-us"
         },
         {
-            "id": "menu-4",
-            "text": "Blog",
-            "link": "/blog"
+          "id": "menu-25",
+          "text": "Meet The Team",
+          "link": "/meet-the-team"
+        },
+        {
+          "id": "menu-26",
+          "text": "FAQs",
+          "link": "/faq"
         }
-    ]
+      ]
+    },
+    {
+      "id": "menu-3",
+      "text": "Web Solutions",
+      "link": "/it-solutions",
+      "submenu": [
+        {
+          "id": "menu-31",
+          "text": "Graphic Design",
+          "link": "/it-solution/graphic-design"
+        },
+        {
+          "id": "menu-32",
+          "text": "Problem Resolution",
+          "link": "/it-solution/website-problem-resolution"
+        },
+        {
+          "id": "menu-33",
+          "text": "Web App Development",
+          "link": "/it-solution/web-application-development"
+        },
+        {
+          "id": "menu-34",
+          "text": "Logo Creation",
+          "link": "/it-solution/logo-creation"
+        },
+        {
+          "id": "menu-35",
+          "text": "Website Optimization",
+          "link": "/it-solution/website-optimization"
+        },
+        {
+          "id": "menu-36",
+          "text": "Web Development",
+          "link": "/it-solution/custom-website-development"
+        }
+      ]
+    },
+    {
+      "id": "menu-4",
+      "text": "Blog",
+      "link": "/blog"
+    }
+  ]
 }

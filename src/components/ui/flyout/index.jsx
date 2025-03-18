@@ -5,11 +5,11 @@ import { FlyoutBody } from "./flyout-body";
 import { FlyoutWrap } from "./style";
 
 const Flyout = ({ children, ...restProps }) => {
-    return <FlyoutWrap {...restProps}>{children}</FlyoutWrap>;
+  return <FlyoutWrap {...restProps}>{children}</FlyoutWrap>;
 };
 
 Flyout.propTypes = {
-    children: PropTypes.node.isRequired,
+  children: PropTypes.node.isRequired,
 };
 
 export { FlyoutHeader, FlyoutBody };
