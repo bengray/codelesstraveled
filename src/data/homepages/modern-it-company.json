@@ -1,346 +1,346 @@
 {
-    "title": "modern-it-company",
-    "pageType": "frontpage",
-    "content": [
+  "title": "modern-it-company",
+  "pageType": "frontpage",
+  "content": [
+    {
+      "id": "modern-it-company-hero-content",
+      "section": "hero-section",
+      "images": [
         {
-            "id": "modern-it-company-hero-content",
-            "section": "hero-section",
-            "images": [
-                {
-                    "src": "../images/hero/pencils.jpg"
-                }
-            ],
-            "headings": [
-                {
-                    "level": "h1",
-                    "content": "You're not like everyone else. <mark><i>Neither are we.</i></mark>"
-                },
-                {
-                    "level": "div",
-                    "content": "We know web development is <i>not</i> your special interest. <br /><br />Every minute you spend fiddling with your website or trying to fix something that broke or add things to it, you're taking away time you could have spent on your business and working on your passion. <br /><br />Let us worry about this part of your business, so you don't have to. "
-                },
-                {
-                    "level": "h5",
-                    "content": "You need your own personal web developer in your pocket. Let's talk about how we can help:"
-                }
-            ]
-        },
-        {
-            "id": "modern-it-company-partner",
-            "section": "partner-section",
-            "headings": [
-                {
-                    "level": "h5",
-                    "content": ""
-                }
-            ],
-            "items": [
-                {
-                    "id": 1,
-                    "images": [
-                        {
-                            "src": "../images/partners/aws-logo.png"
-                        },
-                        {
-                            "src": "../images/partners/aws-logo-hover.png"
-                        }
-                    ],
-                    "path": "/"
-                },
-                {
-                    "id": 2,
-                    "images": [
-                        {
-                            "src": "../images/partners/woocommerce-logo.png"
-                        },
-                        {
-                            "src": "../images/partners/woocommerce-logo-hover.png"
-                        }
-                    ],
-                    "path": "/"
-                },
-                {
-                    "id": 3,
-                    "images": [
-                        {
-                            "src": "../images/partners/wordpress-logo.png"
-                        },
-                        {
-                            "src": "../images/partners/wordpress-logo-hover.png"
-                        }
-                    ],
-                    "path": "/"
-                },
-                {
-                    "id": 4,
-                    "images": [
-                        {
-                            "src": "../images/partners/squarespace-logo.png"
-                        },
-                        {
-                            "src": "../images/partners/squarespace-logo-hover.png"
-                        }
-                    ],
-                    "path": "/"
-                },
-                {
-                    "id": 5,
-                    "images": [
-                        {
-                            "src": "../images/partners/shopify-logo.png"
-                        },
-                        {
-                            "src": "../images/partners/shopify-logo-hover.png"
-                        }
-                    ],
-                    "path": "/"
-                }
-            ]
-        },
-        {
-            "id": "modern-it-company-testimonial",
-            "section": "testimonial-section",
-            "images": [
-                {
-                    "src": "../images/testimonial/ben-gray.jpg"
-                }
-            ],
-            "headings": [
-                {
-                    "level": "h6",
-                    "content": "Ben Gray"
-                }
-            ],
-            "texts": [
-                {
-                    "content": "Life is more than your resume. Success is more than the balance in your bank account. At Code Less Traveled we connect people through technology; embracing the human element and wrangling the technical."
-                },
-                {
-                    "content": "Founder / Software Engineer"
-                }
-            ]
-        },
-        {
-            "id": "modern-it-company-funfact",
-            "section": "funfact-section",
-            "items": [
-                {
-                    "id": 1,
-                    "count": 1790,
-                    "title": "Happy Clients",
-                    "iconClass": "far fa-smile-beam"
-                },
-                {
-                    "id": 2,
-                    "count": 920,
-                    "title": "FINISHED PROJECTS",
-                    "iconClass": "far fa-folder"
-                },
-                {
-                    "id": 3,
-                    "count": 245,
-                    "title": "EXPERIENCED EXPERTS",
-                    "iconClass": "far fa-user"
-                }
-            ]
-        },
-        {
-            "id": "modern-it-company-solutions",
-            "section": "solution-section",
-            "section_title": {
-                "title": "Code Less Traveled isn't just one person, it's a tight-knit team of truly excellent people who have pledged to work with fellow neurodivergent humans (and those who support them) to help <span>foster success</span>."
-            },
-            "motto": {
-                "text": "You don't have to do this alone. We understand your unique needs and we're here to help.",
-                "link": "/contact-us",
-                "linkText": "Let's talk"
-            }
-        },
-        {
-            "id": "modern-it-company-projects",
-            "section": "project-section",
-            "section_title": {
-                "title": "We stand out for some reasons."
-            },
-            "items": [
-                {
-                    "id": 1,
-                    "title": "Professional consulting with reasonable budgeting strategies.",
-                    "images": [
-                        {
-                            "src": "../images/projects/home-reputable-success-client-image-01-480x360.jpg"
-                        },
-                        {
-                            "src": "../images/partners/home-reputable-success-client-logo-01.jpg"
-                        }
-                    ]
-                },
-                {
-                    "id": 2,
-                    "title": "24/7 support center with fast response and prompt action",
-                    "images": [
-                        {
-                            "src": "../images/projects/home-reputable-success-client-image-02-480x360.jpg"
-                        },
-                        {
-                            "src": "../images/partners/home-reputable-success-client-logo-02.jpg"
-                        }
-                    ]
-                },
-                {
-                    "id": 3,
-                    "title": "Modern technology advancement and innovative incentives",
-                    "images": [
-                        {
-                            "src": "../images/projects/home-reputable-success-client-image-03-480x360.jpg"
-                        },
-                        {
-                            "src": "../images/partners/home-reputable-success-client-logo-03.jpg"
-                        }
-                    ]
-                },
-                {
-                    "id": 4,
-                    "title": "Intensive listening and discussion with customers to find the best plan",
-                    "images": [
-                        {
-                            "src": "../images/projects/home-reputable-success-client-image-04-480x360.jpg"
-                        },
-                        {
-                            "src": "../images/partners/home-reputable-success-client-logo-04.jpg"
-                        }
-                    ]
-                },
-                {
-                    "id": 5,
-                    "title": "Attentive and positive attitude builds great career environment",
-                    "images": [
-                        {
-                            "src": "../images/projects/home-reputable-success-client-image-05-480x360.jpg"
-                        },
-                        {
-                            "src": "../images/partners/home-reputable-success-client-logo-05.jpg"
-                        }
-                    ]
-                },
-                {
-                    "id": 6,
-                    "title": "Precise projection of risks and potentials via advanced tools",
-                    "images": [
-                        {
-                            "src": "../images/projects/home-reputable-success-client-image-06-480x360.jpg"
-                        },
-                        {
-                            "src": "../images/partners/home-reputable-success-client-logo-06.jpg"
-                        }
-                    ]
-                }
-            ],
-            "motto": {
-                "text": "Never underestimate your potentials.",
-                "linkText": "It all started here.",
-                "link": "/case-studies"
-            }
-        },
-        {
-            "id": "modern-it-company-contact",
-            "section": "contact-section",
-            "headings": [
-                {
-                    "level": "h3",
-                    "content": "To make your claim, contact us on given social platforms."
-                },
-                {
-                    "level": "h6",
-                    "content": "Call for advice now!"
-                },
-                {
-                    "level": "h2",
-                    "content": "190068668"
-                }
-            ],
-            "texts": [
-                {
-                    "content": "Timing is just right when you’re ready! <br/> Solutions won’t take more than 24 hours to be delivered and proceeded."
-                }
-            ],
-            "buttons": [
-                {
-                    "id": 1,
-                    "color": "light",
-                    "hoverStyle": "two",
-                    "path": "/contact-us",
-                    "content": "Contact Us"
-                }
-            ]
-        },
-        {
-            "id": "modern-it-company-claim",
-            "section": "claim-section",
-            "section_title": {
-                "title": "How we claim to excel?"
-            },
-            "items": [
-                {
-                    "id": 1,
-                    "title": "Prompt help",
-                    "iconClass": "fa fa-clock",
-                    "description": "We give prompt help desk answer right when receiving the request from customers.",
-                    "color": "#faf6f3"
-                },
-                {
-                    "id": 2,
-                    "title": "Sound advice",
-                    "iconClass": "fa fa-cubes",
-                    "description": "Knowledge come with age and time. Our experts make sure it works.",
-                    "color": "#edf2fe"
-                },
-                {
-                    "id": 3,
-                    "title": "Zero risk",
-                    "iconClass": "fa fa-globe",
-                    "description": "No risking factors are present and we have all kinds of measures to protect against losses.",
-                    "color": "#f0f5f4"
-                },
-                {
-                    "id": 4,
-                    "title": "Tech savvy",
-                    "iconClass": "fa fa-briefcase",
-                    "description": "Technological wise plans are made for addressing all kinds of requests and demands.",
-                    "color": "#fff5f6"
-                },
-                {
-                    "id": 5,
-                    "title": "Satisfied",
-                    "iconClass": "fa fa-lock",
-                    "description": "100% of our current and recurring customers feel satisfied with the final results.",
-                    "color": "#fcf7ee"
-                }
-            ]
-        },
-        {
-            "id": "modern-it-company-cta",
-            "section": "cta-section",
-            "headings": [
-                {
-                    "level": "h2",
-                    "content": "<span>49</span> YEARS IN THE FIELD"
-                },
-                {
-                    "level": "h4",
-                    "content": "Read further to <br> our Success <br> Stories"
-                }
-            ],
-            "buttons": [
-                {
-                    "id": 1,
-                    "path": "/contact-us",
-                    "content": "Let's talk",
-                    "icon": "far fa-comment-alt",
-                    "iconposition": "left",
-                    "icondistance": "8px"
-                }
-            ]
+          "src": "../images/hero/pencils.jpg"
         }
-    ]
+      ],
+      "headings": [
+        {
+          "level": "h1",
+          "content": "You're not like everyone else. <mark><i>Neither are we.</i></mark>"
+        },
+        {
+          "level": "div",
+          "content": "We know web development is <i>not</i> your special interest...<br /> but it IS ours. <br /><br />Every minute you spend fiddling with your website or trying to fix something that broke or add things to it, you're taking away time you could have spent on your business and working on your passion. <br /><br />Let us worry about this part of your business, so you don't have to. "
+        },
+        {
+          "level": "h5",
+          "content": "You need your own personal web developer in your pocket. Let's talk about how we can help:"
+        }
+      ]
+    },
+    {
+      "id": "modern-it-company-partner",
+      "section": "partner-section",
+      "headings": [
+        {
+          "level": "h5",
+          "content": ""
+        }
+      ],
+      "items": [
+        {
+          "id": 1,
+          "images": [
+            {
+              "src": "../images/partners/aws-logo.png"
+            },
+            {
+              "src": "../images/partners/aws-logo-hover.png"
+            }
+          ],
+          "path": "/"
+        },
+        {
+          "id": 2,
+          "images": [
+            {
+              "src": "../images/partners/woocommerce-logo.png"
+            },
+            {
+              "src": "../images/partners/woocommerce-logo-hover.png"
+            }
+          ],
+          "path": "/"
+        },
+        {
+          "id": 3,
+          "images": [
+            {
+              "src": "../images/partners/wordpress-logo.png"
+            },
+            {
+              "src": "../images/partners/wordpress-logo-hover.png"
+            }
+          ],
+          "path": "/"
+        },
+        {
+          "id": 4,
+          "images": [
+            {
+              "src": "../images/partners/squarespace-logo.png"
+            },
+            {
+              "src": "../images/partners/squarespace-logo-hover.png"
+            }
+          ],
+          "path": "/"
+        },
+        {
+          "id": 5,
+          "images": [
+            {
+              "src": "../images/partners/shopify-logo.png"
+            },
+            {
+              "src": "../images/partners/shopify-logo-hover.png"
+            }
+          ],
+          "path": "/"
+        }
+      ]
+    },
+    {
+      "id": "modern-it-company-testimonial",
+      "section": "testimonial-section",
+      "images": [
+        {
+          "src": "../images/testimonial/ben-gray.jpg"
+        }
+      ],
+      "headings": [
+        {
+          "level": "h6",
+          "content": "Ben Gray"
+        }
+      ],
+      "texts": [
+        {
+          "content": "Life is more than your resume. Success is more than the balance in your bank account. At Code Less Traveled we connect people through technology; embracing the human element and wrangling the technical."
+        },
+        {
+          "content": "Founder / Lead Web Engineer"
+        }
+      ]
+    },
+    {
+      "id": "modern-it-company-funfact",
+      "section": "funfact-section",
+      "items": [
+        {
+          "id": 1,
+          "count": 1790,
+          "title": "Happy Clients",
+          "iconClass": "far fa-smile-beam"
+        },
+        {
+          "id": 2,
+          "count": 920,
+          "title": "FINISHED PROJECTS",
+          "iconClass": "far fa-folder"
+        },
+        {
+          "id": 3,
+          "count": 245,
+          "title": "EXPERIENCED EXPERTS",
+          "iconClass": "far fa-user"
+        }
+      ]
+    },
+    {
+      "id": "modern-it-company-solutions",
+      "section": "solution-section",
+      "section_title": {
+        "title": "Code Less Traveled isn't just one person, it's a tight-knit team of truly excellent people who have pledged to work with fellow neurodivergent humans (and those who support them) to help <span>foster success</span>."
+      },
+      "motto": {
+        "text": "You don't have to do this alone. We understand your unique needs and we're here to help.",
+        "link": "/contact-us",
+        "linkText": "Let's talk"
+      }
+    },
+    {
+      "id": "modern-it-company-projects",
+      "section": "project-section",
+      "section_title": {
+        "title": "We stand out for some reasons."
+      },
+      "items": [
+        {
+          "id": 1,
+          "title": "Professional consulting with reasonable budgeting strategies.",
+          "images": [
+            {
+              "src": "../images/projects/home-reputable-success-client-image-01-480x360.jpg"
+            },
+            {
+              "src": "../images/partners/home-reputable-success-client-logo-01.jpg"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "title": "24/7 support center with fast response and prompt action",
+          "images": [
+            {
+              "src": "../images/projects/home-reputable-success-client-image-02-480x360.jpg"
+            },
+            {
+              "src": "../images/partners/home-reputable-success-client-logo-02.jpg"
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "title": "Modern technology advancement and innovative incentives",
+          "images": [
+            {
+              "src": "../images/projects/home-reputable-success-client-image-03-480x360.jpg"
+            },
+            {
+              "src": "../images/partners/home-reputable-success-client-logo-03.jpg"
+            }
+          ]
+        },
+        {
+          "id": 4,
+          "title": "Intensive listening and discussion with customers to find the best plan",
+          "images": [
+            {
+              "src": "../images/projects/home-reputable-success-client-image-04-480x360.jpg"
+            },
+            {
+              "src": "../images/partners/home-reputable-success-client-logo-04.jpg"
+            }
+          ]
+        },
+        {
+          "id": 5,
+          "title": "Attentive and positive attitude builds great career environment",
+          "images": [
+            {
+              "src": "../images/projects/home-reputable-success-client-image-05-480x360.jpg"
+            },
+            {
+              "src": "../images/partners/home-reputable-success-client-logo-05.jpg"
+            }
+          ]
+        },
+        {
+          "id": 6,
+          "title": "Precise projection of risks and potentials via advanced tools",
+          "images": [
+            {
+              "src": "../images/projects/home-reputable-success-client-image-06-480x360.jpg"
+            },
+            {
+              "src": "../images/partners/home-reputable-success-client-logo-06.jpg"
+            }
+          ]
+        }
+      ],
+      "motto": {
+        "text": "Never underestimate your potentials.",
+        "linkText": "It all started here.",
+        "link": "/case-studies"
+      }
+    },
+    {
+      "id": "modern-it-company-contact",
+      "section": "contact-section",
+      "headings": [
+        {
+          "level": "h3",
+          "content": "To make your claim, contact us on given social platforms."
+        },
+        {
+          "level": "h6",
+          "content": "Call for advice now!"
+        },
+        {
+          "level": "h2",
+          "content": "190068668"
+        }
+      ],
+      "texts": [
+        {
+          "content": "Timing is just right when you’re ready! <br/> Solutions won’t take more than 24 hours to be delivered and proceeded."
+        }
+      ],
+      "buttons": [
+        {
+          "id": 1,
+          "color": "light",
+          "hoverStyle": "two",
+          "path": "/contact-us",
+          "content": "Contact Us"
+        }
+      ]
+    },
+    {
+      "id": "modern-it-company-claim",
+      "section": "claim-section",
+      "section_title": {
+        "title": "How we claim to excel?"
+      },
+      "items": [
+        {
+          "id": 1,
+          "title": "Prompt help",
+          "iconClass": "fa fa-clock",
+          "description": "We give prompt help desk answer right when receiving the request from customers.",
+          "color": "#faf6f3"
+        },
+        {
+          "id": 2,
+          "title": "Sound advice",
+          "iconClass": "fa fa-cubes",
+          "description": "Knowledge come with age and time. Our experts make sure it works.",
+          "color": "#edf2fe"
+        },
+        {
+          "id": 3,
+          "title": "Zero risk",
+          "iconClass": "fa fa-globe",
+          "description": "No risking factors are present and we have all kinds of measures to protect against losses.",
+          "color": "#f0f5f4"
+        },
+        {
+          "id": 4,
+          "title": "Tech savvy",
+          "iconClass": "fa fa-briefcase",
+          "description": "Technological wise plans are made for addressing all kinds of requests and demands.",
+          "color": "#fff5f6"
+        },
+        {
+          "id": 5,
+          "title": "Satisfied",
+          "iconClass": "fa fa-lock",
+          "description": "100% of our current and recurring customers feel satisfied with the final results.",
+          "color": "#fcf7ee"
+        }
+      ]
+    },
+    {
+      "id": "modern-it-company-cta",
+      "section": "cta-section",
+      "headings": [
+        {
+          "level": "h2",
+          "content": "<span>49</span> YEARS IN THE FIELD"
+        },
+        {
+          "level": "h4",
+          "content": "Read further to <br> our Success <br> Stories"
+        }
+      ],
+      "buttons": [
+        {
+          "id": 1,
+          "path": "/contact-us",
+          "content": "Let's talk",
+          "icon": "far fa-comment-alt",
+          "iconposition": "left",
+          "icondistance": "8px"
+        }
+      ]
+    }
+  ]
 }

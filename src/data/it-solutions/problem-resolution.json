@@ -1,154 +1,154 @@
 {
-    "id": "problem-resolution",
-    "title": "Website Problem Resolution",
-    "excerpt": "When you've been around software as long as we have, you develop a sixth-sense for problem-solving. It's time to let our team develop a targeted strategy to provide quick resolutions to the issues you need solved.",
-    "icon": {
-        "svg": {
-            "src": "../images/icons/linea-basic-spread-text-bookmark.svg"
-        },
-        "images": [
-            {
-                "src": "../images/icons/bug-resolution.png"
-            },
-            {
-                "src": "../images/icons/icon-17-80x83.png"
-            }
-        ]
+  "id": "problem-resolution",
+  "title": "Website Problem Resolution",
+  "excerpt": "When you've been around software as long as we have, you develop a sixth-sense for problem-solving. It's time to let our team develop a targeted strategy to provide quick resolutions to the issues you need solved.",
+  "icon": {
+    "svg": {
+      "src": "../images/icons/linea-basic-spread-text-bookmark.svg"
     },
-    "featured_image": {
-        "src": "../images/box-image/qa-testing-box.jpg"
-    },
-     "banner_image": {
-        "src": "../images/banner/friendly-programmer.jpg",
-        "alt": "Friendly robot looking at a laptop"
-    },
-    "is_featured": true,
-    "content": [
-        {
-            "id": "intro",
-            "section": "intro-section",
-            "headings": [
-                {
-                    "level": "h3",
-                    "content": "Quality software and websites don't happen by accident. <span>They're intentional.</span>"
-                },
-                {
-                    "level": "h5",
-                    "content": "When you've been building, implementing and trouble-shooting software as long as we have, you develop a <span>sixth-sense for troubleshooting</span>. It's time to let our team develop a targeted strategy to resolve the felt-need you're currently experiencing."
-                }
-            ],
-            "texts": [
-                {
-                    "content": "<a style='text-decoration:underline' href='/contact-us'>Contact us</a> to begin the process of getting a detailed analysis and assessment."
-                }
-            ]
-        },
-        {
-            "id": "faq",
-            "section": "faq-section",
-            "items": [
-                {
-                    "id": 1,
-                    "title": "Manual Testing",
-                    "description": "Manual testing is a hands-on approach that captures nuances automation tools might miss. By leveraging both exploratory testing and acceptance testing, we identify bugs. We also simulate real-world user interactions so the final software meets user expectations."
-                },
-                {
-                    "id": 2,
-                    "title": "Comprehensive Testing",
-                    "description": "This comprehensive service covers the most popular testing services, including security, exploratory, ad-hoc, usability, localization, installation, error handling, and compatibility testing."
-                }
-            ],
-            "images": [
-                {
-                    "src": "../images/about-us/qa-testing.jpg",
-                    "alt": "hand putting cassette into toaster"
-                }
-            ],
-            "video_button": {
-                "link": "https://www.youtube.com/watch?v=9No-FiEInLA"
-            }
-        },
-        {
-            "id": "features",
-            "section": "whats-new-section",
-            "section_title": {
-                "title": "Prominent IT Security Services"
-            },
-            "items": [
-                {
-                    "id": 1,
-                    "images": [
-                        {
-                            "src": "../images/icons/icon-07-60x60.png"
-                        }
-                    ],
-                    "title": "Mitech Management Systems",
-                    "description": "Our service offerings enhance customer experience throughout secure & highly functional end-to-end warranty management."
-                },
-                {
-                    "id": 2,
-                    "images": [
-                        {
-                            "src": "../images/icons/icon-08-60x60.png"
-                        }
-                    ],
-                    "title": "Reliable Multi-function Technology",
-                    "description": "Develop and propose product improvements through periodical and accurate testing, repairing & refining every version."
-                },
-                {
-                    "id": 3,
-                    "images": [
-                        {
-                            "src": "../images/icons/icon-09-60x60.png"
-                        }
-                    ],
-                    "title": "Highly Professional Staffs",
-                    "description": "Develop and propose product improvements through periodical and accurate testing, repairing & refining every version."
-                },
-                {
-                    "id": 4,
-                    "images": [
-                        {
-                            "src": "../images/icons/icon-10-60x60.png"
-                        }
-                    ],
-                    "title": "Infrastructure Integration Technology",
-                    "description": "At Mitech, we have a holistic and integrated approach towards core modernization to experience technological evolution."
-                }
-            ]
-        },
-        {
-            "id": "services-cta",
-            "section": "cta-section",
-            "headings": [
-                {
-                    "level": "h3",
-                    "content": "Assess your business potentials and find opportunities <span>for bigger success </span>"
-                }
-            ],
-            "buttons": [
-                {
-                    "id": 1,
-                    "path": "/contact-us",
-                    "color": "light",
-                    "icon": "far fa-comment-alt",
-                    "iconposition": "left",
-                    "icondistance": "8px",
-                    "iconsize": "16px",
-                    "hoverStyle": "three",
-                    "content": "Let's talk"
-                },
-                {
-                    "id": 2,
-                    "path": "/contact-us",
-                    "color": "secondary",
-                    "icon": "fas fa-info-circle",
-                    "iconposition": "left",
-                    "icondistance": "8px",
-                    "iconsize": "16px",
-                    "content": "Get Info"
-                }
-            ]
-        }
+    "images": [
+      {
+        "src": "../images/icons/bug-resolution.png"
+      },
+      {
+        "src": "../images/icons/icon-17-80x83.png"
+      }
     ]
+  },
+  "featured_image": {
+    "src": "../images/box-image/qa-testing-box.jpg"
+  },
+  "banner_image": {
+    "src": "../images/banner/friendly-programmer.jpg",
+    "alt": "Friendly robot looking at a laptop"
+  },
+  "is_featured": true,
+  "content": [
+    {
+      "id": "intro",
+      "section": "intro-section",
+      "headings": [
+        {
+          "level": "h3",
+          "content": "Quality software and websites don't happen <span>by accident</span>.</span>"
+        },
+        {
+          "level": "h5",
+          "content": "When you've been building, implementing and trouble-shooting websites as long as we have, you develop a <span>sixth-sense for fixing things</span>. It's time to let our team develop a targeted strategy to resolve whatever website problem you're currently experiencing."
+        }
+      ],
+      "texts": [
+        {
+          "content": "<a style='text-decoration:underline' href='/contact-us'>Contact us</a> to begin the process of getting a detailed analysis and assessment."
+        }
+      ]
+    },
+    {
+      "id": "faq",
+      "section": "faq-section",
+      "items": [
+        {
+          "id": 1,
+          "title": "Manual Testing",
+          "description": "Manual testing is a hands-on approach that captures nuances automation tools might miss. By leveraging both exploratory testing and acceptance testing, we identify bugs. We also simulate real-world user interactions so the final software meets user expectations."
+        },
+        {
+          "id": 2,
+          "title": "Comprehensive Testing",
+          "description": "This comprehensive service covers the most popular testing services, including security, exploratory, ad-hoc, usability, localization, installation, error handling, and compatibility testing."
+        }
+      ],
+      "images": [
+        {
+          "src": "../images/about-us/qa-testing.jpg",
+          "alt": "hand putting cassette into toaster"
+        }
+      ],
+      "video_button": {
+        "link": "https://www.youtube.com/watch?v=9No-FiEInLA"
+      }
+    },
+    {
+      "id": "features",
+      "section": "whats-new-section",
+      "section_title": {
+        "title": "Prominent IT Security Services"
+      },
+      "items": [
+        {
+          "id": 1,
+          "images": [
+            {
+              "src": "../images/icons/icon-07-60x60.png"
+            }
+          ],
+          "title": "Mitech Management Systems",
+          "description": "Our service offerings enhance customer experience throughout secure & highly functional end-to-end warranty management."
+        },
+        {
+          "id": 2,
+          "images": [
+            {
+              "src": "../images/icons/icon-08-60x60.png"
+            }
+          ],
+          "title": "Reliable Multi-function Technology",
+          "description": "Develop and propose product improvements through periodical and accurate testing, repairing & refining every version."
+        },
+        {
+          "id": 3,
+          "images": [
+            {
+              "src": "../images/icons/icon-09-60x60.png"
+            }
+          ],
+          "title": "Highly Professional Staffs",
+          "description": "Develop and propose product improvements through periodical and accurate testing, repairing & refining every version."
+        },
+        {
+          "id": 4,
+          "images": [
+            {
+              "src": "../images/icons/icon-10-60x60.png"
+            }
+          ],
+          "title": "Infrastructure Integration Technology",
+          "description": "At Mitech, we have a holistic and integrated approach towards core modernization to experience technological evolution."
+        }
+      ]
+    },
+    {
+      "id": "services-cta",
+      "section": "cta-section",
+      "headings": [
+        {
+          "level": "h3",
+          "content": "Assess your business potentials and find opportunities <span>for bigger success </span>"
+        }
+      ],
+      "buttons": [
+        {
+          "id": 1,
+          "path": "/contact-us",
+          "color": "light",
+          "icon": "far fa-comment-alt",
+          "iconposition": "left",
+          "icondistance": "8px",
+          "iconsize": "16px",
+          "hoverStyle": "three",
+          "content": "Let's talk"
+        },
+        {
+          "id": 2,
+          "path": "/contact-us",
+          "color": "secondary",
+          "icon": "fas fa-info-circle",
+          "iconposition": "left",
+          "icondistance": "8px",
+          "iconsize": "16px",
+          "content": "Get Info"
+        }
+      ]
+    }
+  ]
 }

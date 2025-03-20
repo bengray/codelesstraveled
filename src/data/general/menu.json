@@ -45,6 +45,11 @@
       "link": "/it-solutions",
       "submenu": [
         {
+          "id": "menu-36",
+          "text": "Website Development",
+          "link": "/it-solution/custom-website-development"
+        },
+        {
           "id": "menu-31",
           "text": "Graphic Design",
           "link": "/it-solution/graphic-design"
@@ -68,11 +73,6 @@
           "id": "menu-35",
           "text": "Website Optimization",
           "link": "/it-solution/website-optimization"
-        },
-        {
-          "id": "menu-36",
-          "text": "Web Development",
-          "link": "/it-solution/custom-website-development"
         }
       ]
     },
