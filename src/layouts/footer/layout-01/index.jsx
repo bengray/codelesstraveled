@@ -65,10 +65,7 @@ const Footer = ({ data }) => {
                                         )} */}
                     {data.contact?.website && (
                       <Text mb="10px">
-                        <Anchor
-                          path={data.contact.website}
-                          $hover={{ layout: 2 }}
-                        >
+                        <Anchor path={data.contact.website}>
                           {data.contact.website}
                         </Anchor>
                       </Text>
@@ -87,17 +84,12 @@ const Footer = ({ data }) => {
                     <Anchor
                       path="/it-solution/custom-website-development/"
                       color="text"
-                      $hover={{ layout: 2 }}
                     >
                       Website Development
                     </Anchor>
                   </li>
                   <li>
-                    <Anchor
-                      path="/it-solution/graphic-design/"
-                      color="text"
-                      $hover={{ layout: 2 }}
-                    >
+                    <Anchor path="/it-solution/graphic-design/" color="text">
                       Graphic Design
                     </Anchor>
                   </li>
@@ -105,7 +97,6 @@ const Footer = ({ data }) => {
                     <Anchor
                       path="/it-solution/website-problem-resolution/"
                       color="text"
-                      $hover={{ layout: 2 }}
                     >
                       Website Problem Resolution
                     </Anchor>
@@ -114,17 +105,12 @@ const Footer = ({ data }) => {
                     <Anchor
                       path="/it-solution/web-application-development/"
                       color="text"
-                      $hover={{ layout: 2 }}
                     >
                       Web Application Development
                     </Anchor>
                   </li>
                   <li>
-                    <Anchor
-                      path="/it-solution/logo-creation/"
-                      color="text"
-                      $hover={{ layout: 2 }}
-                    >
+                    <Anchor path="/it-solution/logo-creation/" color="text">
                       Logo Creation
                     </Anchor>
                   </li>
@@ -132,7 +118,6 @@ const Footer = ({ data }) => {
                     <Anchor
                       path="/it-solution/website-optimization/"
                       color="text"
-                      $hover={{ layout: 2 }}
                     >
                       Website Optimization
                     </Anchor>
@@ -147,12 +132,7 @@ const Footer = ({ data }) => {
                 </Heading>
                 <FooterWidgetList>
                   <li>
-                    <a
-                      href="/privacy-policy.html"
-                      target="_blank"
-                      color="text"
-                      $hover={{ layout: 2 }}
-                    >
+                    <a href="/privacy-policy.html" target="_blank" color="text">
                       Privacy Policy
                     </a>
                   </li>
@@ -166,21 +146,17 @@ const Footer = ({ data }) => {
                 </Heading>
                 <FooterWidgetList>
                   <li>
-                    <Anchor path="/faq" color="text" $hover={{ layout: 2 }}>
+                    <Anchor path="/faq" color="text">
                       Help &amp; FAQ
                     </Anchor>
                   </li>
                   <li>
-                    <Anchor
-                      path="/contact-us"
-                      color="text"
-                      $hover={{ layout: 2 }}
-                    >
+                    <Anchor path="/contact-us" color="text">
                       Contact Us
                     </Anchor>
                   </li>
                   <li>
-                    <Anchor path="/" color="text" $hover={{ layout: 2 }}>
+                    <Anchor path="/" color="text">
                       Cookies Policy
                     </Anchor>
                   </li>
