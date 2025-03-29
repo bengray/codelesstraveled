@@ -26,6 +26,20 @@ module.exports = {
         title: "Facebook",
         ariaLabel: "facebook link",
       },
+      {
+        id: 3,
+        icon: "fab fa-linkedin-in",
+        link: "https://www.linkedin.com/company/code-less-traveled/",
+        title: "LinkedIn",
+        ariaLabel: "linkedin link",
+      },
+      {
+        id: 4,
+        icon: "fab fa-instagram",
+        link: "https://www.instagram.com/codelesstraveled/",
+        title: "Instagram",
+        ariaLabel: "instagram link",
+      },
     ],
     contact: {
       phone: "404.775.4539",
