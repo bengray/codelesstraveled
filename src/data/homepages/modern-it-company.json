@@ -13,15 +13,15 @@
       "headings": [
         {
           "level": "h1",
-          "content": "You're not like everyone else. <mark><i>Neither are we.</i></mark>"
+          "content": "You're not like everyone else...<br /><span>so we <mark><i>build what fits</i></mark>, not what sells."
         },
         {
           "level": "div",
-          "content": "We know web development is <i>not</i> your special interest...<br /> but it IS ours. <br /><br />Every minute you spend fiddling with your website or trying to fix something that broke or add things to it, you're taking away time you could have spent on your business and working on your passion. <br /><br />Let us worry about this part of your business, so you don't have to. "
+          "content": "<span style='font-size:18px'>We know <span style='color:#AC0000'>web sites</span> are <i>not</i> your special interest... <br />but we friggin' love 'em! <br /><br />Every minute you spend fiddling with your website or trying to fix something that broke or add things to it, you're taking away time you could have spent on your business and working on your passion. <br /><br />Let us worry about this part of your business, so you don't have to.</span>"
         },
         {
           "level": "h5",
-          "content": "You need your own personal web developer in your pocket. Let's talk about how we can help:"
+          "content": "We want to be your pocket web developer.<br />Let's talk about how we can help:"
         }
       ]
     },
