@@ -30,7 +30,7 @@ const HeroArea = ({ data }) => {
               />
             </StyledImage>
           )}
-          <Col md={10}>
+          <Col md={12}>
             <StyledTextBox>
               {data?.headings?.[0] && (
                 <StyledHeading
