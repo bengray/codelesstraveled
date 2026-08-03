@@ -2,7 +2,29 @@
    codelesstraveled.com
    Two jobs. The page works without either.
    ============================================================ */
+/* ---- 0. scroll correctly to each stop ---------------------
 
+    // Calculate the scroll position to center the element
+    // (rect.top + rect.height / 2) is the center of the element
+    // (viewportHeight / 2) is the center of the viewport
+    // Subtracting offset moves the element down by that many pixels*/
+
+function scrollElementToMiddleWithOffset(element) {
+  const rect = element.getBoundingClientRect();
+  const viewportHeight = window.innerHeight;
+  const offset = 80; // Adjust this value to control how far down the element appears
+
+  // Calculate the scroll position to center the element
+  // (rect.top + rect.height / 2) is the center of the element
+  // (viewportHeight / 2) is the center of the viewport
+  // Subtracting offset moves the element down by that many pixels
+  const targetPosition = rect.top - viewportHeight / 2 + offset;
+  console.log("Scrolling to:", targetPosition, "for element:", element);
+  window.scrollBy({
+    top: targetPosition,
+    behavior: "smooth", // Use 'auto' for instant scrolling
+  });
+}
 /* ---- 1. Draw the l of "less" as the fork -------------------
 
    The letter has to keep its advance, its stem weight and its
@@ -32,8 +54,8 @@
    type designers cut them thinner for exactly that reason.
    ------------------------------------------------------------ */
 (function () {
-  var RUN = 1.6;     // branch travel as a multiple of its rise
-  var PROBE = 100;   // measure at 100px, so results are hundredths of an em
+  var RUN = 1.6; // branch travel as a multiple of its rise
+  var PROBE = 100; // measure at 100px, so results are hundredths of an em
 
   var host = document.getElementById("fork");
   if (!host) return;
@@ -44,8 +66,14 @@
     ctx.textBaseline = "alphabetic";
     ctx.fillText(ch, ox, oy);
     var d;
-    try { d = ctx.getImageData(0, 0, w, h).data; } catch (e) { return null; }
-    var minX = 1e9, maxX = -1e9, minY = 1e9;
+    try {
+      d = ctx.getImageData(0, 0, w, h).data;
+    } catch (e) {
+      return null;
+    }
+    var minX = 1e9,
+      maxX = -1e9,
+      minY = 1e9;
     for (var y = 0; y < h; y++) {
       for (var x = 0; x < w; x++) {
         if (d[(y * w + x) * 4 + 3] > 40) {
@@ -64,11 +92,15 @@
 
     // the weight actually being rendered — axis first, property second
     var axis = /['"]?wght['"]?\s+(\d+)/.exec(cs.fontVariationSettings || "");
-    var weight = axis ? axis[1] : (cs.fontWeight || "400");
+    var weight = axis ? axis[1] : cs.fontWeight || "400";
 
-    var W = 300, H = 300, OX = 80, OY = 230;
+    var W = 300,
+      H = 300,
+      OX = 80,
+      OY = 230;
     var cv = document.createElement("canvas");
-    cv.width = W; cv.height = H;
+    cv.width = W;
+    cv.height = H;
     var ctx = cv.getContext("2d", { willReadFrequently: true });
     if (!ctx) return;
     ctx.font = weight + " " + PROBE + "px " + cs.fontFamily;
@@ -81,9 +113,15 @@
     var probe = document.createElement("span");
     probe.textContent = "l";
     probe.setAttribute("aria-hidden", "true");
-    probe.style.cssText = "position:absolute;visibility:hidden;white-space:pre;" +
-      "font:" + cs.font + ";font-variation-settings:" + cs.fontVariationSettings +
-      ";letter-spacing:0;font-size:" + PROBE + "px";
+    probe.style.cssText =
+      "position:absolute;visibility:hidden;white-space:pre;" +
+      "font:" +
+      cs.font +
+      ";font-variation-settings:" +
+      cs.fontVariationSettings +
+      ";letter-spacing:0;font-size:" +
+      PROBE +
+      "px";
     host.parentNode.appendChild(probe);
     var adv = probe.getBoundingClientRect().width;
     if (probe.parentNode) probe.parentNode.removeChild(probe);
@@ -94,6 +132,7 @@
     var stem = (boxL.right - boxL.left) * kx;
     var left = boxL.left * kx;
     var asc = boxL.top;
+    var ascGhost = boxX.top;
     var xh = boxX.top;
     if (!(stem > 0 && asc > 0 && xh > 0 && asc > xh)) return;
 
@@ -113,18 +152,18 @@
 
     var NS = "http://www.w3.org/2000/svg";
     var svg = document.createElementNS(NS, "svg");
-    svg.setAttribute("viewBox", (-over) + " " + (-asc) + " " + boxW + " " + asc);
+    svg.setAttribute("viewBox", -over + " " + -asc + " " + boxW + " " + asc);
     svg.setAttribute("fill", "none");
     svg.setAttribute("stroke-width", w);
     svg.setAttribute("aria-hidden", "true");
-    svg.style.width = (boxW / PROBE) + "em";
-    svg.style.height = (asc / PROBE) + "em";
-    svg.style.marginLeft = (-over / PROBE) + "em";
+    svg.style.width = boxW / PROBE + "em";
+    svg.style.height = asc / PROBE + "em";
+    svg.style.marginLeft = -over / PROBE + "em";
 
     // the road everybody else stays on
     var ghost = document.createElementNS(NS, "path");
     ghost.setAttribute("class", "fork__ghost");
-    ghost.setAttribute("d", "M" + cx + " " + (-xh) + " L" + cx + " " + (-asc));
+    ghost.setAttribute("d", "M" + cx + " " + -xh + " L" + cx + " " + -90);
 
     // the one that leaves. Round join, not miter: between a vertical and
     // a shallow diagonal a miter throws a long spike, and the spike is
@@ -133,7 +172,10 @@
     road.setAttribute("class", "fork__road");
     road.setAttribute("stroke-linejoin", "round");
     road.setAttribute("stroke-linecap", "butt");
-    road.setAttribute("d", "M" + cx + " 0 L" + cx + " " + (-xh) + " L" + endX + " " + (-asc));
+    road.setAttribute(
+      "d",
+      "M" + cx + " 0 L" + cx + " " + -xh + " L" + endX + " " + -asc,
+    );
 
     svg.appendChild(ghost);
     svg.appendChild(road);
@@ -182,25 +224,14 @@
 
   var len = 0;
   var pins = [];
-  var fracs = [];          // scroll fraction at which each stop is reached
-  var reduceMotion = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+  var reduceMotion = window.matchMedia(
+    "(prefers-reduced-motion: reduce)",
+  ).matches;
 
-  function scrollMax() {
-    return Math.max(
-      document.documentElement.scrollHeight - window.innerHeight, 1);
-  }
-
-  /* The land holds still.
-
-     An earlier version drifted it as you scrolled — 90px sideways,
-     130px up, 1.6 degrees of tilt over the length of the page. It made
-     people seasick, which is the predictable result of moving a
-     background independently of the content laid over it, and it
-     fought the stillness that makes the vellum sheets work.
-
-     Set these above zero to bring it back. Anything past about 30 and
-     half a degree gets unpleasant quickly. */
-  var DRIFT_X = 0, DRIFT_Y = 0, DRIFT_R = 0;
+  /* how far the land wanders over the whole page. Small on purpose. */
+  var DRIFT_X = 90,
+    DRIFT_Y = 130,
+    DRIFT_R = 1.6;
 
   function buildPins() {
     if (!done || !stopsG || !done.getTotalLength) return;
@@ -208,35 +239,47 @@
     done.style.strokeDasharray = len;
     done.style.strokeDashoffset = len;
 
-    /* Waypoints sit at the SCROLL FRACTION at which each stop crosses
-       the reading line — the same number the marker is driven by. They
-       used to be placed by their position within the route element,
-       which is a different measure, so the two only agreed by luck. */
-    var max = scrollMax();
-    var ref = window.innerHeight * 0.45;
-    fracs = [];
+    var doc = document.documentElement;
+    var pageTop = route.getBoundingClientRect().top + window.scrollY;
+    var pageH = Math.max(route.offsetHeight, 1);
 
     stops.forEach(function (stop, i) {
-      var docTop = stop.getBoundingClientRect().top + window.scrollY;
-      var at = Math.max(0, Math.min(1, (docTop - ref) / max));
-      fracs.push(at);
+      var at =
+        (stop.getBoundingClientRect().top + window.scrollY - pageTop) / pageH;
+      at = Math.max(0, Math.min(1, at));
       var p = done.getPointAtLength(at * len);
 
       var NS = "http://www.w3.org/2000/svg";
       var a = document.createElementNS(NS, "a");
       a.setAttributeNS("http://www.w3.org/1999/xlink", "href", "#" + stop.id);
       a.setAttribute("href", "#" + stop.id);
-      a.setAttribute("aria-label", "Stop " + (i + 1) + ": " + (stop.dataset.name || ""));
+      a.addEventListener("click", function (e) {
+        e.preventDefault();
+        const targetId = this.getAttribute("href");
+        const targetElement = document.querySelector(targetId);
+        if (targetElement) {
+          scrollElementToMiddleWithOffset(targetElement);
+        }
+      });
+      a.setAttribute(
+        "aria-label",
+        "Stop " + (i + 1) + ": " + (stop.dataset.name || ""),
+      );
 
       var hit = document.createElementNS(NS, "circle");
       hit.setAttribute("class", "strip__hit");
-      hit.setAttribute("cx", p.x); hit.setAttribute("cy", p.y); hit.setAttribute("r", 9);
+      hit.setAttribute("cx", p.x);
+      hit.setAttribute("cy", p.y);
+      hit.setAttribute("r", 9);
 
       var dot = document.createElementNS(NS, "circle");
       dot.setAttribute("class", "strip__stop");
-      dot.setAttribute("cx", p.x); dot.setAttribute("cy", p.y); dot.setAttribute("r", 3);
+      dot.setAttribute("cx", p.x);
+      dot.setAttribute("cy", p.y);
+      dot.setAttribute("r", 3);
 
-      a.appendChild(hit); a.appendChild(dot);
+      a.appendChild(hit);
+      a.appendChild(dot);
       stopsG.appendChild(a);
       pins.push(dot);
     });
@@ -247,24 +290,17 @@
 
   function frame() {
     ticking = false;
-
-    /* Progress is the plain scroll fraction: 0 at the top, 1 at the
-       bottom, by definition.
-
-       It used to be how far a reading line had travelled through the
-       route element, which could never reach 1 — at maximum scroll the
-       route still sits below that line, so the last 8-12% of the trail
-       was unreachable, and the exact figure moved about with viewport
-       height and page length. */
-    var pct = Math.min(1, Math.max(0, window.scrollY / scrollMax()));
+    var box = route.getBoundingClientRect();
+    var ref = window.innerHeight * 0.45;
+    var pct = Math.max(
+      0,
+      Math.min(1, (ref - box.top) / Math.max(box.height, 1)),
+    );
 
     route.style.setProperty("--progress", (pct * 100).toFixed(2) + "%");
-    route.classList.toggle("is-arrived", pct >= 0.999);
 
-    /* Passed-state comes off the same number that placed the waypoints,
-       so the marker and the filled dots agree by construction. */
     for (var i = 0; i < stops.length; i++) {
-      var passed = pct >= fracs[i];
+      var passed = stops[i].getBoundingClientRect().top <= ref;
       stops[i].classList.toggle("is-passed", passed);
       if (pins[i]) pins[i].classList.toggle("is-passed", passed);
     }
@@ -280,9 +316,15 @@
       /* two different periods, so the land never simply slides: it
          wanders, changing direction as you go */
       var s = drift.style;
-      s.setProperty("--drift-x", (Math.sin(pct * Math.PI * 1.7) * DRIFT_X).toFixed(1) + "px");
+      s.setProperty(
+        "--drift-x",
+        (Math.sin(pct * Math.PI * 1.7) * DRIFT_X).toFixed(1) + "px",
+      );
       s.setProperty("--drift-y", (-pct * DRIFT_Y).toFixed(1) + "px");
-      s.setProperty("--drift-r", (Math.sin(pct * Math.PI * 1.1 + 0.4) * DRIFT_R).toFixed(2) + "deg");
+      s.setProperty(
+        "--drift-r",
+        (Math.sin(pct * Math.PI * 1.1 + 0.4) * DRIFT_R).toFixed(2) + "deg",
+      );
     }
   }
 
@@ -298,9 +340,14 @@
   window.addEventListener("scroll", onScroll, { passive: true });
   window.addEventListener("resize", function () {
     pins = [];
-    fracs = [];
     if (stopsG) stopsG.innerHTML = "";
     buildPins();
     onScroll();
   });
+})();
+
+(function () {
+  var year = document.getElementById("current-year");
+  if (!year) return;
+  year.textContent = new Date().getFullYear();
 })();

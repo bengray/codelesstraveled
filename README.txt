@@ -149,77 +149,15 @@ before this goes live. If it struggles, the fix is one line: drop
 --blur to 0 and raise the --vellum alpha to about 0.9, which gets
 you the panels treatment instead and costs nothing.
 
-THE COPY
---------
-Taken from the Gatsby site and converted from a team's voice to one
-person's. Lines kept because they were the best thing on the old site:
-
-  "Your business isn't off-the-rack."
-  "Websites aren't your special interest. They're mine."
-  "Start where you are. Use what you have. Do what you can."
-  "Go where you are fully celebrated, not just tolerated."
-  the Frost quote, and the 2023 diagnosis story
-  "Your website should work for you, not the other way around."
-  "code is poetry"
-
-Dropped as theme filler rather than yours: the 49-years banner, the
-fake phone number, the "how we claim to excel" grid, the San
-Francisco / New York / Russia offices, the pricing tiers, the nine
-invented staff, the client counters.
-
-Also dropped: "we want to be your pocket web developer." Good line,
-but it undersells twenty years of enterprise work, and it reads
-smaller now that it is genuinely one person rather than a team being
-folksy. Easy to put back.
-
-The neurodivergent framing follows the direction of your own
-"removing ND-only verbiage" commit: ND-owned, serving everyone,
-specialising where it counts.
-
-TWO FIXES APPLIED
------------------
-This is the build whose minimap you said worked. The minimap itself
-was not touched: its route, its marker, and the code that drives them
-are as you sent them.
-
-1. THE LAND HOLDS STILL. DRIFT_X, DRIFT_Y and DRIFT_R in main.js are
-   now 0, so the background no longer moves independently of the
-   content. The code path is still there — raise them above zero to
-   bring it back, though anything past about 30 and half a degree
-   gets unpleasant quickly.
-
-2. THE TRAIL REACHES ITS END. Progress is now the plain scroll
-   fraction: 0 at the top, 1 at the bottom, by definition.
-
-   It used to be how far a reading line had travelled through the
-   route element, which could never reach 1, because at maximum
-   scroll the route still sits below that line. The unreachable
-   remainder ran from 5% to 16% depending on viewport height and
-   page length, which is why it looked inconsistent.
-
-   This needed three changes, not one — waypoint placement, progress,
-   and passed-state all used the old measure, and moving one without
-   the others would have left them disagreeing. All three now run off
-   the same number, so the marker and the filled waypoints agree by
-   construction rather than by coincidence. The terminus bar at the
-   foot of the rail inks red on arrival.
-
 STILL TO REPLACE
 ----------------
 - codelesstraveled.com is a guess. Fix the canonical, og:url and
   the email address if the real domain differs.
 - hello@codelesstraveled.com
-- Three of the four projects, and all four screenshots. This is the
-  weakest part of the site. One real write-up beats three
-  placeholders, so if you only do one thing, do Crow and Moon
-  properly and delete the others.
-- The red note in Stop 04 is visible on the page on purpose. Delete
-  it when the placeholders are gone.
-- PRICES. There are none on the site now. The old pricing page was
-  pure theme filler ("03 projects", "Try for free, forever!"), so
-  there was nothing to carry across, and inventing numbers again
-  would be worse than the gap. Stop 03 promises a fixed price in
-  writing, which is honest until you set real ones.
+- Three of the four projects, and all four screenshots.
+- Every price in Stop 03. Invented — $900 / $3,500 / $600 a month
+  are plausible for a solo practitioner near Chicago but they are
+  not researched and they are not yours.
 - The coordinates in the masthead are Warrenville's town centre,
   not your address. Decide whether you want them at all.
 - og-image.png is referenced in the head but not included. Export
