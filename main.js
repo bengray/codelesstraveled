@@ -1,6 +1,5 @@
 /* ============================================================
    codelesstraveled.com
-   Two jobs. The page works without either.
    ============================================================ */
 /* ---- 0. scroll correctly to each stop ---------------------
 
@@ -34,8 +33,8 @@ function scrollElementToMiddleWithOffset(element) {
    time, which produced a stroke far too heavy. Three things had to
    change:
 
-   - The weight comes from font-variation-settings, not font-weight.
-     The title renders at wght 800 through the variable axis while
+   - The weight comes from font-letiation-settings, not font-weight.
+     The title renders at wght 800 through the letiable axis while
      its computed font-weight is still 400, so building a canvas
      font from font-weight measured the wrong master entirely.
 
@@ -54,10 +53,10 @@ function scrollElementToMiddleWithOffset(element) {
    type designers cut them thinner for exactly that reason.
    ------------------------------------------------------------ */
 (function () {
-  var RUN = 1.6; // branch travel as a multiple of its rise
-  var PROBE = 100; // measure at 100px, so results are hundredths of an em
+  let RUN = 1.6; // branch travel as a multiple of its rise
+  let PROBE = 100; // measure at 100px, so results are hundredths of an em
 
-  var host = document.getElementById("fork");
+  let host = document.getElementById("fork");
   if (!host) return;
 
   function inkBox(ctx, ch, ox, oy, w, h) {
@@ -65,17 +64,17 @@ function scrollElementToMiddleWithOffset(element) {
     ctx.fillStyle = "#000";
     ctx.textBaseline = "alphabetic";
     ctx.fillText(ch, ox, oy);
-    var d;
+    let d;
     try {
       d = ctx.getImageData(0, 0, w, h).data;
     } catch (e) {
       return null;
     }
-    var minX = 1e9,
+    let minX = 1e9,
       maxX = -1e9,
       minY = 1e9;
-    for (var y = 0; y < h; y++) {
-      for (var x = 0; x < w; x++) {
+    for (let y = 0; y < h; y++) {
+      for (let x = 0; x < w; x++) {
         if (d[(y * w + x) * 4 + 3] > 40) {
           if (x < minX) minX = x;
           if (x > maxX) maxX = x;
@@ -88,52 +87,52 @@ function scrollElementToMiddleWithOffset(element) {
   }
 
   function draw() {
-    var cs = getComputedStyle(host);
+    let cs = getComputedStyle(host);
 
     // the weight actually being rendered — axis first, property second
-    var axis = /['"]?wght['"]?\s+(\d+)/.exec(cs.fontVariationSettings || "");
-    var weight = axis ? axis[1] : cs.fontWeight || "400";
+    let axis = /['"]?wght['"]?\s+(\d+)/.exec(cs.fontletiationSettings || "");
+    let weight = axis ? axis[1] : cs.fontWeight || "400";
 
-    var W = 300,
+    let W = 300,
       H = 300,
       OX = 80,
       OY = 230;
-    var cv = document.createElement("canvas");
+    let cv = document.createElement("canvas");
     cv.width = W;
     cv.height = H;
-    var ctx = cv.getContext("2d", { willReadFrequently: true });
+    let ctx = cv.getContext("2d", { willReadFrequently: true });
     if (!ctx) return;
     ctx.font = weight + " " + PROBE + "px " + cs.fontFamily;
 
-    var boxL = inkBox(ctx, "l", OX, OY, W, H);
-    var boxX = inkBox(ctx, "x", OX, OY, W, H);
+    let boxL = inkBox(ctx, "l", OX, OY, W, H);
+    let boxX = inkBox(ctx, "x", OX, OY, W, H);
     if (!boxL || !boxX) return;
 
     // advance from the DOM: canvas cannot apply the wdth axis
-    var probe = document.createElement("span");
+    let probe = document.createElement("span");
     probe.textContent = "l";
     probe.setAttribute("aria-hidden", "true");
     probe.style.cssText =
       "position:absolute;visibility:hidden;white-space:pre;" +
       "font:" +
       cs.font +
-      ";font-variation-settings:" +
-      cs.fontVariationSettings +
+      ";font-letiation-settings:" +
+      cs.fontletiationSettings +
       ";letter-spacing:0;font-size:" +
       PROBE +
       "px";
     host.parentNode.appendChild(probe);
-    var adv = probe.getBoundingClientRect().width;
+    let adv = probe.getBoundingClientRect().width;
     if (probe.parentNode) probe.parentNode.removeChild(probe);
     if (!(adv > 0)) adv = ctx.measureText("l").width;
 
     // correct the horizontal figures for the width axis canvas ignored
-    var kx = adv / Math.max(ctx.measureText("l").width, 0.001);
-    var stem = (boxL.right - boxL.left) * kx;
-    var left = boxL.left * kx;
-    var asc = boxL.top;
-    var ascGhost = boxX.top;
-    var xh = boxX.top;
+    let kx = adv / Math.max(ctx.measureText("l").width, 0.001);
+    let stem = (boxL.right - boxL.left) * kx;
+    let left = boxL.left * kx;
+    let asc = boxL.top;
+    let ascGhost = boxX.top;
+    let xh = boxX.top;
     if (!(stem > 0 && asc > 0 && xh > 0 && asc > xh)) return;
 
     // Sanity: a stem falls somewhere between 6% and 22% of an em. If the
@@ -141,17 +140,17 @@ function scrollElementToMiddleWithOffset(element) {
     // letter alone rather than draw a slab.
     if (stem < PROBE * 0.06 || stem > PROBE * 0.22) return;
 
-    var trim = parseFloat(cs.getPropertyValue("--fork-weight")) || 0.88;
-    var w = stem * trim;
+    let trim = parseFloat(cs.getPropertyValue("--fork-weight")) || 0.88;
+    let w = stem * trim;
 
-    var cx = left + stem / 2;
-    var run = (asc - xh) * RUN;
-    var endX = cx - run;
-    var over = Math.max(0, -(endX - w));
-    var boxW = over + adv;
+    let cx = left + stem / 2;
+    let run = (asc - xh) * RUN;
+    let endX = cx - run;
+    let over = Math.max(0, -(endX - w));
+    let boxW = over + adv;
 
-    var NS = "http://www.w3.org/2000/svg";
-    var svg = document.createElementNS(NS, "svg");
+    let NS = "http://www.w3.org/2000/svg";
+    let svg = document.createElementNS(NS, "svg");
     svg.setAttribute("viewBox", -over + " " + -asc + " " + boxW + " " + asc);
     svg.setAttribute("fill", "none");
     svg.setAttribute("stroke-width", w);
@@ -160,15 +159,15 @@ function scrollElementToMiddleWithOffset(element) {
     svg.style.height = asc / PROBE + "em";
     svg.style.marginLeft = -over / PROBE + "em";
 
-    // the road everybody else stays on
-    var ghost = document.createElementNS(NS, "path");
+    // the road yet explored, the ghost of the branch that will be left behind.
+    let ghost = document.createElementNS(NS, "path");
     ghost.setAttribute("class", "fork__ghost");
     ghost.setAttribute("d", "M" + cx + " " + -xh + " L" + cx + " " + -90);
 
     // the one that leaves. Round join, not miter: between a vertical and
     // a shallow diagonal a miter throws a long spike, and the spike is
     // most of what read as "too fat".
-    var road = document.createElementNS(NS, "path");
+    let road = document.createElementNS(NS, "path");
     road.setAttribute("class", "fork__road");
     road.setAttribute("stroke-linejoin", "round");
     road.setAttribute("stroke-linecap", "butt");
@@ -211,25 +210,25 @@ function scrollElementToMiddleWithOffset(element) {
    still a picture of where the page goes.
    ------------------------------------------------------------ */
 (function () {
-  var route = document.getElementById("route");
+  let route = document.getElementById("route");
   if (!route) return;
 
-  var stops = [].slice.call(route.querySelectorAll(".stop"));
-  var drift = document.getElementById("drift");
+  const stops = [].slice.call(route.querySelectorAll(".stop"));
+  const drift = document.getElementById("drift");
 
-  var done = document.getElementById("stripDone");
-  var here = document.getElementById("stripHere");
-  var stopsG = document.getElementById("stripStops");
-  var strip = document.getElementById("strip");
+  const done = document.getElementById("stripDone");
+  const here = document.getElementById("stripHere");
+  const stopsG = document.getElementById("stripStops");
+  const strip = document.getElementById("strip");
 
-  var len = 0;
-  var pins = [];
-  var reduceMotion = window.matchMedia(
+  let len = 0;
+  let pins = [];
+  const reduceMotion = window.matchMedia(
     "(prefers-reduced-motion: reduce)",
   ).matches;
 
   /* how far the land wanders over the whole page. Small on purpose. */
-  var DRIFT_X = 90,
+  let DRIFT_X = 90,
     DRIFT_Y = 130,
     DRIFT_R = 1.6;
 
@@ -239,18 +238,18 @@ function scrollElementToMiddleWithOffset(element) {
     done.style.strokeDasharray = len;
     done.style.strokeDashoffset = len;
 
-    var doc = document.documentElement;
-    var pageTop = route.getBoundingClientRect().top + window.scrollY;
-    var pageH = Math.max(route.offsetHeight, 1);
+    let doc = document.documentElement;
+    let pageTop = route.getBoundingClientRect().top + window.scrollY;
+    let pageH = Math.max(route.offsetHeight, 1);
 
     stops.forEach(function (stop, i) {
-      var at =
+      let at =
         (stop.getBoundingClientRect().top + window.scrollY - pageTop) / pageH;
       at = Math.max(0, Math.min(1, at));
-      var p = done.getPointAtLength(at * len);
+      let p = done.getPointAtLength(at * len);
 
-      var NS = "http://www.w3.org/2000/svg";
-      var a = document.createElementNS(NS, "a");
+      let NS = "http://www.w3.org/2000/svg";
+      let a = document.createElementNS(NS, "a");
       a.setAttributeNS("http://www.w3.org/1999/xlink", "href", "#" + stop.id);
       a.setAttribute("href", "#" + stop.id);
       a.addEventListener("click", function (e) {
@@ -266,13 +265,13 @@ function scrollElementToMiddleWithOffset(element) {
         "Stop " + (i + 1) + ": " + (stop.dataset.name || ""),
       );
 
-      var hit = document.createElementNS(NS, "circle");
+      let hit = document.createElementNS(NS, "circle");
       hit.setAttribute("class", "strip__hit");
       hit.setAttribute("cx", p.x);
       hit.setAttribute("cy", p.y);
       hit.setAttribute("r", 9);
 
-      var dot = document.createElementNS(NS, "circle");
+      let dot = document.createElementNS(NS, "circle");
       dot.setAttribute("class", "strip__stop");
       dot.setAttribute("cx", p.x);
       dot.setAttribute("cy", p.y);
@@ -286,28 +285,28 @@ function scrollElementToMiddleWithOffset(element) {
     if (strip) strip.classList.add("is-ready");
   }
 
-  var ticking = false;
+  let ticking = false;
 
   function frame() {
     ticking = false;
-    var box = route.getBoundingClientRect();
-    var ref = window.innerHeight * 0.45;
-    var pct = Math.max(
+    let box = route.getBoundingClientRect();
+    let ref = window.innerHeight * 0.45;
+    let pct = Math.max(
       0,
       Math.min(1, (ref - box.top) / Math.max(box.height, 1)),
     );
 
     route.style.setProperty("--progress", (pct * 100).toFixed(2) + "%");
 
-    for (var i = 0; i < stops.length; i++) {
-      var passed = stops[i].getBoundingClientRect().top <= ref;
+    for (let i = 0; i < stops.length; i++) {
+      let passed = stops[i].getBoundingClientRect().top <= ref;
       stops[i].classList.toggle("is-passed", passed);
       if (pins[i]) pins[i].classList.toggle("is-passed", passed);
     }
 
     if (len && done && here) {
       done.style.strokeDashoffset = len * (1 - pct);
-      var p = done.getPointAtLength(pct * len);
+      let p = done.getPointAtLength(pct * len);
       here.setAttribute("cx", p.x);
       here.setAttribute("cy", p.y);
     }
@@ -315,7 +314,7 @@ function scrollElementToMiddleWithOffset(element) {
     if (drift && !reduceMotion) {
       /* two different periods, so the land never simply slides: it
          wanders, changing direction as you go */
-      var s = drift.style;
+      let s = drift.style;
       s.setProperty(
         "--drift-x",
         (Math.sin(pct * Math.PI * 1.7) * DRIFT_X).toFixed(1) + "px",
@@ -347,7 +346,7 @@ function scrollElementToMiddleWithOffset(element) {
 })();
 
 (function () {
-  var year = document.getElementById("current-year");
+  let year = document.getElementById("current-year");
   if (!year) return;
   year.textContent = new Date().getFullYear();
 })();
